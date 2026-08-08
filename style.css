@@ -1,0 +1,156 @@
+:root {
+  --bg: #faf7f2;
+  --card: #ffffff;
+  --ink: #2b2620;
+  --muted: #8a8177;
+  --accent: #c0392b;
+  --amber: #b3720a;
+  --line: #e6dfd4;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191613;
+    --card: #221e1a;
+    --ink: #ece5da;
+    --muted: #948a7d;
+    --accent: #e05a4a;
+    --amber: #d99a3d;
+    --line: #38322b;
+  }
+}
+
+* { box-sizing: border-box; margin: 0; }
+html, body { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  display: flex;
+  flex-direction: column;
+  -webkit-tap-highlight-color: transparent;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.8rem;
+  padding-top: calc(0.6rem + env(safe-area-inset-top));
+  border-bottom: 1px solid var(--line);
+}
+#nav-back {
+  font-size: 1.6rem;
+  line-height: 1;
+  background: none;
+  border: none;
+  color: var(--ink);
+  padding: 0 0.6rem;
+  cursor: pointer;
+}
+#nav-back[hidden] { visibility: hidden; display: block; }
+#nav-title { font-weight: 600; }
+#nav-count { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 40rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 0.5rem 0.8rem calc(0.5rem + env(safe-area-inset-bottom));
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+footer .stale { color: var(--amber); font-weight: 600; }
+
+/* start + end screens */
+.center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+.center h1 { font-size: 1.5rem; }
+.center p { color: var(--muted); }
+.big-btn {
+  font-size: 1.1rem;
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* sentence card */
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 1.2rem;
+  cursor: pointer;
+}
+.jp {
+  font-size: 1.7rem;
+  line-height: 2.4;
+  margin: auto 0;
+}
+ruby rt {
+  font-size: 0.55em;
+  color: var(--accent);
+  visibility: hidden;
+}
+.card.show-furi ruby rt { visibility: visible; }
+
+.en {
+  min-height: 3.5rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+  visibility: hidden;
+  transition: opacity 0.15s;
+  opacity: 0;
+}
+.card.show-en .en { visibility: visible; opacity: 1; }
+.target-note {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+.hint { text-align: center; color: var(--muted); font-size: 0.75rem; margin-top: 0.8rem; }
+
+/* controls */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 0.2rem 0;
+}
+.controls button {
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+}
+.controls .primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+#btn-misread.on { background: var(--amber); color: #fff; border-color: var(--amber); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
