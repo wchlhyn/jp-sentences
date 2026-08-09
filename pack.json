@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-08-09T16:42:42Z",
+ "generated_at": "2026-08-09T16:45:59Z",
  "sentences": [
   {
    "id": "8c0bab280b0b9de7",
@@ -22,6 +22,146 @@
    "en": "I received a book from my teacher.",
    "target": "もらう",
    "created_at": "2026-08-09T16:42:42Z"
+  },
+  {
+   "id": "8dd6cef1f32b03fe",
+   "jp": "[兄|あに]が[私|わたし]に[日本語|にほんご]を[教|おし]えてくれます。",
+   "en": "My older brother teaches me Japanese.",
+   "target": "教える",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "85bb808b9db54903",
+   "jp": "[彼|かれ]は[日本語|にほんご]を[教|おし]えています。",
+   "en": "He teaches Japanese.",
+   "target": "彼",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "38cff231c3426245",
+   "jp": "[学校|がっこう]の[前|まえ]で[友達|ともだち]に[会|あ]いました。",
+   "en": "I met my friend in front of the school.",
+   "target": "前",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "6fb059285524cd76",
+   "jp": "[友達|ともだち]が[本|ほん]をくれました。",
+   "en": "My friend gave me a book.",
+   "target": "くれる",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "16507276fee5ad48",
+   "jp": "[先生|せんせい]に[本|ほん]をもらいました。",
+   "en": "I received a book from my teacher.",
+   "target": "もらう",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "427edd6a615a275b",
+   "jp": "[私|わたし]の[町|まち]には[大|おお]きい[学校|がっこう]があります。",
+   "en": "There's a big school in my town.",
+   "target": "大きい",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "900cc73e727344d0",
+   "jp": "[兄|あに]と[家|いえ]で[食|た]べます。",
+   "en": "I'll eat at home with my older brother.",
+   "target": "食べる",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "dca61d6baeb4a44a",
+   "jp": "[父|ちち]は[先生|せんせい]に[本|ほん]をあげました。",
+   "en": "My father gave the teacher a book.",
+   "target": "あげる",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "7c4975b77ef540f4",
+   "jp": "[私|わたし]の[家族|かぞく]はこの[町|まち]に[住|す]んでいます。",
+   "en": "My family lives in this town.",
+   "target": "町",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "c60fdce02d31bf91",
+   "jp": "[手|て]に[本|ほん]を[持|も]っています。",
+   "en": "I'm holding a book in my hand.",
+   "target": "持つ",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "afdad547f40550a6",
+   "jp": "[兄|あに]と[同|おな]じ[学校|がっこう]に[行|い]きたいです。",
+   "en": "I want to go to the same school as my older brother.",
+   "target": "同じ",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "e7fa483ef0001a0d",
+   "jp": "この[町|まち]には[面白|おもしろ]い[場所|ばしょ]が[沢山|たくさん]あります。",
+   "en": "There are a lot of interesting places in this town.",
+   "target": "沢山",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "47aeda2115961825",
+   "jp": "[私|わたし]は[勉強|べんきょう]が[嫌|きら]いです。",
+   "en": "I dislike studying.",
+   "target": "嫌い",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "d2e6f38d1d11c607",
+   "jp": "[本|ほん]をありがとうございます。",
+   "en": "Thank you for the book.",
+   "target": "ありがとうございます",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "924d07c858a62205",
+   "jp": "[明日|あした]まで[待|ま]ってください。",
+   "en": "Please wait until tomorrow.",
+   "target": "待つ",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "59bcda3b7b036f13",
+   "jp": "その[家|いえ]は[一番|いちばん][高|たか]いです。",
+   "en": "That house is the most expensive one.",
+   "target": "高い",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "a0081d88cd5e220a",
+   "jp": "[兄|あに]の[手|て]を[使|つか]っています。",
+   "en": "I'm using my older brother's hand.",
+   "target": "使う",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "d2341909d61f774f",
+   "jp": "[彼女|かのじょ]の[声|こえ]はとても[高|たか]いです。",
+   "en": "Her voice is very high.",
+   "target": "声",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "44f7db4e3ba14dde",
+   "jp": "[先生|せんせい]の[話|はなし]はとても[面白|おもしろ]いです。",
+   "en": "The teacher's talks are very interesting.",
+   "target": "先生",
+   "created_at": "2026-08-09T16:45:59Z"
+  },
+  {
+   "id": "0c928a7f363402d6",
+   "jp": "[昨日|きのう]は[家|いえ]で[勉強|べんきょう]しました。",
+   "en": "Yesterday I studied at home.",
+   "target": "昨日",
+   "created_at": "2026-08-09T16:45:59Z"
   }
  ]
 }
