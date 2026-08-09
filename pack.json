@@ -1,27 +1,27 @@
 {
-  "version": 1,
-  "generated_at": "2026-08-08T00:00:00Z",
-  "placeholder": true,
-  "sentences": [
-    { "id": "p01", "jp": "[私|わたし]は[毎日|まいにち][日本語|にほんご]を[勉強|べんきょう]しています。", "en": "I study Japanese every day.", "target": "勉強", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p02", "jp": "[明日|あした]は[天気|てんき]がいいそうです。", "en": "I hear the weather will be nice tomorrow.", "target": "天気", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p03", "jp": "[毎朝|まいあさ][水|みず]を[飲|の]みます。", "en": "I drink water every morning.", "target": "飲む", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p04", "jp": "[友達|ともだち]と[映画|えいが]を[見|み]ました。", "en": "I watched a movie with a friend.", "target": "見る", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p05", "jp": "[本|ほん]を[机|つくえ]の[上|うえ]に[置|お]きました。", "en": "I put the book on the desk.", "target": "置く", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p06", "jp": "[今日|きょう]は[一人|ひとり]で[食|た]べます。", "en": "Today I'll eat alone.", "target": "一人", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p07", "jp": "[新|あたら]しいかばんを[買|か]いたいです。", "en": "I want to buy a new bag.", "target": "新しい", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p08", "jp": "[彼|かれ]は[料理|りょうり]が[上手|じょうず]です。", "en": "He is good at cooking.", "target": "上手", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p09", "jp": "[時間|じかん]がないから、[急|いそ]ぎましょう。", "en": "We don't have time, so let's hurry.", "target": "時間", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p10", "jp": "[学校|がっこう]まで[歩|ある]いて[行|い]きます。", "en": "I walk to school.", "target": "行く", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p11", "jp": "[電車|でんしゃ]の[中|なか]で[音楽|おんがく]を[聞|き]きます。", "en": "I listen to music on the train.", "target": "聞く", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p12", "jp": "[今日|きょう]は[少|すこ]し[寒|さむ]いですね。", "en": "It's a little cold today, isn't it?", "target": "寒い", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p13", "jp": "[兄|あに]は[背|せ]が[高|たか]いです。", "en": "My older brother is tall.", "target": "高い", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p14", "jp": "[大丈夫|だいじょうぶ]、[心配|しんぱい]しないでください。", "en": "It's okay, please don't worry.", "target": "大丈夫", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p15", "jp": "[週末|しゅうまつ]に[部屋|へや]を[掃除|そうじ]します。", "en": "I clean my room on the weekend.", "target": "掃除", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p16", "jp": "[日本|にほん]の[食|た]べ[物|もの]が[好|す]きです。", "en": "I like Japanese food.", "target": "好き", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p17", "jp": "[窓|まど]を[開|あ]けてもいいですか。", "en": "May I open the window?", "target": "開ける", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p18", "jp": "[雨|あめ]が[降|ふ]っているので、[傘|かさ]を[持|も]って[行|い]きます。", "en": "It's raining, so I'll take an umbrella.", "target": "持つ", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p19", "jp": "[友達|ともだち]に[手紙|てがみ]を[書|か]きました。", "en": "I wrote a letter to my friend.", "target": "書く", "created_at": "2026-08-08T00:00:00Z" },
-    { "id": "p20", "jp": "[元気|げんき]になってよかったです。", "en": "I'm glad you're feeling better.", "target": "元気", "created_at": "2026-08-08T00:00:00Z" }
-  ]
+ "version": 1,
+ "generated_at": "2026-08-09T16:42:42Z",
+ "sentences": [
+  {
+   "id": "8c0bab280b0b9de7",
+   "jp": "[明日|あした]の[事|こと]は[心配|しんぱい]しないでください。",
+   "en": "Please don't worry about tomorrow.",
+   "target": "心配",
+   "created_at": "2026-08-09T16:42:42Z"
+  },
+  {
+   "id": "defcf4c27073699f",
+   "jp": "[友達|ともだち]がこの[本|ほん]をくれた。",
+   "en": "My friend gave me this book.",
+   "target": "くれる",
+   "created_at": "2026-08-09T16:42:42Z"
+  },
+  {
+   "id": "b2e687c9b3579b38",
+   "jp": "[先生|せんせい]から[本|ほん]をもらいました。",
+   "en": "I received a book from my teacher.",
+   "target": "もらう",
+   "created_at": "2026-08-09T16:42:42Z"
+  }
+ ]
 }
