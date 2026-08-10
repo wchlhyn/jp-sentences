@@ -68,6 +68,7 @@ footer {
   font-size: 0.75rem;
 }
 footer .stale { color: var(--amber); font-weight: 600; }
+footer a { color: var(--muted); margin-left: 0.8rem; }
 
 /* start + end screens */
 .center {
