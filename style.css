@@ -139,6 +139,7 @@ ruby rt {
   gap: 0.5rem;
   padding: 0.8rem 0.2rem 0;
 }
+.controls button:disabled { opacity: 0.35; }
 .controls button {
   font-size: 1rem;
   padding: 0.6rem 1rem;

@@ -149,6 +149,25 @@ const App = {
   pos: 0,
   stage: 0,
   misreadToday: 0,
+  view: "start",
+
+  async persistPos() {
+    const daily = await Progress.kvGet("daily");
+    if (daily && daily.date === todayKey()) {
+      daily.pos = this.pos;
+      await Progress.kvPut("daily", daily);
+    }
+  },
+
+  prev() {
+    if (this.pos > 0) {
+      this.pos--;
+      this.persistPos();
+      this.showCard();
+    } else {
+      this.showStart();
+    }
+  },
 
   async start() {
     await Progress.init();
@@ -161,6 +180,7 @@ const App = {
   },
 
   showStart() {
+    this.view = "start";
     navBack.hidden = true;
     navCount.textContent = "";
     screen.replaceChildren(el("div", { class: "center" }, [
@@ -171,6 +191,7 @@ const App = {
   },
 
   showCard() {
+    this.view = "card";
     const s = this.daily.sentences[this.pos];
     this.stage = 0;
     navBack.hidden = false;
@@ -200,9 +221,13 @@ const App = {
       this.pos + 1 >= this.daily.sentences.length ? "finish" : "next →",
       () => this.advance(s));
 
+    const prevBtn = btn("", "←", () => this.prev());
+    if (this.pos === 0) prevBtn.disabled = true;
+
     screen.replaceChildren(
       card,
       el("div", { class: "controls" }, [
+        prevBtn,
         btn("", "🔊", () => speak(plainText(s.jp))),
         misreadBtn,
         nextBtn,
@@ -225,8 +250,11 @@ const App = {
   },
 
   back() {
-    if (this.pos > 0 && !navBack.hidden && screen.querySelector(".card")) {
-      this.pos--;
+    if (this.view === "card") {
+      this.prev();
+    } else if (this.view === "end" && this.daily.sentences.length) {
+      this.pos = this.daily.sentences.length - 1;
+      this.persistPos();
       this.showCard();
     } else {
       this.showStart();
@@ -234,6 +262,7 @@ const App = {
   },
 
   showEnd() {
+    this.view = "end";
     navBack.hidden = false;
     navCount.textContent = "";
     screen.replaceChildren(el("div", { class: "center" }, [
