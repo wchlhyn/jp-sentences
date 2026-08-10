@@ -1,6 +1,6 @@
 "use strict";
 
-const DAILY_SIZE = 12;
+const DAILY_SIZE = 200;
 const STALE_DAYS = 3;
 
 /* ---------- IndexedDB ---------- */
