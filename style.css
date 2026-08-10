@@ -151,7 +151,7 @@ ruby rt {
   cursor: pointer;
 }
 .controls .primary { background: var(--accent); color: #fff; border-color: var(--accent); }
-#btn-misread.on { background: var(--amber); color: #fff; border-color: var(--amber); }
+.controls button.on { background: var(--amber); color: #fff; border-color: var(--amber); }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
