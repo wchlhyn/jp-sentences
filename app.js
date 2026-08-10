@@ -105,6 +105,7 @@ async function buildOrder(pack) {
     else seen.push([r.seenAt, s]);
   }
   seen.sort((a, b) => a[0] - b[0]);
+  unseen.reverse(); // pack is append-ordered, so reversed = newest generation first
   return [...misread, ...unseen, ...seen.map(x => x[1])];
 }
 
