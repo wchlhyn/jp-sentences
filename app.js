@@ -93,14 +93,7 @@ function todayKey() {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
-async function getDailySet(pack) {
-  const stored = await Progress.kvGet("daily");
-  if (stored && stored.date === todayKey()) {
-    const byId = new Map(pack.sentences.map(s => [s.id, s]));
-    const sentences = stored.ids.map(id => byId.get(id)).filter(Boolean);
-    if (sentences.length) return { sentences, pos: stored.pos };
-  }
-
+async function buildOrder(pack) {
   const recs = new Map((await Progress.all()).map(r => [r.id, r]));
   const misread = [];
   const unseen = [];
@@ -112,7 +105,34 @@ async function getDailySet(pack) {
     else seen.push([r.seenAt, s]);
   }
   seen.sort((a, b) => a[0] - b[0]);
-  const sentences = [...misread, ...unseen, ...seen.map(x => x[1])].slice(0, DAILY_SIZE);
+  return [...misread, ...unseen, ...seen.map(x => x[1])];
+}
+
+async function getDailySet(pack) {
+  const stored = await Progress.kvGet("daily");
+  const byId = new Map(pack.sentences.map(s => [s.id, s]));
+
+  if (stored && stored.date === todayKey()) {
+    // keep today's progress, but top the set up when it's smaller than
+    // DAILY_SIZE (cap raised, or a fresh pack landed mid-day)
+    const ids = stored.ids.filter(id => byId.has(id));
+    if (ids.length < DAILY_SIZE) {
+      const have = new Set(ids);
+      for (const s of await buildOrder(pack)) {
+        if (ids.length >= DAILY_SIZE) break;
+        if (!have.has(s.id)) { ids.push(s.id); have.add(s.id); }
+      }
+      await Progress.kvPut("daily", {
+        date: stored.date, ids, pos: Math.min(stored.pos, ids.length),
+      });
+    }
+    const sentences = ids.map(id => byId.get(id));
+    if (sentences.length) {
+      return { sentences, pos: Math.min(stored.pos, sentences.length) };
+    }
+  }
+
+  const sentences = (await buildOrder(pack)).slice(0, DAILY_SIZE);
   await Progress.kvPut("daily", { date: todayKey(), ids: sentences.map(s => s.id), pos: 0 });
   return { sentences, pos: 0 };
 }
