@@ -114,23 +114,32 @@ async function getDailySet(pack) {
   const byId = new Map(pack.sentences.map(s => [s.id, s]));
 
   if (stored && stored.date === todayKey()) {
-    // keep today's progress, but top the set up when it's smaller than
-    // DAILY_SIZE (cap raised, or a fresh pack landed mid-day)
     const ids = stored.ids.filter(id => byId.has(id));
-    if (ids.length < DAILY_SIZE) {
-      const have = new Set(ids);
+    const pos = Math.min(stored.pos, ids.length);
+    const have = new Set(ids);
+
+    // brand-new pack sentences jump the queue: inserted right after the
+    // current position, newest first — nothing already viewed moves
+    const seenIds = new Set((await Progress.all()).map(r => r.id));
+    const fresh = pack.sentences
+      .filter(s => !have.has(s.id) && !seenIds.has(s.id))
+      .reverse();
+    if (fresh.length) {
+      ids.splice(pos, 0, ...fresh.map(s => s.id));
+      // trim the tail so the day doesn't balloon past the cap
+      if (ids.length > Math.max(DAILY_SIZE, pos + fresh.length)) {
+        ids.length = Math.max(DAILY_SIZE, pos + fresh.length);
+      }
+    } else if (ids.length < DAILY_SIZE) {
+      // cap raised mid-day: extend the back of the queue
       for (const s of await buildOrder(pack)) {
         if (ids.length >= DAILY_SIZE) break;
         if (!have.has(s.id)) { ids.push(s.id); have.add(s.id); }
       }
-      await Progress.kvPut("daily", {
-        date: stored.date, ids, pos: Math.min(stored.pos, ids.length),
-      });
     }
+    await Progress.kvPut("daily", { date: stored.date, ids, pos });
     const sentences = ids.map(id => byId.get(id));
-    if (sentences.length) {
-      return { sentences, pos: Math.min(stored.pos, sentences.length) };
-    }
+    if (sentences.length) return { sentences, pos };
   }
 
   const sentences = (await buildOrder(pack)).slice(0, DAILY_SIZE);
