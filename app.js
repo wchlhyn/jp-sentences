@@ -1,7 +1,9 @@
 "use strict";
 
-const DAILY_SIZE = 800;
 const STALE_DAYS = 3;
+const TIERS = ["new", "struggle", "mid"];
+const DEFAULT_RATIO = { new: 30, struggle: 30, mid: 40 };
+const HISTORY_MAX = 1500;
 
 /* ---------- IndexedDB ---------- */
 
@@ -86,131 +88,187 @@ function speak(text) {
 }
 if ("speechSynthesis" in window) speechSynthesis.getVoices(); // warm up voice list
 
-/* ---------- daily set ---------- */
+/* ---------- drawing ---------- */
 
-function todayKey() {
+function tierOf(s) {
+  return TIERS.includes(s.tier) ? s.tier : "mid";
+}
+
+function todayStart() {
   const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  d.setHours(0, 0, 0, 0);
+  return d.getTime();
 }
 
-async function buildOrder(pack) {
-  const recs = new Map((await Progress.all()).map(r => [r.id, r]));
-  const misread = [];
-  const unseen = [];
-  const seen = [];
-  for (const s of pack.sentences) {
-    const r = recs.get(s.id);
-    if (r && r.misread) misread.push(s);
-    else if (!r) unseen.push(s);
-    else seen.push([r.seenAt, s]);
+function weightedTier(available, ratio) {
+  const weights = available.map(t => Math.max(0, Number(ratio[t]) || 0));
+  let total = weights.reduce((a, b) => a + b, 0);
+  if (total <= 0) return available[Math.floor(Math.random() * available.length)];
+  let r = Math.random() * total;
+  for (let i = 0; i < available.length; i++) {
+    r -= weights[i];
+    if (r <= 0) return available[i];
   }
-  seen.sort((a, b) => a[0] - b[0]);
-  unseen.reverse(); // pack is append-ordered, so reversed = newest generation first
-  return [...misread, ...unseen, ...seen.map(x => x[1])];
+  return available[available.length - 1];
 }
-
-async function getDailySet(pack) {
-  const stored = await Progress.kvGet("daily");
-  const byId = new Map(pack.sentences.map(s => [s.id, s]));
-
-  if (stored && stored.date === todayKey()) {
-    const ids = stored.ids.filter(id => byId.has(id));
-    const pos = Math.min(stored.pos, ids.length);
-    const have = new Set(ids);
-
-    // brand-new pack sentences jump the queue: inserted right after the
-    // current position, newest first — nothing already viewed moves
-    const seenIds = new Set((await Progress.all()).map(r => r.id));
-    const fresh = pack.sentences
-      .filter(s => !have.has(s.id) && !seenIds.has(s.id))
-      .reverse();
-    if (fresh.length) {
-      ids.splice(pos, 0, ...fresh.map(s => s.id));
-      // trim the tail so the day doesn't balloon past the cap
-      if (ids.length > Math.max(DAILY_SIZE, pos + fresh.length)) {
-        ids.length = Math.max(DAILY_SIZE, pos + fresh.length);
-      }
-    } else if (ids.length < DAILY_SIZE) {
-      // cap raised mid-day: extend the back of the queue
-      for (const s of await buildOrder(pack)) {
-        if (ids.length >= DAILY_SIZE) break;
-        if (!have.has(s.id)) { ids.push(s.id); have.add(s.id); }
-      }
-    }
-    await Progress.kvPut("daily", { date: stored.date, ids, pos });
-    const sentences = ids.map(id => byId.get(id));
-    if (sentences.length) return { sentences, pos };
-  }
-
-  const sentences = (await buildOrder(pack)).slice(0, DAILY_SIZE);
-  await Progress.kvPut("daily", { date: todayKey(), ids: sentences.map(s => s.id), pos: 0 });
-  return { sentences, pos: 0 };
-}
-
-/* ---------- UI ---------- */
-
-const screen = document.getElementById("screen");
-const navBack = document.getElementById("nav-back");
-const navCount = document.getElementById("nav-count");
 
 const App = {
   pack: null,
-  daily: null,
-  pos: 0,
+  history: { ids: [], pos: -1 },
+  ratio: { ...DEFAULT_RATIO },
   stage: 0,
-  misreadToday: 0,
   view: "start",
+  unseenLeft: null,
 
-  async persistPos() {
-    const daily = await Progress.kvGet("daily");
-    if (daily && daily.date === todayKey()) {
-      daily.pos = this.pos;
-      await Progress.kvPut("daily", daily);
+  byId(id) { return this._byId.get(id); },
+
+  async load() {
+    await Progress.init();
+    this.pack = await loadPack();
+    this._byId = new Map(this.pack.sentences.map(s => [s.id, s]));
+    renderFooter(this.pack);
+    this.ratio = (await Progress.kvGet("ratio")) || { ...DEFAULT_RATIO };
+    const hist = await Progress.kvGet("history");
+    if (hist && Array.isArray(hist.ids)) {
+      hist.ids = hist.ids.filter(id => this._byId.has(id));
+      hist.pos = Math.min(hist.pos, hist.ids.length - 1);
+      this.history = hist;
     }
   },
 
-  prev() {
-    if (this.pos > 0) {
-      this.pos--;
-      this.persistPos();
+  async persist() {
+    if (this.history.ids.length > HISTORY_MAX) {
+      const drop = this.history.ids.length - HISTORY_MAX;
+      this.history.ids.splice(0, drop);
+      this.history.pos -= drop;
+    }
+    await Progress.kvPut("history", this.history);
+  },
+
+  async draw() {
+    const recs = new Map((await Progress.all()).map(r => [r.id, r]));
+    const inHist = new Set(this.history.ids.slice(-5)); // avoid immediate repeats
+
+    // misread flags resurface first, once per day each
+    const misread = this.pack.sentences.filter(s => {
+      const r = recs.get(s.id);
+      return r && r.misread && (r.seenAt || 0) < todayStart() && !inHist.has(s.id);
+    });
+    if (misread.length) {
+      this.unseenLeft = this.countUnseen(recs);
+      return misread[Math.floor(Math.random() * misread.length)];
+    }
+
+    const unseenBy = { new: [], struggle: [], mid: [] };
+    for (const s of this.pack.sentences) {
+      if (!recs.has(s.id) && !inHist.has(s.id)) unseenBy[tierOf(s)].push(s);
+    }
+    this.unseenLeft = TIERS.reduce((a, t) => a + unseenBy[t].length, 0);
+    const available = TIERS.filter(t => unseenBy[t].length);
+    if (available.length) {
+      const pool = unseenBy[weightedTier(available, this.ratio)];
+      return pool[Math.floor(Math.random() * pool.length)];
+    }
+
+    // everything seen: least-recently-seen repeats
+    const seen = this.pack.sentences
+      .filter(s => recs.has(s.id) && !inHist.has(s.id))
+      .sort((a, b) => (recs.get(a.id).seenAt || 0) - (recs.get(b.id).seenAt || 0));
+    const cand = seen.slice(0, 20);
+    return cand.length ? cand[Math.floor(Math.random() * cand.length)] : null;
+  },
+
+  countUnseen(recs) {
+    let n = 0;
+    for (const s of this.pack.sentences) if (!recs.has(s.id)) n++;
+    return n;
+  },
+
+  async next() {
+    const current = this.history.ids[this.history.pos];
+    if (current) {
+      const rec = (await Progress.get(current)) || { id: current, misread: false };
+      rec.seenAt = Date.now();
+      await Progress.put(rec);
+    }
+    if (this.history.pos < this.history.ids.length - 1) {
+      this.history.pos++;
+    } else {
+      const s = await this.draw();
+      if (!s) { this.showEmpty(); return; }
+      this.history.ids.push(s.id);
+      this.history.pos++;
+    }
+    await this.persist();
+    this.showCard();
+  },
+
+  async prev() {
+    if (this.history.pos > 0) {
+      this.history.pos--;
+      await this.persist();
       this.showCard();
     } else {
       this.showStart();
     }
   },
 
-  async start() {
-    await Progress.init();
-    this.pack = await loadPack();
-    renderFooter(this.pack);
-    this.daily = await getDailySet(this.pack);
-    this.pos = this.daily.pos;
-    if (this.pos >= this.daily.sentences.length) this.showEnd();
+  back() {
+    if (this.view === "card") this.prev();
     else this.showStart();
   },
 
-  showStart() {
+  /* ---------- screens ---------- */
+
+  async showStart() {
     this.view = "start";
     navBack.hidden = true;
     navCount.textContent = "";
+    const recs = new Map((await Progress.all()).map(r => [r.id, r]));
+    const counts = { new: 0, struggle: 0, mid: 0 };
+    for (const s of this.pack.sentences) if (!recs.has(s.id)) counts[tierOf(s)]++;
+
+    const ratioRow = el("div", { class: "ratio-row" });
+    for (const t of TIERS) {
+      const input = el("input", {
+        type: "number", min: "0", max: "100", inputmode: "numeric",
+        value: String(this.ratio[t] ?? 0),
+      });
+      input.addEventListener("change", async () => {
+        this.ratio[t] = Math.max(0, Number(input.value) || 0);
+        await Progress.kvPut("ratio", this.ratio);
+      });
+      ratioRow.append(el("label", {}, [
+        el("span", {}, [`${t} (${counts[t]})`]), input,
+      ]));
+    }
+
     screen.replaceChildren(el("div", { class: "center" }, [
       el("h1", {}, ["今日の文"]),
-      el("p", {}, [`${this.daily.sentences.length} sentences today`]),
-      btn("big-btn", this.pos > 0 ? "Continue" : "Start", () => this.showCard()),
+      el("p", {}, [`${counts.new + counts.struggle + counts.mid} unseen sentences`]),
+      el("p", { class: "hint" }, ["draw ratio"]),
+      ratioRow,
+      btn("big-btn", this.history.pos >= 0 ? "Continue" : "Start", () => {
+        if (this.history.pos >= 0) this.showCard();
+        else this.next();
+      }),
     ]));
   },
 
   showCard() {
     this.view = "card";
-    const s = this.daily.sentences[this.pos];
+    const s = this.byId(this.history.ids[this.history.pos]);
+    if (!s) { this.showStart(); return; }
     this.stage = 0;
     navBack.hidden = false;
-    navCount.textContent = `${this.pos + 1} / ${this.daily.sentences.length}`;
+    const left = this.unseenLeft !== null ? ` · ${this.unseenLeft} left` : "";
+    navCount.textContent = `#${this.history.pos + 1}${left}`;
 
     const jp = el("div", { class: "jp" });
     renderJp(s.jp, jp);
     const en = el("div", { class: "en" }, [s.en]);
-    en.append(el("span", { class: "target-note" }, [`target: ${s.target}`]));
+    en.append(el("span", { class: "target-note" },
+      [`target: ${s.target} · ${tierOf(s)}`]));
 
     const card = el("div", { class: "card" }, [jp, en]);
     card.addEventListener("click", () => {
@@ -227,12 +285,8 @@ const App = {
     });
     Progress.get(s.id).then(r => { if (r && r.misread) misreadBtn.classList.add("on"); });
 
-    const nextBtn = btn("primary",
-      this.pos + 1 >= this.daily.sentences.length ? "finish" : "next →",
-      () => this.advance(s));
-
     const prevBtn = btn("", "←", () => this.prev());
-    if (this.pos === 0) prevBtn.disabled = true;
+    if (this.history.pos === 0) prevBtn.disabled = true;
 
     screen.replaceChildren(
       card,
@@ -240,51 +294,26 @@ const App = {
         prevBtn,
         btn("", "🔊", () => speak(plainText(s.jp))),
         misreadBtn,
-        nextBtn,
+        btn("primary", "next →", () => this.next()),
       ]),
       el("div", { class: "hint" }, ["tap the sentence: furigana → English → hide"]),
     );
   },
 
-  async advance(s) {
-    const rec = (await Progress.get(s.id)) || { id: s.id, misread: false };
-    rec.seenAt = Date.now();
-    if (rec.misread) this.misreadToday++;
-    await Progress.put(rec);
-    this.pos++;
-    const daily = await Progress.kvGet("daily");
-    daily.pos = this.pos;
-    await Progress.kvPut("daily", daily);
-    if (this.pos >= this.daily.sentences.length) this.showEnd();
-    else this.showCard();
-  },
-
-  back() {
-    if (this.view === "card") {
-      this.prev();
-    } else if (this.view === "end" && this.daily.sentences.length) {
-      this.pos = this.daily.sentences.length - 1;
-      this.persistPos();
-      this.showCard();
-    } else {
-      this.showStart();
-    }
-  },
-
-  showEnd() {
+  showEmpty() {
     this.view = "end";
     navBack.hidden = false;
     navCount.textContent = "";
     screen.replaceChildren(el("div", { class: "center" }, [
       el("h1", {}, ["終わり 🎉"]),
-      el("p", {}, [`${this.daily.sentences.length} sentences done.`]),
-      el("p", {}, [this.misreadToday
-        ? `${this.misreadToday} flagged misread — they'll lead tomorrow's set.`
-        : "Nothing flagged misread. See you tomorrow."]),
+      el("p", {}, ["Nothing left to draw — the pack is empty."]),
     ]));
   },
 };
 
+const screen = document.getElementById("screen");
+const navBack = document.getElementById("nav-back");
+const navCount = document.getElementById("nav-count");
 navBack.addEventListener("click", () => App.back());
 
 function el(tag, attrs = {}, children = []) {
@@ -326,7 +355,7 @@ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./sw.js");
 }
 
-App.start().catch(err => {
+App.load().then(() => App.showStart()).catch(err => {
   screen.replaceChildren(el("div", { class: "center" }, [
     el("h1", {}, ["Couldn't load"]),
     el("p", {}, [String(err)]),
