@@ -32,7 +32,7 @@
    "en": "My older brother teaches me Japanese.",
    "target": "教える",
    "created_at": "2026-08-09T16:45:59Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "85bb808b9db54903",
@@ -248,7 +248,7 @@
    "en": "That kid over there is lively, isn't he?",
    "target": "あの",
    "created_at": "2026-08-10T02:38:19Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "87a18ccc4e50183c",
@@ -256,7 +256,7 @@
    "en": "I feel sick today.",
    "target": "悪い",
    "created_at": "2026-08-10T02:38:19Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "1aaeb10c46dc75ce",
@@ -304,7 +304,7 @@
    "en": "Please raise your voice more.",
    "target": "上げる",
    "created_at": "2026-08-10T02:38:19Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "4fc536513ab6dc53",
@@ -312,7 +312,7 @@
    "en": "I talked about my own feelings.",
    "target": "自分",
    "created_at": "2026-08-10T02:38:19Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "73adc6f1583d224e",
@@ -336,7 +336,7 @@
    "en": "What kind of story did you hear?",
    "target": "どんな",
    "created_at": "2026-08-10T02:38:19Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "8821a6cc81766545",
@@ -376,7 +376,7 @@
    "en": "Please wait a moment.",
    "target": "ちょっと",
    "created_at": "2026-08-10T02:38:19Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "7f731720727d2a07",
@@ -568,7 +568,7 @@
    "en": "Please wait here.",
    "target": "ここ",
    "created_at": "2026-08-10T02:38:19Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d96118951da48eeb",
@@ -672,7 +672,7 @@
    "en": "What kind of things do you like?",
    "target": "どんな",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "20801e069a63b547",
@@ -680,7 +680,7 @@
    "en": "Is it okay to put it here?",
    "target": "ここ",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "31f30bffb459ab9c",
@@ -720,7 +720,7 @@
    "en": "Could you tell me the location?",
    "target": "教える",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "11a5490f282965d8",
@@ -728,7 +728,7 @@
    "en": "My eyes have been in bad shape since yesterday.",
    "target": "悪い",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "c515ae885647c655",
@@ -736,7 +736,7 @@
    "en": "The book is right there.",
    "target": "そこ",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "3ebb7e1bf27f60b4",
@@ -784,7 +784,7 @@
    "en": "He lifted up a big object.",
    "target": "上げる",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "bb73db025338e012",
@@ -816,7 +816,7 @@
    "en": "Today feels really nice, doesn't it?",
    "target": "いい",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "64fc6e74813775c9",
@@ -936,7 +936,7 @@
    "en": "Please hold that thing in your hand.",
    "target": "その",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "c8d373f9ee3e3bc2",
@@ -960,7 +960,7 @@
    "en": "Please try thinking about it yourself.",
    "target": "自分",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "aa50acf506ab8418",
@@ -1016,7 +1016,7 @@
    "en": "You always tell interesting stories.",
    "target": "いつも",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "211b585b509e39af",
@@ -1128,7 +1128,7 @@
    "en": "I'm studying inside the room.",
    "target": "中",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "d30d456d8605e46d",
@@ -1216,7 +1216,7 @@
    "en": "My mother is healthy every day.",
    "target": "母",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "5e4ee25920fc5762",
@@ -1224,7 +1224,7 @@
    "en": "Please put that here.",
    "target": "それ",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "906c4528418a6dc5",
@@ -1248,7 +1248,7 @@
    "en": "Which room are you going into?",
    "target": "どの",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "aebff0d73e2b3601",
@@ -1280,7 +1280,7 @@
    "en": "Yes, I'll go tomorrow.",
    "target": "はい",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "31d7ab12ef0de753",
@@ -1352,7 +1352,7 @@
    "en": "Let's meet at that place over there.",
    "target": "あの",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "e855271e28f52e31",
@@ -1392,7 +1392,7 @@
    "en": "Talking with friends is fun.",
    "target": "楽しい",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "52ce4fa4f4aa19e8",
@@ -1464,7 +1464,7 @@
    "en": "Believe in yourself.",
    "target": "信じる",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "d9c6af496e1465e9",
@@ -1472,7 +1472,7 @@
    "en": "May I ask you something for a moment?",
    "target": "ちょっと",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "87cc7816e8c2ce14",
@@ -1512,7 +1512,7 @@
    "en": "I'll start studying now.",
    "target": "始める",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "63301f4857abc6ff",
@@ -1520,7 +1520,7 @@
    "en": "Is your child at home?",
    "target": "いる",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "7019bb0409497cc3",
@@ -1592,7 +1592,7 @@
    "en": "Please put the book there.",
    "target": "そこ",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1300ed13ac113c01",
@@ -1624,7 +1624,7 @@
    "en": "What kind of person do you want to meet?",
    "target": "どんな",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "580aba72e7c51ba7",
@@ -1688,7 +1688,7 @@
    "en": "I've already heard that story.",
    "target": "その",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a5e3f1db44ab5a77",
@@ -1704,7 +1704,7 @@
    "en": "This here is my room.",
    "target": "ここ",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "9b1749b2e408a8e3",
@@ -1728,7 +1728,7 @@
    "en": "I told them my mother's name.",
    "target": "母",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "612f36f3e62bcabc",
@@ -1776,7 +1776,7 @@
    "en": "That person over there has a loud voice, doesn't he?",
    "target": "あの",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a4ad34bf990813a0",
@@ -1888,7 +1888,7 @@
    "en": "Yes, it's fine.",
    "target": "はい",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "6f4a741461875490",
@@ -1960,7 +1960,7 @@
    "en": "That's very expensive, isn't it?",
    "target": "それ",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1b0feec43c38dcfc",
@@ -1968,7 +1968,7 @@
    "en": "Let's all talk together.",
    "target": "みんな",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "cb3f1a1004cbbb41",
@@ -1984,7 +1984,7 @@
    "en": "The teacher is over there.",
    "target": "いる",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "190ab0ee7d46a227",
@@ -2032,7 +2032,7 @@
    "en": "Please say your own name.",
    "target": "自分",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "4b2716774bf26718",
@@ -2040,7 +2040,7 @@
    "en": "She told me about a good place.",
    "target": "教える",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "4688d233be95aa73",
@@ -2200,7 +2200,7 @@
    "en": "The stuff is inside the big room.",
    "target": "中",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "94a920c384a43ad6",
@@ -2264,7 +2264,7 @@
    "en": "I don't want to hear bad news.",
    "target": "悪い",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "9bb76155183b154c",
@@ -2288,7 +2288,7 @@
    "en": "Where does your family live?",
    "target": "あなた",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "69fe33455c17bc0f",
@@ -2296,7 +2296,7 @@
    "en": "My older brother started studying Japanese.",
    "target": "始める",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "648ebc7af0885a79",
@@ -2344,7 +2344,7 @@
    "en": "Please raise your hand and wait.",
    "target": "上げる",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "6a7c7dd100b215bd",
@@ -2400,7 +2400,7 @@
    "en": "I want to believe your story.",
    "target": "信じる",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "37075e111e2061a7",
@@ -2480,7 +2480,7 @@
    "en": "Time spent talking with my family is fun.",
    "target": "楽しい",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "2ad7e94716935842",
@@ -2504,7 +2504,7 @@
    "en": "Which person is the teacher?",
    "target": "どの",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "0925254ffbe65527",
@@ -2536,7 +2536,7 @@
    "en": "I have a little time tomorrow.",
    "target": "ちょっと",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "9e2013a99fdac13b",
@@ -2648,7 +2648,7 @@
    "en": "I'd like to try living in that town over there.",
    "target": "あの",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "b68b2d1dd91ebd71",
@@ -2664,7 +2664,7 @@
    "en": "Whose is that thing?",
    "target": "その",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "868536c7c377fe3e",
@@ -2688,7 +2688,7 @@
    "en": "This book is really good.",
    "target": "いい",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "97a4fbbc85e4e2be",
@@ -2712,7 +2712,7 @@
    "en": "Which one is the most expensive?",
    "target": "どの",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "cfe6d4f417d554c9",
@@ -2800,7 +2800,7 @@
    "en": "The child raised her eyes and looked at me.",
    "target": "上げる",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "9f72ed7818e70d86",
@@ -2896,7 +2896,7 @@
    "en": "Who is in the room?",
    "target": "いる",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "e8327d953b38c165",
@@ -2920,7 +2920,7 @@
    "en": "What kind of room do you want to live in?",
    "target": "どんな",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "3ccbe904e3597eb7",
@@ -2952,7 +2952,7 @@
    "en": "Has everyone already gone home?",
    "target": "みんな",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "050d29005cd3a0c0",
@@ -2992,7 +2992,7 @@
    "en": "I trust my friend's words.",
    "target": "信じる",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "d394d49bf338111e",
@@ -3016,7 +3016,7 @@
    "en": "Who is the person waiting here?",
    "target": "ここ",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "16ca3db7ab6cc9f6",
@@ -3136,7 +3136,7 @@
    "en": "My father has been in bad shape since yesterday.",
    "target": "悪い",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "14ebb85a80573b7c",
@@ -3160,7 +3160,7 @@
    "en": "Wait there, okay?",
    "target": "そこ",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "befb26bcb55eae28",
@@ -3168,7 +3168,7 @@
    "en": "I have some slightly bad news today.",
    "target": "ちょっと",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ed12f26683b71a07",
@@ -3176,7 +3176,7 @@
    "en": "My mother called my name.",
    "target": "母",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "e16b95bad9ff86f3",
@@ -3232,7 +3232,7 @@
    "en": "Is studying Japanese fun?",
    "target": "楽しい",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "84dd97ff26cfa4b6",
@@ -3272,7 +3272,7 @@
    "en": "I believe your words.",
    "target": "あなた",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "0ec6f055ae55449e",
@@ -3336,7 +3336,7 @@
    "en": "I think I can do it myself.",
    "target": "自分",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "323572367af16101",
@@ -3456,7 +3456,7 @@
    "en": "Please come inside the house.",
    "target": "中",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "3016209b8317b8f8",
@@ -3688,7 +3688,7 @@
    "en": "I want to invite everybody to my house.",
    "target": "みんな",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "b84294621e8c8b4b",
@@ -3728,7 +3728,7 @@
    "en": "Please tell me a good spot.",
    "target": "いい",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ed16e4a6a04d676f",
@@ -3744,7 +3744,7 @@
    "en": "My mother always worries about me.",
    "target": "いつも",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d152966431a1e31d",
@@ -3856,7 +3856,7 @@
    "en": "Can I take a quick look at that?",
    "target": "それ",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "72c40e6d59d00a05",
@@ -3872,7 +3872,7 @@
    "en": "Shall we start the next topic?",
    "target": "始める",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "b7670b1d07d9bbf2",
@@ -3952,7 +3952,7 @@
    "en": "Yes, I thought the same thing too.",
    "target": "はい",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "530a13ada73d23c3",
@@ -4008,7 +4008,7 @@
    "en": "Tomorrow I'll tell my friend about this.",
    "target": "教える",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "5e86b4a67d5d252d",
@@ -4016,7 +4016,7 @@
    "en": "Do you have time now?",
    "target": "あなた",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "bbd1d05ffed8aff5",
@@ -4040,7 +4040,7 @@
    "en": "My older brother is always studying in his room.",
    "target": "いつも",
    "created_at": "2026-08-10T02:49:02Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ca2448bb845ca02e",
@@ -4088,7 +4088,7 @@
    "en": "What kind of job do you do?",
    "target": "どんな",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "42a2b8a4cdf4033f",
@@ -4112,7 +4112,7 @@
    "en": "I forgot my promise with him.",
    "target": "約束",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "4aa4667acfddd89a",
@@ -4128,7 +4128,7 @@
    "en": "What is everyone eating?",
    "target": "みんな",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ba3d1755496753bb",
@@ -4216,7 +4216,7 @@
    "en": "I study in my own room.",
    "target": "自分",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "e52367190b4f45f7",
@@ -4232,7 +4232,7 @@
    "en": "That is my thing.",
    "target": "それ",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "b0b27fa6cea4667b",
@@ -4256,7 +4256,7 @@
    "en": "I'll start the job today.",
    "target": "始める",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "0f4a81260e3fb948",
@@ -4320,7 +4320,7 @@
    "en": "He keeps studying Japanese.",
    "target": "続ける",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d3988d97eac78ee7",
@@ -4368,7 +4368,7 @@
    "en": "Please stand here.",
    "target": "ここ",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ea1795378e7d932f",
@@ -4376,7 +4376,7 @@
    "en": "Which teacher is the most interesting?",
    "target": "どの",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "c6f0eafa1e3f65a6",
@@ -4432,7 +4432,7 @@
    "en": "Who is that person?",
    "target": "その",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "c2ca609047df89cb",
@@ -4472,7 +4472,7 @@
    "en": "Please help me a little.",
    "target": "ちょっと",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "44781e40e97ce950",
@@ -4536,7 +4536,7 @@
    "en": "I waited for my friend inside the school.",
    "target": "中",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "9aaa4b4e132bbe09",
@@ -4576,7 +4576,7 @@
    "en": "I think his words are unkind.",
    "target": "悪い",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "d7a73d6b4b5f7ae8",
@@ -4728,7 +4728,7 @@
    "en": "What do you like?",
    "target": "あなた",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "f4f8c09845f90f6d",
@@ -4752,7 +4752,7 @@
    "en": "My father raised the book and showed it.",
    "target": "上げる",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "92c14ca2a582a16b",
@@ -4760,7 +4760,7 @@
    "en": "His story is good, isn't it?",
    "target": "いい",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "b83747359d617b8b",
@@ -4800,7 +4800,7 @@
    "en": "That teacher over there is interesting.",
    "target": "あの",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "57b99836b8d78ab7",
@@ -4816,7 +4816,7 @@
    "en": "Is that place a school?",
    "target": "そこ",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "6a7d310c9353dc63",
@@ -4976,7 +4976,7 @@
    "en": "The teacher teaches words at school.",
    "target": "教える",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "9145091b2033fe0e",
@@ -5008,7 +5008,7 @@
    "en": "I believe you.",
    "target": "信じる",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "1f8243b335957fec",
@@ -5024,7 +5024,7 @@
    "en": "Every day at school is very fun.",
    "target": "楽しい",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "2ab1bdc3a4604a11",
@@ -5064,7 +5064,7 @@
    "en": "I think carefully about my own feelings.",
    "target": "自分",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "aba99fa2d15d6564",
@@ -5136,7 +5136,7 @@
    "en": "Please show that to me.",
    "target": "それ",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "fae4a0c3a02d1fa5",
@@ -5208,7 +5208,7 @@
    "en": "My older brother keeps working.",
    "target": "続ける",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "147f85a0860d30ab",
@@ -5256,7 +5256,7 @@
    "en": "I met my friend in town.",
    "target": "中",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "dc822edcaf65be1e",
@@ -5432,7 +5432,7 @@
    "en": "My mother is busy every day.",
    "target": "母",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "0ebb5493e38ba205",
@@ -5464,7 +5464,7 @@
    "en": "Please don't forget your promise with her.",
    "target": "約束",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "3af6086fde737e69",
@@ -5480,7 +5480,7 @@
    "en": "Which story is true?",
    "target": "どの",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a71ad1835562c2d4",
@@ -5520,7 +5520,7 @@
    "en": "I believe it's the truth.",
    "target": "信じる",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "8cc60de4ede4b418",
@@ -5536,7 +5536,7 @@
    "en": "He's a good teacher, isn't he?",
    "target": "いい",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a8488f99ce2acdf4",
@@ -5560,7 +5560,7 @@
    "en": "I'm a little busy right now.",
    "target": "ちょっと",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "faafdf17cb04dee4",
@@ -5712,7 +5712,7 @@
    "en": "Meeting a friend in town is fun.",
    "target": "楽しい",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "c360d66e49547ac3",
@@ -5728,7 +5728,7 @@
    "en": "I said a bad thing to the teacher.",
    "target": "悪い",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "10914fcc06eb99f8",
@@ -5776,7 +5776,7 @@
    "en": "Do you know that teacher?",
    "target": "その",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "c455bdd06361f786",
@@ -5840,7 +5840,7 @@
    "en": "My mother is at home right now.",
    "target": "いる",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a05da63486baf707",
@@ -5872,7 +5872,7 @@
    "en": "Please don't raise your voice.",
    "target": "上げる",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "51dd1e75c3220a38",
@@ -5880,7 +5880,7 @@
    "en": "Did he start studying today too?",
    "target": "始める",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "2f16b9340ddac652",
@@ -5888,7 +5888,7 @@
    "en": "My friend lives here.",
    "target": "ここ",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "859f9004e0c3dec3",
@@ -5936,7 +5936,7 @@
    "en": "My mother taught me Japanese.",
    "target": "教える",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "7469fa97fbd55c4f",
@@ -5976,7 +5976,7 @@
    "en": "Where were you yesterday?",
    "target": "あなた",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "877e4b962ef21b80",
@@ -6056,7 +6056,7 @@
    "en": "Work isn't very fun.",
    "target": "楽しい",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "2fcd3755380bd251",
@@ -6096,7 +6096,7 @@
    "en": "His family is in this town.",
    "target": "いる",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "f31997c3f8ff3cf4",
@@ -6136,7 +6136,7 @@
    "en": "I think she also wants to keep studying Japanese.",
    "target": "続ける",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "707679e653e33676",
@@ -6144,7 +6144,7 @@
    "en": "Is that true?",
    "target": "それ",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "b86da71b32217180",
@@ -6184,7 +6184,7 @@
    "en": "Are you a teacher at the school?",
    "target": "あなた",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "e14e4dc6f6332f9e",
@@ -6224,7 +6224,7 @@
    "en": "It's better to ask the teacher.",
    "target": "いい",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d327ccabdbaa5ca3",
@@ -6240,7 +6240,7 @@
    "en": "I don't understand the meaning of that word.",
    "target": "その",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "648a55d920174e09",
@@ -6288,7 +6288,7 @@
    "en": "Mother helped me.",
    "target": "母",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "27ccd78641976f54",
@@ -6368,7 +6368,7 @@
    "en": "Please listen carefully to my own story.",
    "target": "自分",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "55d9adc1e648a58b",
@@ -6392,7 +6392,7 @@
    "en": "He didn't come at the promised time.",
    "target": "約束",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "6dd2e554d1cd462c",
@@ -6488,7 +6488,7 @@
    "en": "Please come here.",
    "target": "ここ",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "3bbe34fde5dd3d2e",
@@ -6552,7 +6552,7 @@
    "en": "Is there a house there?",
    "target": "そこ",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "18010d4c49dff752",
@@ -6648,7 +6648,7 @@
    "en": "Which room will you enter?",
    "target": "どの",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "182974501fc15eda",
@@ -6688,7 +6688,7 @@
    "en": "He raised his voice and spoke.",
    "target": "上げる",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "2ff360089b8377cd",
@@ -6704,7 +6704,7 @@
    "en": "What kind of story is interesting?",
    "target": "どんな",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "09b4b314e5402183",
@@ -6752,7 +6752,7 @@
    "en": "I'm always waiting at the same place.",
    "target": "いつも",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "e7a42d274666c42d",
@@ -6768,7 +6768,7 @@
    "en": "Yes, I understand.",
    "target": "はい",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "71295db5a0bba6ab",
@@ -6816,7 +6816,7 @@
    "en": "That child is always energetic.",
    "target": "あの",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a4b8f990e0531180",
@@ -6832,7 +6832,7 @@
    "en": "The teacher taught us the meaning of the name.",
    "target": "教える",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "054dcd03b521f1b0",
@@ -6952,7 +6952,7 @@
    "en": "My friend is at school.",
    "target": "いる",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "0a626bbb9a674158",
@@ -6992,7 +6992,7 @@
    "en": "I always look at books.",
    "target": "いつも",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "7235edcbce733914",
@@ -7072,7 +7072,7 @@
    "en": "Yes, it's true.",
    "target": "はい",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d41ed69bd4bba8b4",
@@ -7080,7 +7080,7 @@
    "en": "My mother is always well.",
    "target": "母",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "3f129ec29b9594cf",
@@ -7136,7 +7136,7 @@
    "en": "Is that room okay?",
    "target": "あの",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "4afb4f189bf49135",
@@ -7168,7 +7168,7 @@
    "en": "My older brother always helps me.",
    "target": "いつも",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "c2674556036d8266",
@@ -7184,7 +7184,7 @@
    "en": "He is working there.",
    "target": "そこ",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "0effaf4a597c2e30",
@@ -7288,7 +7288,7 @@
    "en": "Everybody likes the same thing.",
    "target": "みんな",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "8236305c0a80d5a3",
@@ -7312,7 +7312,7 @@
    "en": "The teacher asked everyone.",
    "target": "みんな",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "628034c554cb4799",
@@ -7408,7 +7408,7 @@
    "en": "The child started the story.",
    "target": "始める",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "32c8269a81a06614",
@@ -7528,7 +7528,7 @@
    "en": "She doesn't believe anyone.",
    "target": "信じる",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "4365034428e44a3a",
@@ -7560,7 +7560,7 @@
    "en": "Yes, I know him.",
    "target": "はい",
    "created_at": "2026-08-10T04:24:35Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d928b1948d2e2c2e",
@@ -7624,7 +7624,7 @@
    "en": "Something got into my eye.",
    "target": "中",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "4025571530d8e1f7",
@@ -7688,7 +7688,7 @@
    "en": "My father is always busy.",
    "target": "いつも",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1a42a473605c45b7",
@@ -7720,7 +7720,7 @@
    "en": "Let's all talk slowly together.",
    "target": "みんな",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "91c0befd38b0089b",
@@ -7784,7 +7784,7 @@
    "en": "That is my older brother's story.",
    "target": "それ",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ae432e30c57e0679",
@@ -7816,7 +7816,7 @@
    "en": "Time with my older brother is fun.",
    "target": "楽しい",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "0c0eed2518858322",
@@ -7840,7 +7840,7 @@
    "en": "My father started studying Japanese.",
    "target": "始める",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "bcbe4c7639b7425a",
@@ -7984,7 +7984,7 @@
    "en": "I forgot my own name.",
    "target": "自分",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "7faa26ad8f67a324",
@@ -8024,7 +8024,7 @@
    "en": "I keep studying every day.",
    "target": "続ける",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "904316ffe35bd89b",
@@ -8168,7 +8168,7 @@
    "en": "I believe the teacher's story.",
    "target": "信じる",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "38e4c32da7de4851",
@@ -8216,7 +8216,7 @@
    "en": "Where is the teacher now?",
    "target": "いる",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "7bf92ec700d05257",
@@ -8280,7 +8280,7 @@
    "en": "What kind of town do you live in?",
    "target": "どんな",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "34103da49c9a03f9",
@@ -8288,7 +8288,7 @@
    "en": "He raised his hand and spoke.",
    "target": "上げる",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "a02e25dc18f838c8",
@@ -8368,7 +8368,7 @@
    "en": "My mother speaks slowly.",
    "target": "母",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "549eecfe0575f9a5",
@@ -8392,7 +8392,7 @@
    "en": "I think her voice is nice.",
    "target": "いい",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "69a637e10f97a40e",
@@ -8408,7 +8408,7 @@
    "en": "Yes, I'll help tomorrow.",
    "target": "はい",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "dbb57d4b162812f8",
@@ -8520,7 +8520,7 @@
    "en": "Every family is doing well.",
    "target": "どの",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "45bcdda918cb11d3",
@@ -8536,7 +8536,7 @@
    "en": "I'll study here.",
    "target": "ここ",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "497a6ea57a904297",
@@ -8560,7 +8560,7 @@
    "en": "What kind of books do you like?",
    "target": "どんな",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "148142d1530a140a",
@@ -8584,7 +8584,7 @@
    "en": "Who is that person over there?",
    "target": "あの",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "6cde5412b25001c3",
@@ -8616,7 +8616,7 @@
    "en": "He uses bad words.",
    "target": "悪い",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "9a10a0a2aa10c190",
@@ -8648,7 +8648,7 @@
    "en": "The child is in the room.",
    "target": "いる",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "330ba2e3e532c35d",
@@ -8688,7 +8688,7 @@
    "en": "Is that okay?",
    "target": "それ",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "204b3a0dfb65cac0",
@@ -8752,7 +8752,7 @@
    "en": "I'll keep my promise to my family.",
    "target": "約束",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "3563b04a71701db2",
@@ -8896,7 +8896,7 @@
    "en": "I believe in my own feelings.",
    "target": "信じる",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "d2e077c8567617e9",
@@ -8912,7 +8912,7 @@
    "en": "I protect my own things myself.",
    "target": "自分",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "7fcc59107e03bd9c",
@@ -8920,7 +8920,7 @@
    "en": "I studied inside the room.",
    "target": "中",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "bbb9b9da2235a417",
@@ -8928,7 +8928,7 @@
    "en": "I'm a little worried.",
    "target": "ちょっと",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1398b41dd451c6d2",
@@ -8968,7 +8968,7 @@
    "en": "My older brother told me the place.",
    "target": "教える",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "7647ba7458c93db8",
@@ -9144,7 +9144,7 @@
    "en": "The teacher always speaks slowly.",
    "target": "いつも",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "8383dd1e0f3ff0ac",
@@ -9232,7 +9232,7 @@
    "en": "When is that story from?",
    "target": "それ",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1dc52583e4095237",
@@ -9272,7 +9272,7 @@
    "en": "Everyone, do you know that story?",
    "target": "みんな",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "2edb9e6638d68484",
@@ -9304,7 +9304,7 @@
    "en": "Which word do you like?",
    "target": "どの",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a0adb8b18e7eaba2",
@@ -9336,7 +9336,7 @@
    "en": "My older brother started the job.",
    "target": "始める",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "d557996054106944",
@@ -9360,7 +9360,7 @@
    "en": "Do you know him too?",
    "target": "あなた",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "e750dd0ba4548a1d",
@@ -9456,7 +9456,7 @@
    "en": "Mother is in the room now.",
    "target": "母",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "85ab81a73977b1d6",
@@ -9544,7 +9544,7 @@
    "en": "I want to believe your story.",
    "target": "信じる",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "322bfe96e268323a",
@@ -9584,7 +9584,7 @@
    "en": "Is my father at home?",
    "target": "いる",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "334fdd2da683d2d1",
@@ -9608,7 +9608,7 @@
    "en": "This story is a little interesting.",
    "target": "ちょっと",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "58a91fa4c8971104",
@@ -9688,7 +9688,7 @@
    "en": "I'm waiting here.",
    "target": "ここ",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "094ee9881e506789",
@@ -9712,7 +9712,7 @@
    "en": "What kind of house do you want to live in?",
    "target": "どんな",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "355e0d6bbc994bbd",
@@ -9728,7 +9728,7 @@
    "en": "This room is really nice, isn't it.",
    "target": "いい",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "7eb3665b0de25260",
@@ -9792,7 +9792,7 @@
    "en": "She raised her eyes.",
    "target": "上げる",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "049635a9424bee4c",
@@ -9816,7 +9816,7 @@
    "en": "I made a promise with my older brother.",
    "target": "約束",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "a810ea14665de9c9",
@@ -9952,7 +9952,7 @@
    "en": "He is a good friend.",
    "target": "いい",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "5b185fa171468508",
@@ -10040,7 +10040,7 @@
    "en": "Is that promise real?",
    "target": "約束",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "bd1eb711b3ca37b4",
@@ -10064,7 +10064,7 @@
    "en": "Is that time okay?",
    "target": "その",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "11f112039a1a7330",
@@ -10072,7 +10072,7 @@
    "en": "Do you know that place over there?",
    "target": "あの",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "e5163f7cadccb82f",
@@ -10096,7 +10096,7 @@
    "en": "I like it here.",
    "target": "ここ",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "f8e9b543810b2269",
@@ -10144,7 +10144,7 @@
    "en": "My mother works every day.",
    "target": "母",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "71d88e8b30f5759d",
@@ -10184,7 +10184,7 @@
    "en": "He teaches Japanese at school.",
    "target": "教える",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "382e9a4665f69836",
@@ -10200,7 +10200,7 @@
    "en": "Please put the book there.",
    "target": "そこ",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "c426a34c11c920be",
@@ -10216,7 +10216,7 @@
    "en": "Which person is the teacher?",
    "target": "どの",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "6bc9ec8635d6fde3",
@@ -10312,7 +10312,7 @@
    "en": "Are you busy right now?",
    "target": "あなた",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "156d632643d93928",
@@ -10408,7 +10408,7 @@
    "en": "I'm waiting there.",
    "target": "そこ",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "acddab2d8524a772",
@@ -10424,7 +10424,7 @@
    "en": "Are you continuing to study?",
    "target": "続ける",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "61254ce0abe857f3",
@@ -10464,7 +10464,7 @@
    "en": "Everyone, please look at this.",
    "target": "みんな",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "4d03024fe3b19b45",
@@ -10496,7 +10496,7 @@
    "en": "My older brother raised his voice loudly.",
    "target": "上げる",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "21a0e70929e65538",
@@ -10504,7 +10504,7 @@
    "en": "You are always interesting.",
    "target": "いつも",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "99518a2345df1a91",
@@ -10592,7 +10592,7 @@
    "en": "Every day is fun.",
    "target": "楽しい",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "3374b5662b79d18e",
@@ -10632,7 +10632,7 @@
    "en": "Please wait there.",
    "target": "そこ",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "8f60b2abb7cb2a71",
@@ -10704,7 +10704,7 @@
    "en": "My brother is not a bad kid.",
    "target": "悪い",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "05ba4240569ca6d7",
@@ -10752,7 +10752,7 @@
    "en": "Mother said she would continue her work.",
    "target": "続ける",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "fdef47aadeb09793",
@@ -10936,7 +10936,7 @@
    "en": "That child is doing well.",
    "target": "その",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "7b97d8e1242b8a86",
@@ -10944,7 +10944,7 @@
    "en": "Can you teach Japanese?",
    "target": "教える",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "f7db07a127f09d93",
@@ -10960,7 +10960,7 @@
    "en": "There was a name inside the book.",
    "target": "中",
    "created_at": "2026-08-10T15:04:10Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "538f031941188b8d",
@@ -11040,7 +11040,7 @@
    "en": "I feel sick.",
    "target": "悪い",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "2b605529d5de88f1",
@@ -11088,7 +11088,7 @@
    "en": "Among my family, my older brother is the tallest.",
    "target": "中",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "36cadb0c59c0d8f7",
@@ -11152,7 +11152,7 @@
    "en": "My mother believed in me.",
    "target": "信じる",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "a39b5248afcb84ca",
@@ -11168,7 +11168,7 @@
    "en": "His voice is a little loud.",
    "target": "ちょっと",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d97386527732b40e",
@@ -11184,7 +11184,7 @@
    "en": "My mother is always at home.",
    "target": "いつも",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "e6752e7d1d0a7dda",
@@ -11232,7 +11232,7 @@
    "en": "My older brother wants to keep his job.",
    "target": "続ける",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "c649a6a4b21202d0",
@@ -11256,7 +11256,7 @@
    "en": "My older brother raised his hand and called out.",
    "target": "上げる",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "da8d0b3cd5f5d93e",
@@ -11264,7 +11264,7 @@
    "en": "She is at home now.",
    "target": "いる",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "fa99565a814df3b8",
@@ -11368,7 +11368,7 @@
    "en": "That place isn't very big.",
    "target": "そこ",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "cec050157863a198",
@@ -11384,7 +11384,7 @@
    "en": "Mother will go to town tomorrow.",
    "target": "母",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "9e8f2bf196441c34",
@@ -11464,7 +11464,7 @@
    "en": "Which house do you live in?",
    "target": "どの",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "686f0f591ce2afc8",
@@ -11480,7 +11480,7 @@
    "en": "I forgot my promise with the teacher.",
    "target": "約束",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "7251a99fc2e4d362",
@@ -11536,7 +11536,7 @@
    "en": "That teacher over there is very interesting.",
    "target": "あの",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "00156b69f84bd1dd",
@@ -11576,7 +11576,7 @@
    "en": "I want to meet your family.",
    "target": "あなた",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "debb4d6bc2c1401a",
@@ -11624,7 +11624,7 @@
    "en": "Everyone, do you understand now?",
    "target": "みんな",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "dd6c0c0a49767441",
@@ -11696,7 +11696,7 @@
    "en": "Is that thing yours?",
    "target": "それ",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a8260ce38f8e3128",
@@ -11736,7 +11736,7 @@
    "en": "Do you know that place?",
    "target": "その",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "018b3bd8c4e77083",
@@ -11768,7 +11768,7 @@
    "en": "My mother told me about her own work.",
    "target": "教える",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "4357c317f81c02e2",
@@ -11960,7 +11960,7 @@
    "en": "I like my own room.",
    "target": "自分",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "863f1305ef9c747f",
@@ -11992,7 +11992,7 @@
    "en": "The teacher's talk is good, isn't it.",
    "target": "いい",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "897f8dba29941f2e",
@@ -12032,7 +12032,7 @@
    "en": "My mother wants to start studying Japanese.",
    "target": "始める",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "4164f45636a32776",
@@ -12056,7 +12056,7 @@
    "en": "I don't like it here very much.",
    "target": "ここ",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "3f42b1a1709f497f",
@@ -12168,7 +12168,7 @@
    "en": "I always talk with him.",
    "target": "いつも",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "dfaad2cb990294f5",
@@ -12184,7 +12184,7 @@
    "en": "I want to keep doing my own work.",
    "target": "続ける",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "8993134ddef73467",
@@ -12408,7 +12408,7 @@
    "en": "I didn't believe my friend's story.",
    "target": "信じる",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "c9a7f37c364ebdb3",
@@ -12480,7 +12480,7 @@
    "en": "Which story is the most interesting?",
    "target": "どの",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "4f0a5204bb9a648c",
@@ -12568,7 +12568,7 @@
    "en": "I think that word is bad.",
    "target": "悪い",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "b6c5e45aa6939d18",
@@ -12632,7 +12632,7 @@
    "en": "Please put the book here.",
    "target": "ここ",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "78c06ad9617b0c58",
@@ -12648,7 +12648,7 @@
    "en": "Your story is very interesting.",
    "target": "あなた",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "6e5760d971a75ea5",
@@ -12664,7 +12664,7 @@
    "en": "My mother taught me some words.",
    "target": "教える",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "e81b135a36639efe",
@@ -12728,7 +12728,7 @@
    "en": "Is everyone in this room?",
    "target": "みんな",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d71b20c8f229ce91",
@@ -12752,7 +12752,7 @@
    "en": "I think becoming a teacher is good.",
    "target": "いい",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "6d83d76c35f5f701",
@@ -12760,7 +12760,7 @@
    "en": "Talking with her is a lot of fun.",
    "target": "楽しい",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "6fdda1036a0cdc45",
@@ -12808,7 +12808,7 @@
    "en": "Is that job interesting?",
    "target": "その",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1984e59639829447",
@@ -12832,7 +12832,7 @@
    "en": "It's the time for the appointment.",
    "target": "約束",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "504fa54fbd2ef9a6",
@@ -12872,7 +12872,7 @@
    "en": "I will start the job from tomorrow.",
    "target": "始める",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "6393638ea2a97e31",
@@ -12952,7 +12952,7 @@
    "en": "There is a room there.",
    "target": "そこ",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "2824cf090c9a98ff",
@@ -12960,7 +12960,7 @@
    "en": "Is your friend at school?",
    "target": "いる",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "646ebb8ab09aa202",
@@ -13032,7 +13032,7 @@
    "en": "That child over there is energetic.",
    "target": "あの",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1db82961b17b1bfe",
@@ -13096,7 +13096,7 @@
    "en": "He talked about his own feelings.",
    "target": "自分",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "3433aee3eccab04e",
@@ -13112,7 +13112,7 @@
    "en": "What kind of voice does he speak with?",
    "target": "どんな",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "22ebd95494333b7c",
@@ -13152,7 +13152,7 @@
    "en": "May I use that?",
    "target": "それ",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "fea137e159f4633a",
@@ -13216,7 +13216,7 @@
    "en": "I want to become your friend.",
    "target": "あなた",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "4c2aee46fc06f402",
@@ -13304,7 +13304,7 @@
    "en": "I met my friend here.",
    "target": "ここ",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "b5819c13ef5539eb",
@@ -13320,7 +13320,7 @@
    "en": "The teacher started the talk.",
    "target": "始める",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "e4e1782593c5c14d",
@@ -13352,7 +13352,7 @@
    "en": "Let's meet tomorrow, everyone.",
    "target": "みんな",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a38c957b5486a78b",
@@ -13424,7 +13424,7 @@
    "en": "The teacher is over there.",
    "target": "そこ",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ab262734f2fdfe52",
@@ -13432,7 +13432,7 @@
    "en": "I always go to school with my friend.",
    "target": "いつも",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "773f6c798868113c",
@@ -13496,7 +13496,7 @@
    "en": "I met the teacher inside the school.",
    "target": "中",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "b22f43aa0e092e5e",
@@ -13536,7 +13536,7 @@
    "en": "Is the teacher in the room?",
    "target": "いる",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "4de28216473b9884",
@@ -13608,7 +13608,7 @@
    "en": "That house over there is very big.",
    "target": "あの",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "df83e96f295fbf4d",
@@ -13632,7 +13632,7 @@
    "en": "My mother talks with the family every day.",
    "target": "母",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "8b3ec0673e843d9e",
@@ -13664,7 +13664,7 @@
    "en": "What kind of person was your father?",
    "target": "どんな",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "98d12c4009bda22d",
@@ -13736,7 +13736,7 @@
    "en": "I told you the place.",
    "target": "教える",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "28167957782e5b1f",
@@ -13752,7 +13752,7 @@
    "en": "He raised his hand and asked.",
    "target": "上げる",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "4937bb93fb45c3d4",
@@ -13824,7 +13824,7 @@
    "en": "He did a bad thing.",
    "target": "悪い",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "fa59a4361845023a",
@@ -13848,7 +13848,7 @@
    "en": "I think studying Japanese is a good thing.",
    "target": "いい",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "38a093608b096a6d",
@@ -13960,7 +13960,7 @@
    "en": "Please continue that story.",
    "target": "続ける",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "8ee23336bcaaebd4",
@@ -13992,7 +13992,7 @@
    "en": "Please show that to him.",
    "target": "それ",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "8764bc54436c6c19",
@@ -14000,7 +14000,7 @@
    "en": "She started her own job.",
    "target": "自分",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "f34c21e7640a8256",
@@ -14016,7 +14016,7 @@
    "en": "Did you hear that story?",
    "target": "その",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "2317fbf778dbdbf3",
@@ -14024,7 +14024,7 @@
    "en": "Which child is your friend?",
    "target": "どの",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "3acf230beccc928d",
@@ -14040,7 +14040,7 @@
    "en": "I think he's a little bad.",
    "target": "ちょっと",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "7ab4047e739af65c",
@@ -14144,7 +14144,7 @@
    "en": "Is school fun?",
    "target": "楽しい",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "ed221336a990e062",
@@ -14152,7 +14152,7 @@
    "en": "Yes, it's me.",
    "target": "はい",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "aebcc22bc72a51fb",
@@ -14176,7 +14176,7 @@
    "en": "Who do you believe?",
    "target": "信じる",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "4353b6ab6cc9f029",
@@ -14192,7 +14192,7 @@
    "en": "I want to keep my promise.",
    "target": "約束",
    "created_at": "2026-08-10T16:31:25Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "3918c50692ba9742",
@@ -14320,7 +14320,7 @@
    "en": "That person is my older brother.",
    "target": "その",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "f1bc3639064b077e",
@@ -14344,7 +14344,7 @@
    "en": "Please think about it yourself.",
    "target": "自分",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "043f0373a05b3b06",
@@ -14472,7 +14472,7 @@
    "en": "Studying Japanese is fun.",
    "target": "楽しい",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "583be734e39c21c4",
@@ -14488,7 +14488,7 @@
    "en": "Is someone in the room?",
    "target": "いる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "96a5376770e81930",
@@ -14520,7 +14520,7 @@
    "en": "My older brother taught me how to use it.",
    "target": "教える",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "187db66c446de62a",
@@ -14528,7 +14528,7 @@
    "en": "I want to protect my own family.",
    "target": "自分",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "992e674d20c00e34",
@@ -14608,7 +14608,7 @@
    "en": "The child raised the book and showed it.",
    "target": "上げる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "6094b5afce4cd4c6",
@@ -14616,7 +14616,7 @@
    "en": "The teacher held the book up high.",
    "target": "上げる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "39410aac1ef8ce15",
@@ -14672,7 +14672,7 @@
    "en": "Please raise your voice a bit more.",
    "target": "上げる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "8b54ba41a7ef2777",
@@ -14688,7 +14688,7 @@
    "en": "I showed them my own room.",
    "target": "自分",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "6102bc105c7f6b70",
@@ -14728,7 +14728,7 @@
    "en": "I love my mother.",
    "target": "母",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "c0ff746771669bd7",
@@ -14752,7 +14752,7 @@
    "en": "Please tell me the meaning of that word.",
    "target": "あの",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "472b50aed5478ac3",
@@ -14816,7 +14816,7 @@
    "en": "Yesterday's talk wasn't bad.",
    "target": "悪い",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "d0f19956efbc294a",
@@ -14824,7 +14824,7 @@
    "en": "I'll teach you which one to use.",
    "target": "教える",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "7e4e7e2aa2c95b77",
@@ -15032,7 +15032,7 @@
    "en": "What kind of work will you do tomorrow?",
    "target": "どんな",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "09d4078df44a26a8",
@@ -15040,7 +15040,7 @@
    "en": "Yes, I've already started studying.",
    "target": "はい",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "3beec5bb2defb472",
@@ -15072,7 +15072,7 @@
    "en": "I put the things inside the room.",
    "target": "中",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "39085c4dd4f90076",
@@ -15128,7 +15128,7 @@
    "en": "There's something I'd like to ask you about for a moment.",
    "target": "ちょっと",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "821ba246755f4307",
@@ -15176,7 +15176,7 @@
    "en": "My eyes have been bad since yesterday.",
    "target": "悪い",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "20f8b680e3e2a0ec",
@@ -15208,7 +15208,7 @@
    "en": "I think things will be in good shape tomorrow.",
    "target": "いい",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "57b8991281e61788",
@@ -15304,7 +15304,7 @@
    "en": "I'll keep looking into it until time is up.",
    "target": "続ける",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "85c99cf583f65a85",
@@ -15352,7 +15352,7 @@
    "en": "I'm teaching him Japanese.",
    "target": "教える",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "179237deab049267",
@@ -15424,7 +15424,7 @@
    "en": "There was no one at home.",
    "target": "いる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "2bb3972687a5897b",
@@ -15480,7 +15480,7 @@
    "en": "Tomorrow I'll tell her what time I'm going home.",
    "target": "教える",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "012ca9c6052ae48e",
@@ -15512,7 +15512,7 @@
    "en": "That's a bit expensive, isn't it.",
    "target": "それ",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "cdfb5f939702eae2",
@@ -15584,7 +15584,7 @@
    "en": "The child raised their hand.",
    "target": "上げる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "4dd93dda758c7116",
@@ -15592,7 +15592,7 @@
    "en": "I'll teach you how to use this thing.",
    "target": "教える",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "a62039517192c9b6",
@@ -15600,7 +15600,7 @@
    "en": "I used to live in that town.",
    "target": "あの",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "78fa1b3e37383af0",
@@ -15784,7 +15784,7 @@
    "en": "Let's believe in ourselves and get started.",
    "target": "信じる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "d7a25cdbaa04d10b",
@@ -15792,7 +15792,7 @@
    "en": "She keeps studying every day.",
    "target": "続ける",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "bd7d99f62a1652ec",
@@ -15832,7 +15832,7 @@
    "en": "Please tell me about Japan.",
    "target": "教える",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "f6d0cabcb24d2419",
@@ -15904,7 +15904,7 @@
    "en": "I want to believe his feelings.",
    "target": "信じる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "6f84c94d4a6aaf62",
@@ -15968,7 +15968,7 @@
    "en": "I trusted your words and waited.",
    "target": "信じる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "c7e4945a22cbf268",
@@ -16008,7 +16008,7 @@
    "en": "Yes, that's my thing.",
    "target": "はい",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "9d847a591582fe27",
@@ -16024,7 +16024,7 @@
    "en": "What's the situation like tomorrow?",
    "target": "どんな",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "7b32bf1694dfcc68",
@@ -16064,7 +16064,7 @@
    "en": "I kept my promise with my friend.",
    "target": "約束",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "81a6a82071009a22",
@@ -16080,7 +16080,7 @@
    "en": "I want to believe my father's words.",
    "target": "信じる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "07e72fbd3d34599d",
@@ -16088,7 +16088,7 @@
    "en": "Which thing is expensive?",
    "target": "どの",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1729e67f26efb8c3",
@@ -16096,7 +16096,7 @@
    "en": "I forgot that child's name.",
    "target": "その",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "9c729f315895b8a3",
@@ -16272,7 +16272,7 @@
    "en": "I don't think it looks bad.",
    "target": "悪い",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "7135c9040d17e2f5",
@@ -16344,7 +16344,7 @@
    "en": "I trust her.",
    "target": "信じる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "4c9719dc6da20e55",
@@ -16440,7 +16440,7 @@
    "en": "Today's work was really fun.",
    "target": "楽しい",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "f0bc3f7466916d8b",
@@ -16480,7 +16480,7 @@
    "en": "Who taught you this word?",
    "target": "教える",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "ec11585aab212f58",
@@ -16536,7 +16536,7 @@
    "en": "She raised her eyes and looked at me.",
    "target": "上げる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "a795dcca49505f70",
@@ -16544,7 +16544,7 @@
    "en": "I raised my voice and called out the name.",
    "target": "上げる",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "5834a6105367693a",
@@ -16576,7 +16576,7 @@
    "en": "This is where I work.",
    "target": "ここ",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "01294e08bbbfcf98",
@@ -16632,7 +16632,7 @@
    "en": "Let's forget the bad things.",
    "target": "悪い",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "8937451654816b18",
@@ -16688,7 +16688,7 @@
    "en": "What should I start with?",
    "target": "始める",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "c5a25e8e5607f057",
@@ -16752,7 +16752,7 @@
    "en": "Which room will you use?",
    "target": "どの",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "9b7990eb9efc3ca2",
@@ -16776,7 +16776,7 @@
    "en": "I want to start a business on my own.",
    "target": "自分",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "5d8d608af890cbbe",
@@ -16936,7 +16936,7 @@
    "en": "I believe my mother's words.",
    "target": "母",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "ffc45d5f154f76a5",
@@ -16952,7 +16952,7 @@
    "en": "When did you start Japanese?",
    "target": "始める",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "637d5d22f5c921b6",
@@ -17072,7 +17072,7 @@
    "en": "I started feeling sick.",
    "target": "悪い",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "85717216a912c1d7",
@@ -17120,7 +17120,7 @@
    "en": "I don't understand the meaning of that.",
    "target": "それ",
    "created_at": "2026-08-11T01:51:33Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "da5ca63be1ce16bb",
@@ -17360,7 +17360,7 @@
    "en": "Nobody believes what I say.",
    "target": "信じる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "12103c754a65862e",
@@ -17384,7 +17384,7 @@
    "en": "I raised my hand in front of everyone.",
    "target": "上げる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "645943c699b450d0",
@@ -17416,7 +17416,7 @@
    "en": "I believed the meaning of his words.",
    "target": "信じる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "b5368d696b8739ec",
@@ -17480,7 +17480,7 @@
    "en": "I took a slow look around the town.",
    "target": "中",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "690e09c800b3ab41",
@@ -17544,7 +17544,7 @@
    "en": "About tomorrow's appointment — where is the place?",
    "target": "約束",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "c6bb25978a4cde73",
@@ -17568,7 +17568,7 @@
    "en": "Looking it up yourself is more interesting.",
    "target": "自分",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "8dec184e3140ad7f",
@@ -17600,7 +17600,7 @@
    "en": "I'm teaching my child the meaning of the word.",
    "target": "教える",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "0684ecc029a4ac75",
@@ -17736,7 +17736,7 @@
    "en": "I still haven't forgotten that story.",
    "target": "あの",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "acc69e5ca88be017",
@@ -17744,7 +17744,7 @@
    "en": "Eating together with everyone is the most fun time.",
    "target": "楽しい",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "5d857ab20c087d8c",
@@ -17792,7 +17792,7 @@
    "en": "Where should I put that?",
    "target": "それ",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "41fe89d4fbba32ae",
@@ -17808,7 +17808,7 @@
    "en": "There are a lot of kids at our place.",
    "target": "いる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "6f4fec16ab351bd9",
@@ -17832,7 +17832,7 @@
    "en": "It's my fault, so I'm sorry.",
    "target": "悪い",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "5f5cdd1d37177dca",
@@ -17864,7 +17864,7 @@
    "en": "Please let me think about it a little.",
    "target": "ちょっと",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "598aa7ea3dfb3d01",
@@ -17944,7 +17944,7 @@
    "en": "I don't want to trust anyone anymore.",
    "target": "信じる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "6e91009672cf30f1",
@@ -17960,7 +17960,7 @@
    "en": "Let's believe we can do it and keep going.",
    "target": "信じる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "77b6a484ffa40490",
@@ -17976,7 +17976,7 @@
    "en": "That room isn't bad, you know.",
    "target": "悪い",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "ae66b78c8438b9c1",
@@ -18008,7 +18008,7 @@
    "en": "I've forgotten that person's name.",
    "target": "あの",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "79c90e0e84809a4e",
@@ -18016,7 +18016,7 @@
    "en": "Did you eat something bad?",
    "target": "悪い",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "63ce612f8fd90037",
@@ -18040,7 +18040,7 @@
    "en": "It was an unbelievable story.",
    "target": "信じる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "5df68626936cd72c",
@@ -18056,7 +18056,7 @@
    "en": "Could you wait a moment for me?",
    "target": "ちょっと",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "97a04f7977438fc1",
@@ -18096,7 +18096,7 @@
    "en": "Which one do you think is more interesting?",
    "target": "どの",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "989be1e22be309e7",
@@ -18104,7 +18104,7 @@
    "en": "Starting tomorrow, I'll begin teaching him.",
    "target": "教える",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "9745183e1c166011",
@@ -18112,7 +18112,7 @@
    "en": "I'll never forget the fun times.",
    "target": "楽しい",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "fee61ab19ae2b5f9",
@@ -18200,7 +18200,7 @@
    "en": "Something is moving inside.",
    "target": "中",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "a00f574fdd51f3f1",
@@ -18256,7 +18256,7 @@
    "en": "There's someone I know over there.",
    "target": "いる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d98b01545efe5d3b",
@@ -18376,7 +18376,7 @@
    "en": "Today's condition is worse than yesterday's.",
    "target": "悪い",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "7ddd8e5077bd8394",
@@ -18440,7 +18440,7 @@
    "en": "Those who don't understand, please don't raise your hand.",
    "target": "上げる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "72f610bdf8469bcf",
@@ -18480,7 +18480,7 @@
    "en": "Who lives in that house?",
    "target": "その",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "adba8a5fde7685d1",
@@ -18488,7 +18488,7 @@
    "en": "Please see it with your own eyes.",
    "target": "自分",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "080114bfd075faf5",
@@ -18528,7 +18528,7 @@
    "en": "Could you tell me a good spot?",
    "target": "いい",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "88dd4fca11509c0a",
@@ -18608,7 +18608,7 @@
    "en": "My father keeps on talking.",
    "target": "続ける",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a076fabea8aaebf6",
@@ -18616,7 +18616,7 @@
    "en": "Show me more of that, please.",
    "target": "それ",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "58f17fe736e2c7f9",
@@ -18624,7 +18624,7 @@
    "en": "What kind of things are you thinking about?",
    "target": "どんな",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "2ee1a046528e7a84",
@@ -18688,7 +18688,7 @@
    "en": "I'll keep up with Japanese tomorrow too.",
    "target": "続ける",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "16e80cd67020f4e7",
@@ -18696,7 +18696,7 @@
    "en": "What kind of things will you bring tomorrow?",
    "target": "どんな",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "e4b4ab97c1e2a17a",
@@ -18704,7 +18704,7 @@
    "en": "Please hold that in your hand.",
    "target": "それ",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "8e6e7ad3b2977fc2",
@@ -18936,7 +18936,7 @@
    "en": "I don't really understand myself.",
    "target": "自分",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "572f33c9f417933c",
@@ -18952,7 +18952,7 @@
    "en": "Yes, please don't worry.",
    "target": "はい",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "395cb43690498eec",
@@ -18960,7 +18960,7 @@
    "en": "Please say your own name in a loud voice.",
    "target": "自分",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "4fd3a88e7e3232b5",
@@ -18976,7 +18976,7 @@
    "en": "I have plans with a friend tomorrow.",
    "target": "約束",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "41aea819043a9e34",
@@ -19008,7 +19008,7 @@
    "en": "She is thinking about something bad right now.",
    "target": "悪い",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "f0454dbc3635b84a",
@@ -19016,7 +19016,7 @@
    "en": "My mother told me the name of her favorite thing.",
    "target": "教える",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "9217c2af26ac3b20",
@@ -19056,7 +19056,7 @@
    "en": "Is it expensive from here to the school?",
    "target": "ここ",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "5d68872e464eb62e",
@@ -19120,7 +19120,7 @@
    "en": "Which place shall we wait at?",
    "target": "どの",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "5432bf91f7e045f1",
@@ -19152,7 +19152,7 @@
    "en": "She was listening without raising her eyes.",
    "target": "上げる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "6487ebcded7ee2f9",
@@ -19352,7 +19352,7 @@
    "en": "A friend told me about an interesting place.",
    "target": "教える",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "10291e75392aee60",
@@ -19392,7 +19392,7 @@
    "en": "I couldn't tell my mother the truth.",
    "target": "母",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "23a6082282b4d374",
@@ -19464,7 +19464,7 @@
    "en": "She told me the location.",
    "target": "教える",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "82666683bc0bf8ab",
@@ -19496,7 +19496,7 @@
    "en": "Yes, I'll go tomorrow.",
    "target": "はい",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "4aff7468db60f28a",
@@ -19520,7 +19520,7 @@
    "en": "I forgot that person's name.",
    "target": "その",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "97b6673117312c04",
@@ -19560,7 +19560,7 @@
    "en": "There's no time, so let's start already.",
    "target": "始める",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "31c048374f6ca5b5",
@@ -19704,7 +19704,7 @@
    "en": "My older brother told me which book to go with.",
    "target": "教える",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "fe83db7aa9bf8cda",
@@ -19720,7 +19720,7 @@
    "en": "My mother lives in town.",
    "target": "母",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "8a850c9f4f9c2ec7",
@@ -19728,7 +19728,7 @@
    "en": "I have no time to think for myself.",
    "target": "自分",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "0b84930423849638",
@@ -19736,7 +19736,7 @@
    "en": "I believe he isn't a bad person.",
    "target": "悪い",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "8323ca249583572f",
@@ -19768,7 +19768,7 @@
    "en": "He kept going without lifting his eyes.",
    "target": "上げる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "23fc6dbaa808b453",
@@ -19776,7 +19776,7 @@
    "en": "I raised my voice in front of everyone.",
    "target": "上げる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "b0ea7bf78599454d",
@@ -19808,7 +19808,7 @@
    "en": "We'll start after everyone arrives.",
    "target": "始める",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "53aa16962041e3fe",
@@ -19888,7 +19888,7 @@
    "en": "Did you put something here?",
    "target": "ここ",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "251c9ce2f48ce3d2",
@@ -19968,7 +19968,7 @@
    "en": "I looked up how to use it myself.",
    "target": "自分",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "631cf80882149a97",
@@ -20048,7 +20048,7 @@
    "en": "Anyone who wants to ask, please raise your hand.",
    "target": "上げる",
    "created_at": "2026-08-11T04:24:27Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "08d38257bd6c9d38",
@@ -20128,7 +20128,7 @@
    "en": "I started looking things up on my own.",
    "target": "始める",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "cde0039e806319f4",
@@ -20152,7 +20152,7 @@
    "en": "Please don't move from there.",
    "target": "そこ",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "69e13f9fa5f0448e",
@@ -20160,7 +20160,7 @@
    "en": "Please show me what that looks like.",
    "target": "その",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "85e04694a886a1f6",
@@ -20168,7 +20168,7 @@
    "en": "Which person should I ask?",
    "target": "どの",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "fbfb134d59059348",
@@ -20208,7 +20208,7 @@
    "en": "This is the place where I'm meeting her.",
    "target": "約束",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "a29a25b9873cac12",
@@ -20216,7 +20216,7 @@
    "en": "I think I can do this myself.",
    "target": "自分",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "afa3648654032174",
@@ -20264,7 +20264,7 @@
    "en": "Can I eat that now?",
    "target": "それ",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "18f68b3cc420f8df",
@@ -20280,7 +20280,7 @@
    "en": "Don't worry, please keep working.",
    "target": "続ける",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ce18e6194dd55b38",
@@ -20312,7 +20312,7 @@
    "en": "I believe what the teacher says.",
    "target": "信じる",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "4d0d21a853025472",
@@ -20352,7 +20352,7 @@
    "en": "She is always thinking about me.",
    "target": "いつも",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ce8d530874038a01",
@@ -20464,7 +20464,7 @@
    "en": "What time is tomorrow's appointment?",
    "target": "約束",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "740c1c1abd997047",
@@ -20568,7 +20568,7 @@
    "en": "He looked me in the eye and started talking.",
    "target": "始める",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "80a3cf043ce44050",
@@ -20696,7 +20696,7 @@
    "en": "What kind of words do you use often?",
    "target": "どんな",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "324b79881e7a2247",
@@ -20728,7 +20728,7 @@
    "en": "Who did you hear that from?",
    "target": "それ",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d054952ccccce84c",
@@ -20744,7 +20744,7 @@
    "en": "What kind of place do you study in?",
    "target": "どんな",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "c04a55096691d304",
@@ -20752,7 +20752,7 @@
    "en": "May I come into the room for a moment?",
    "target": "ちょっと",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "6bd94aba88709272",
@@ -20872,7 +20872,7 @@
    "en": "The child is waiting inside the house.",
    "target": "中",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "d8b36f446b08f1da",
@@ -20880,7 +20880,7 @@
    "en": "The time I spend with my family is fun.",
    "target": "楽しい",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "561fe1d25ac6e36b",
@@ -20944,7 +20944,7 @@
    "en": "I want to know more about you.",
    "target": "あなた",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a24d3e3365a9f97e",
@@ -20976,7 +20976,7 @@
    "en": "Those who understand, raise your hand.",
    "target": "上げる",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "d50a1598a208e633",
@@ -21016,7 +21016,7 @@
    "en": "Yes, I'll continue that job.",
    "target": "はい",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "9ce9045bbcce42e0",
@@ -21024,7 +21024,7 @@
    "en": "I feel sick today, so I'm going home.",
    "target": "悪い",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "0f2dc30ea6a56613",
@@ -21112,7 +21112,7 @@
    "en": "Will you be at home tomorrow?",
    "target": "いる",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "45da7b0c74be1374",
@@ -21128,7 +21128,7 @@
    "en": "Is it expensive from here to town?",
    "target": "ここ",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ad8242b8d7c1c002",
@@ -21200,7 +21200,7 @@
    "en": "Have you already forgotten that promise?",
    "target": "約束",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "struggle"
   },
   {
    "id": "9549e9e72b3abf72",
@@ -21264,7 +21264,7 @@
    "en": "I helped with my mother's work.",
    "target": "母",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "161e37fc9522eb27",
@@ -21288,7 +21288,7 @@
    "en": "Please speak in your own words.",
    "target": "自分",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "df49a3cf2ddd8fbf",
@@ -21384,7 +21384,7 @@
    "en": "I want to tell you a story about Japan.",
    "target": "教える",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "43825a08e604c8ef",
@@ -21392,7 +21392,7 @@
    "en": "I want to have my own room.",
    "target": "自分",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "fe3a93038c9e6f79",
@@ -21408,7 +21408,7 @@
    "en": "What kind of things does your grandfather love?",
    "target": "どんな",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "f9b20293cf8640e5",
@@ -21464,7 +21464,7 @@
    "en": "It'd be better to stay home today, wouldn't it.",
    "target": "いい",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "aba1355cc66e0ff4",
@@ -21472,7 +21472,7 @@
    "en": "Please show me that book over there once more.",
    "target": "あの",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "5ea0066dc72ef6df",
@@ -21520,7 +21520,7 @@
    "en": "I don't know whose that is.",
    "target": "それ",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "18fda91bf17f647c",
@@ -21528,7 +21528,7 @@
    "en": "Yesterday's conversation was really enjoyable.",
    "target": "楽しい",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "17130e2a1ea96823",
@@ -21536,7 +21536,7 @@
    "en": "Your mother is calling your name.",
    "target": "母",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "838a5c8e9eb973b0",
@@ -21568,7 +21568,7 @@
    "en": "I'll look into it a bit and then tell you.",
    "target": "ちょっと",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "cd418ebea4cf0407",
@@ -21576,7 +21576,7 @@
    "en": "Is it okay if I wait in this spot?",
    "target": "いい",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "5186ead0be0357ac",
@@ -21584,7 +21584,7 @@
    "en": "I forgot the meaning of that word.",
    "target": "その",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "8968cd573c93a41f",
@@ -21616,7 +21616,7 @@
    "en": "Let's all start studying together.",
    "target": "みんな",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "07dadfd9b1149c49",
@@ -21632,7 +21632,7 @@
    "en": "Which word's meaning don't you understand?",
    "target": "どの",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1745b0934db79af7",
@@ -21648,7 +21648,7 @@
    "en": "I have a lot of friends in town.",
    "target": "いる",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "6025663006ec7cd1",
@@ -21656,7 +21656,7 @@
    "en": "I looked up the meaning of that word.",
    "target": "その",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1e380d3deb743cc6",
@@ -21736,7 +21736,7 @@
    "en": "He always looks you in the eye when he talks.",
    "target": "いつも",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d1c507aa3385a8b4",
@@ -21752,7 +21752,7 @@
    "en": "My father hasn't been doing well since yesterday.",
    "target": "悪い",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "348b38c2812ca433",
@@ -21760,7 +21760,7 @@
    "en": "Let's think of a better way.",
    "target": "いい",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "d2240ee251110d43",
@@ -21776,7 +21776,7 @@
    "en": "I'll wait here until everyone goes home.",
    "target": "みんな",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "de48d25a2fc9066e",
@@ -21792,7 +21792,7 @@
    "en": "Yes, of course it's fine.",
    "target": "はい",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "1be239f81ff84bc5",
@@ -21840,7 +21840,7 @@
    "en": "May we start before the teacher comes?",
    "target": "始める",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "eba80fb578bf946e",
@@ -21848,7 +21848,7 @@
    "en": "Which book do you like best?",
    "target": "どの",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "97696afdf6f34ebf",
@@ -21856,7 +21856,7 @@
    "en": "He raised his voice and called me.",
    "target": "上げる",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "2e0ec1088ada6709",
@@ -21888,7 +21888,7 @@
    "en": "Even if no one comes, I'll keep waiting.",
    "target": "続ける",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "b6b3a4aabbe7744f",
@@ -21944,7 +21944,7 @@
    "en": "Believe in yourself and stand up.",
    "target": "信じる",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "fd22b2735d8da140",
@@ -22016,7 +22016,7 @@
    "en": "We all thought about that matter together.",
    "target": "みんな",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ece03214bed853d0",
@@ -22024,7 +22024,7 @@
    "en": "I'm going to town with my mother tomorrow.",
    "target": "母",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "5cc55a56a6d56ce8",
@@ -22056,7 +22056,7 @@
    "en": "It's the most interesting thing in the story.",
    "target": "中",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "2a8a476c769140f1",
@@ -22064,7 +22064,7 @@
    "en": "I kept waiting, but nobody came.",
    "target": "続ける",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "19ccb105c32902d8",
@@ -22096,7 +22096,7 @@
    "en": "Yes, I have met that person.",
    "target": "はい",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ce5a2f0403ed80fe",
@@ -22136,7 +22136,7 @@
    "en": "Please don't tell him my name.",
    "target": "教える",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "6da45a6b78251139",
@@ -22192,7 +22192,7 @@
    "en": "Is that thing over there expensive?",
    "target": "あの",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "62c54286eb4bdbde",
@@ -22288,7 +22288,7 @@
    "en": "I believe he will keep his promise.",
    "target": "信じる",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "5cee6bbb539a255b",
@@ -22312,7 +22312,7 @@
    "en": "Whose voice is that?",
    "target": "あの",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "cad46bbc350705e5",
@@ -22344,7 +22344,7 @@
    "en": "Where did you come from?",
    "target": "あなた",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "abc4a5a05669a0d3",
@@ -22360,7 +22360,7 @@
    "en": "That's the town where I used to live.",
    "target": "そこ",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "628fb27a67bd5e3e",
@@ -22464,7 +22464,7 @@
    "en": "My dad tells me about his work.",
    "target": "教える",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "struggle"
   },
   {
    "id": "3e6d881ea58a81a7",
@@ -22632,7 +22632,7 @@
    "en": "I looked up the meaning of a word in the book.",
    "target": "中",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "45abc1166104c8d8",
@@ -22648,7 +22648,7 @@
    "en": "Looking around town with friends is fun.",
    "target": "楽しい",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "mid"
+   "tier": "new"
   },
   {
    "id": "9189cc951c5819e3",
@@ -22688,7 +22688,7 @@
    "en": "What are you thinking about over there?",
    "target": "そこ",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "782f5f24e1b9624b",
@@ -22760,7 +22760,7 @@
    "en": "My mother always eats the same thing.",
    "target": "いつも",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "8ee084bfff069650",
@@ -22784,7 +22784,7 @@
    "en": "Could I get a little help?",
    "target": "ちょっと",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "9dfe091868d5bc7f",
@@ -22832,7 +22832,7 @@
    "en": "There are lots of interesting people in this town.",
    "target": "いる",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "a351e3cb6cf3380e",
@@ -22864,7 +22864,7 @@
    "en": "He raised his hand without saying anything.",
    "target": "上げる",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "struggle"
+   "tier": "mid"
   },
   {
    "id": "7d14ab9d496ff9b2",
@@ -22936,7 +22936,7 @@
    "en": "May I come in here?",
    "target": "ここ",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "9930ac0a98a02ee4",
@@ -22968,7 +22968,7 @@
    "en": "My room isn't here, it's over there.",
    "target": "ここ",
    "created_at": "2026-08-11T18:33:14Z",
-   "tier": "new"
+   "tier": "mid"
   },
   {
    "id": "ee96d420aef77410",
