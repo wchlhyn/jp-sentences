@@ -221,3 +221,5 @@ ruby rt {
 .wkblock { display: flex; align-items: center; gap: 1rem; margin-top: 0.5rem; }
 .wkinfo { min-width: 0; }
 .wstrokes { flex-wrap: wrap; }
+
+.wregen { display: flex; justify-content: center; margin-top: 0.4rem; }

@@ -318,7 +318,7 @@ const App = {
 
 const SVG_NS = "http://www.w3.org/2000/svg";
 const REVISIT_AFTER_MS = 2 * 86400000;
-const WSHEET_SIZE = 9;
+const WSHEET_SIZE = 10;
 const WSTALE_DAYS = 7; // the pool only changes when eligibility does
 
 const Writing = {
@@ -339,16 +339,19 @@ const Writing = {
   // the box publishes the whole eligible pool; the day's sheet is assembled
   // here: flagged-due words first, then least-recently-written (random within
   // ties). last_written lives in IndexedDB like all other progress state.
-  async buildDay() {
+  async buildDay(force) {
     const today = todayKey();
     const stored = await Progress.kvGet("wsheet");
-    if (stored && stored.date === today) {
+    if (!force && stored && stored.date === today) {
       const words = stored.words.filter(w => this.byWord.has(w));
       if (words.length) return words;
     }
     const wstate = (await Progress.kvGet("wstate")) || {};
+    // flagged words lead only the first sheet of the day; a regenerated sheet
+    // is pure rotation (anything stamped today sorts to the back anyway)
     const flagged = [...this.flags.values()]
-      .filter(f => Date.now() - f.flaggedAt >= REVISIT_AFTER_MS && this.byWord.has(f.kanji))
+      .filter(f => Date.now() - f.flaggedAt >= REVISIT_AFTER_MS
+        && this.byWord.has(f.kanji) && (wstate[f.kanji] || "") !== today)
       .map(f => f.kanji);
     const rest = this.data.words
       .map(e => e.word)
@@ -363,7 +366,7 @@ const Writing = {
     return day;
   },
 
-  async show() {
+  async show(force) {
     App.view = "writing";
     navBack.hidden = true;
     navCount.textContent = "";
@@ -376,7 +379,7 @@ const Writing = {
     const flagRecs = (await tx(Progress.db, "writing", "readonly", s => s.getAll())) || [];
     this.flags = new Map(flagRecs.map(f => [f.kanji, f]));
 
-    const day = await this.buildDay();
+    const day = await this.buildDay(force);
     const entries = day.map(w => this.byWord.get(w));
     const nKanji = entries.reduce((a, e) => a + e.kanji.length, 0);
     const dueFlags = new Set(day.filter(w => this.flags.has(w)
@@ -394,8 +397,12 @@ const Writing = {
     for (const e of entries) {
       list.append(this.card(dueFlags.has(e.word) ? { ...e, _revisit: true } : e));
     }
-    list.append(el("div", { class: "hint" },
-      ["tap a card: kanji + parts → stroke order → hide"]));
+    list.append(
+      el("div", { class: "wregen" },
+        [btn("", "new sheet ↻", () => this.show(true))]),
+      el("div", { class: "hint" },
+        ["tap a card: kanji + parts → stroke order → hide"]),
+    );
     screen.replaceChildren(list);
   },
 
