@@ -532,28 +532,35 @@ const Writing = {
     }
     if (!any) {
       host.append(el("div", { class: "wnote" }, ["no stroke data for this word"]));
-    } else if (!reduced) {
-      host.append(btn("", "▶ replay", () => this.animate(host)));
     }
   },
 
   animate(host) {
-    // strokes animate across all kanji of the word, left to right
+    // strokes animate across all kanji of the word, left to right, then loop
+    // with a hold until the panel is hidden or a new animate() call supersedes
+    const run = (host._animRun = (host._animRun || 0) + 1);
     const inks = [...host.querySelectorAll(".wink")];
     if (!inks.length) return;
-    for (const p of inks) {
-      const len = p.getTotalLength();
-      p.style.transition = "none";
-      p.style.strokeDasharray = String(len);
-      p.style.strokeDashoffset = String(len);
-    }
-    host.getBoundingClientRect(); // flush styles before animating
-    inks.forEach((p, i) => {
-      setTimeout(() => {
-        p.style.transition = "stroke-dashoffset 250ms ease";
-        p.style.strokeDashoffset = "0";
-      }, 80 + i * 400);
-    });
+    const live = () => host._animRun === run && !host.hidden && document.contains(host);
+    const play = () => {
+      if (!live()) return;
+      for (const p of inks) {
+        const len = p.getTotalLength();
+        p.style.transition = "none";
+        p.style.strokeDasharray = String(len);
+        p.style.strokeDashoffset = String(len);
+      }
+      host.getBoundingClientRect(); // flush styles before animating
+      inks.forEach((p, i) => {
+        setTimeout(() => {
+          if (!live()) return;
+          p.style.transition = "stroke-dashoffset 250ms ease";
+          p.style.strokeDashoffset = "0";
+        }, 80 + i * 400);
+      });
+      setTimeout(play, 80 + inks.length * 400 + 1500);
+    };
+    play();
   },
 };
 
