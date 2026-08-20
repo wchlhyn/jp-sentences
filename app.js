@@ -341,19 +341,26 @@ const Writing = {
     if (this.data) this.byWord = new Map(this.data.words.map(e => [e.word, e]));
   },
 
-  // the box publishes the whole eligible pool; the day's sheet is assembled
-  // here: flagged-due words first, then least-recently-written (random within
-  // ties). last_written lives in IndexedDB like all other progress state.
-  async buildDay(force) {
-    const today = todayKey();
-    const stored = await Progress.kvGet("wsheet");
-    if (!force && stored && stored.date === today) {
-      const words = stored.words.filter(w => this.byWord.has(w));
-      if (words.length) return words;
+  // the box publishes the whole eligible pool; sheets are assembled here:
+  // flagged-due words lead the first sheet of a day, then least-recently-
+  // written (random within ties). Old sheets stay browsable; only building a
+  // NEW sheet stamps last_written.
+  async loadHist() {
+    let h = await Progress.kvGet("wsheethist");
+    if (!h || !Array.isArray(h.sheets) || !h.sheets.length) {
+      const old = await Progress.kvGet("wsheet"); // pre-history storage
+      h = {
+        sheets: old && old.words ? [{ date: old.date, words: old.words }] : [],
+        pos: 0,
+      };
     }
+    h.pos = Math.min(h.pos, h.sheets.length - 1);
+    return h;
+  },
+
+  async buildNew(hist) {
+    const today = todayKey();
     const wstate = (await Progress.kvGet("wstate")) || {};
-    // flagged words lead only the first sheet of the day; a regenerated sheet
-    // is pure rotation (anything stamped today sorts to the back anyway)
     const flagged = [...this.flags.values()]
       .filter(f => Date.now() - f.flaggedAt >= REVISIT_AFTER_MS
         && this.byWord.has(f.kanji) && (wstate[f.kanji] || "") !== today)
@@ -367,11 +374,12 @@ const Writing = {
     const day = [...new Set([...flagged, ...rest])].slice(0, WSHEET_SIZE);
     for (const w of day) wstate[w] = today;
     await Progress.kvPut("wstate", wstate);
-    await Progress.kvPut("wsheet", { date: today, words: day });
-    return day;
+    hist.sheets.push({ date: today, words: day });
+    if (hist.sheets.length > 30) hist.sheets.splice(0, hist.sheets.length - 30);
+    hist.pos = hist.sheets.length - 1;
   },
 
-  async show(force) {
+  async show(action) {
     App.view = "writing";
     navBack.hidden = true;
     navCount.textContent = "";
@@ -384,16 +392,27 @@ const Writing = {
     const flagRecs = (await tx(Progress.db, "writing", "readonly", s => s.getAll())) || [];
     this.flags = new Map(flagRecs.map(f => [f.kanji, f]));
 
-    const day = await this.buildDay(force);
-    const entries = day.map(w => this.byWord.get(w));
+    const hist = await this.loadHist();
+    const last = hist.sheets[hist.sheets.length - 1];
+    if (action === "prev" && hist.pos > 0) hist.pos--;
+    else if (action === "next" && hist.pos < hist.sheets.length - 1) hist.pos++;
+    else if (action === "new" || !last || (hist.pos === hist.sheets.length - 1
+        && last.date !== todayKey())) {
+      await this.buildNew(hist);
+    }
+    await Progress.kvPut("wsheethist", hist);
+
+    const sheet = hist.sheets[hist.pos];
+    const entries = sheet.words.map(w => this.byWord.get(w)).filter(Boolean);
     const nKanji = entries.reduce((a, e) => a + e.kanji.length, 0);
-    const dueFlags = new Set(day.filter(w => this.flags.has(w)
+    const dueFlags = new Set(sheet.words.filter(w => this.flags.has(w)
       && Date.now() - this.flags.get(w).flaggedAt >= REVISIT_AFTER_MS));
 
     const list = el("div", { class: "wlist" });
     const gen = new Date(this.data.generated_at);
     const head = el("div", { class: "whead" },
-      [`${todayKey()} · ${entries.length} words · ${nKanji} kanji · pool ${this.data.words.length}`]);
+      [`${sheet.date} · sheet ${hist.pos + 1}/${hist.sheets.length}`
+       + ` · ${nKanji} kanji · pool ${this.data.words.length}`]);
     if ((Date.now() - gen.getTime()) / 86400000 > WSTALE_DAYS) {
       head.classList.add("stale");
       head.textContent += ` · pool from ${this.data.generated_at.slice(0, 10)} — is the pipeline running?`;
@@ -402,9 +421,13 @@ const Writing = {
     for (const e of entries) {
       list.append(this.card(dueFlags.has(e.word) ? { ...e, _revisit: true } : e));
     }
+    const prevBtn = btn("", "‹ prev", () => this.show("prev"));
+    if (hist.pos === 0) prevBtn.disabled = true;
+    const nextBtn = btn("", "next ›", () => this.show("next"));
+    if (hist.pos === hist.sheets.length - 1) nextBtn.disabled = true;
     list.append(
       el("div", { class: "wregen" },
-        [btn("", "new sheet ↻", () => this.show(true))]),
+        [prevBtn, btn("primary", "new sheet ↻", () => this.show("new")), nextBtn]),
       el("div", { class: "hint" },
         ["tap a card: kanji + parts → stroke order → hide"]),
     );
