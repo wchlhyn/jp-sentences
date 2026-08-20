@@ -1,6 +1,6 @@
 {
  "version": 3,
- "generated_at": "2026-08-20T22:38:28Z",
+ "generated_at": "2026-08-20T23:13:49Z",
  "words": [
   {
    "word": "お願い",
@@ -8,6 +8,20 @@
    "meaning": "favor",
    "kanji": [
     "願"
+   ],
+   "reading_parts": [
+    [
+     "お",
+     false
+    ],
+    [
+     "ねが",
+     true
+    ],
+    [
+     "い",
+     false
+    ]
    ]
   },
   {
@@ -16,6 +30,20 @@
    "meaning": "please",
    "kanji": [
     "願"
+   ],
+   "reading_parts": [
+    [
+     "お",
+     false
+    ],
+    [
+     "ねが",
+     true
+    ],
+    [
+     "いします",
+     false
+    ]
    ]
   },
   {
@@ -24,6 +52,16 @@
    "meaning": "cooked rice, meal",
    "kanji": [
     "飯"
+   ],
+   "reading_parts": [
+    [
+     "ご",
+     false
+    ],
+    [
+     "はん",
+     true
+    ]
    ]
   },
   {
@@ -32,6 +70,12 @@
    "meaning": "one",
    "kanji": [
     "一"
+   ],
+   "reading_parts": [
+    [
+     "いち",
+     true
+    ]
    ]
   },
   {
@@ -41,6 +85,12 @@
    "kanji": [
     "一",
     "番"
+   ],
+   "reading_parts": [
+    [
+     "いちばん",
+     true
+    ]
    ]
   },
   {
@@ -49,6 +99,12 @@
    "meaning": "seven",
    "kanji": [
     "七"
+   ],
+   "reading_parts": [
+    [
+     "なな・しち",
+     true
+    ]
    ]
   },
   {
@@ -57,6 +113,12 @@
    "meaning": "three",
    "kanji": [
     "三"
+   ],
+   "reading_parts": [
+    [
+     "さん",
+     true
+    ]
    ]
   },
   {
@@ -65,6 +127,12 @@
    "meaning": "up, above",
    "kanji": [
     "上"
+   ],
+   "reading_parts": [
+    [
+     "うえ",
+     true
+    ]
    ]
   },
   {
@@ -73,6 +141,16 @@
    "meaning": "to raise, to increase",
    "kanji": [
     "上"
+   ],
+   "reading_parts": [
+    [
+     "あ",
+     true
+    ],
+    [
+     "げる",
+     false
+    ]
    ]
   },
   {
@@ -82,6 +160,12 @@
    "kanji": [
     "世",
     "界"
+   ],
+   "reading_parts": [
+    [
+     "せかい",
+     true
+    ]
    ]
   },
   {
@@ -90,6 +174,12 @@
    "meaning": "inside, middle",
    "kanji": [
     "中"
+   ],
+   "reading_parts": [
+    [
+     "なか",
+     true
+    ]
    ]
   },
   {
@@ -98,6 +188,12 @@
    "meaning": "nine",
    "kanji": [
     "九"
+   ],
+   "reading_parts": [
+    [
+     "きゅう",
+     true
+    ]
    ]
   },
   {
@@ -106,6 +202,12 @@
    "meaning": "thing, incident",
    "kanji": [
     "事"
+   ],
+   "reading_parts": [
+    [
+     "こと",
+     true
+    ]
    ]
   },
   {
@@ -114,6 +216,12 @@
    "meaning": "two",
    "kanji": [
     "二"
+   ],
+   "reading_parts": [
+    [
+     "に",
+     true
+    ]
    ]
   },
   {
@@ -122,6 +230,12 @@
    "meaning": "five",
    "kanji": [
     "五"
+   ],
+   "reading_parts": [
+    [
+     "ご",
+     true
+    ]
    ]
   },
   {
@@ -130,6 +244,12 @@
    "meaning": "person",
    "kanji": [
     "人"
+   ],
+   "reading_parts": [
+    [
+     "ひと",
+     true
+    ]
    ]
   },
   {
@@ -139,6 +259,12 @@
    "kanji": [
     "人",
     "間"
+   ],
+   "reading_parts": [
+    [
+     "にんげん",
+     true
+    ]
    ]
   },
   {
@@ -147,6 +273,12 @@
    "meaning": "now",
    "kanji": [
     "今"
+   ],
+   "reading_parts": [
+    [
+     "いま",
+     true
+    ]
    ]
   },
   {
@@ -155,6 +287,16 @@
    "meaning": "until now",
    "kanji": [
     "今"
+   ],
+   "reading_parts": [
+    [
+     "いま",
+     true
+    ],
+    [
+     "まで",
+     false
+    ]
    ]
   },
   {
@@ -164,6 +306,12 @@
    "kanji": [
     "今",
     "回"
+   ],
+   "reading_parts": [
+    [
+     "こんかい",
+     true
+    ]
    ]
   },
   {
@@ -173,6 +321,12 @@
    "kanji": [
     "今",
     "度"
+   ],
+   "reading_parts": [
+    [
+     "こんど",
+     true
+    ]
    ]
   },
   {
@@ -182,6 +336,12 @@
    "kanji": [
     "今",
     "日"
+   ],
+   "reading_parts": [
+    [
+     "きょう",
+     true
+    ]
    ]
   },
   {
@@ -191,6 +351,12 @@
    "kanji": [
     "今",
     "朝"
+   ],
+   "reading_parts": [
+    [
+     "けさ",
+     true
+    ]
    ]
   },
   {
@@ -200,6 +366,12 @@
    "kanji": [
     "仕",
     "事"
+   ],
+   "reading_parts": [
+    [
+     "しごと",
+     true
+    ]
    ]
   },
   {
@@ -208,6 +380,16 @@
    "meaning": "to meet",
    "kanji": [
     "会"
+   ],
+   "reading_parts": [
+    [
+     "あ",
+     true
+    ],
+    [
+     "う",
+     false
+    ]
    ]
   },
   {
@@ -216,6 +398,16 @@
    "meaning": "to convey, to transmit",
    "kanji": [
     "伝"
+   ],
+   "reading_parts": [
+    [
+     "つた",
+     true
+    ],
+    [
+     "える",
+     false
+    ]
    ]
   },
   {
@@ -224,6 +416,16 @@
    "meaning": "to live, to reside",
    "kanji": [
     "住"
+   ],
+   "reading_parts": [
+    [
+     "す",
+     true
+    ],
+    [
+     "む",
+     false
+    ]
    ]
   },
   {
@@ -232,6 +434,12 @@
    "meaning": "what",
    "kanji": [
     "何"
+   ],
+   "reading_parts": [
+    [
+     "なに・なん",
+     true
+    ]
    ]
   },
   {
@@ -240,6 +448,16 @@
    "meaning": "to make, to create",
    "kanji": [
     "作"
+   ],
+   "reading_parts": [
+    [
+     "つく",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -248,6 +466,16 @@
    "meaning": "to use",
    "kanji": [
     "使"
+   ],
+   "reading_parts": [
+    [
+     "つか",
+     true
+    ],
+    [
+     "う",
+     false
+    ]
    ]
   },
   {
@@ -256,6 +484,16 @@
    "meaning": "to believe, to trust",
    "kanji": [
     "信"
+   ],
+   "reading_parts": [
+    [
+     "しん",
+     true
+    ],
+    [
+     "じる",
+     false
+    ]
    ]
   },
   {
@@ -264,6 +502,12 @@
    "meaning": "I (male)",
    "kanji": [
     "俺"
+   ],
+   "reading_parts": [
+    [
+     "おれ",
+     true
+    ]
    ]
   },
   {
@@ -272,6 +516,12 @@
    "meaning": "I (male)",
    "kanji": [
     "僕"
+   ],
+   "reading_parts": [
+    [
+     "ぼく",
+     true
+    ]
    ]
   },
   {
@@ -280,6 +530,16 @@
    "meaning": "gentle, kind",
    "kanji": [
     "優"
+   ],
+   "reading_parts": [
+    [
+     "やさ",
+     true
+    ],
+    [
+     "しい",
+     false
+    ]
    ]
   },
   {
@@ -289,6 +549,12 @@
    "kanji": [
     "元",
     "気"
+   ],
+   "reading_parts": [
+    [
+     "げんき",
+     true
+    ]
    ]
   },
   {
@@ -297,6 +563,12 @@
    "meaning": "older brother",
    "kanji": [
     "兄"
+   ],
+   "reading_parts": [
+    [
+     "あに",
+     true
+    ]
    ]
   },
   {
@@ -306,6 +578,12 @@
    "kanji": [
     "先",
     "生"
+   ],
+   "reading_parts": [
+    [
+     "せんせい",
+     true
+    ]
    ]
   },
   {
@@ -314,6 +592,16 @@
    "meaning": "to enter",
    "kanji": [
     "入"
+   ],
+   "reading_parts": [
+    [
+     "はい",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -322,6 +610,16 @@
    "meaning": "entirely, truly",
    "kanji": [
     "全"
+   ],
+   "reading_parts": [
+    [
+     "まった",
+     true
+    ],
+    [
+     "く",
+     false
+    ]
    ]
   },
   {
@@ -331,6 +629,12 @@
    "kanji": [
     "全",
     "然"
+   ],
+   "reading_parts": [
+    [
+     "ぜんぜん",
+     true
+    ]
    ]
   },
   {
@@ -339,6 +643,12 @@
    "meaning": "eight",
    "kanji": [
     "八"
+   ],
+   "reading_parts": [
+    [
+     "はち",
+     true
+    ]
    ]
   },
   {
@@ -347,6 +657,12 @@
    "meaning": "six",
    "kanji": [
     "六"
+   ],
+   "reading_parts": [
+    [
+     "ろく",
+     true
+    ]
    ]
   },
   {
@@ -355,6 +671,16 @@
    "meaning": "to take out",
    "kanji": [
     "出"
+   ],
+   "reading_parts": [
+    [
+     "だ",
+     true
+    ],
+    [
+     "す",
+     false
+    ]
    ]
   },
   {
@@ -363,6 +689,16 @@
    "meaning": "to go out, to leave",
    "kanji": [
     "出"
+   ],
+   "reading_parts": [
+    [
+     "で",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -372,6 +708,16 @@
    "kanji": [
     "出",
     "来"
+   ],
+   "reading_parts": [
+    [
+     "でき",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -380,6 +726,16 @@
    "meaning": "to understand",
    "kanji": [
     "分"
+   ],
+   "reading_parts": [
+    [
+     "わ",
+     true
+    ],
+    [
+     "かる",
+     false
+    ]
    ]
   },
   {
@@ -388,6 +744,12 @@
    "meaning": "front, before",
    "kanji": [
     "前"
+   ],
+   "reading_parts": [
+    [
+     "まえ",
+     true
+    ]
    ]
   },
   {
@@ -396,6 +758,12 @@
    "meaning": "strength, power",
    "kanji": [
     "力"
+   ],
+   "reading_parts": [
+    [
+     "ちから",
+     true
+    ]
    ]
   },
   {
@@ -405,6 +773,12 @@
    "kanji": [
     "勉",
     "強"
+   ],
+   "reading_parts": [
+    [
+     "べんきょう",
+     true
+    ]
    ]
   },
   {
@@ -413,6 +787,16 @@
    "meaning": "to move",
    "kanji": [
     "動"
+   ],
+   "reading_parts": [
+    [
+     "うご",
+     true
+    ],
+    [
+     "く",
+     false
+    ]
    ]
   },
   {
@@ -421,6 +805,12 @@
    "meaning": "ten",
    "kanji": [
     "十"
+   ],
+   "reading_parts": [
+    [
+     "じゅう",
+     true
+    ]
    ]
   },
   {
@@ -430,6 +820,12 @@
    "kanji": [
     "友",
     "達"
+   ],
+   "reading_parts": [
+    [
+     "ともだち",
+     true
+    ]
    ]
   },
   {
@@ -438,6 +834,16 @@
    "meaning": "same, identical",
    "kanji": [
     "同"
+   ],
+   "reading_parts": [
+    [
+     "おな",
+     true
+    ],
+    [
+     "じ",
+     false
+    ]
    ]
   },
   {
@@ -447,6 +853,12 @@
    "kanji": [
     "名",
     "前"
+   ],
+   "reading_parts": [
+    [
+     "なまえ",
+     true
+    ]
    ]
   },
   {
@@ -455,6 +867,12 @@
    "meaning": "you (to someone of equal or lower status)",
    "kanji": [
     "君"
+   ],
+   "reading_parts": [
+    [
+     "きみ",
+     true
+    ]
    ]
   },
   {
@@ -463,6 +881,16 @@
    "meaning": "to call, to name",
    "kanji": [
     "呼"
+   ],
+   "reading_parts": [
+    [
+     "よ",
+     true
+    ],
+    [
+     "ぶ",
+     false
+    ]
    ]
   },
   {
@@ -471,6 +899,12 @@
    "meaning": "four",
    "kanji": [
     "四"
+   ],
+   "reading_parts": [
+    [
+     "よん・し",
+     true
+    ]
    ]
   },
   {
@@ -479,6 +913,12 @@
    "meaning": "country",
    "kanji": [
     "国"
+   ],
+   "reading_parts": [
+    [
+     "くに",
+     true
+    ]
    ]
   },
   {
@@ -488,6 +928,12 @@
    "kanji": [
     "場",
     "所"
+   ],
+   "reading_parts": [
+    [
+     "ばしょ",
+     true
+    ]
    ]
   },
   {
@@ -496,6 +942,12 @@
    "meaning": "voice, sound",
    "kanji": [
     "声"
+   ],
+   "reading_parts": [
+    [
+     "こえ",
+     true
+    ]
    ]
   },
   {
@@ -504,6 +956,16 @@
    "meaning": "to change, to alter",
    "kanji": [
     "変"
+   ],
+   "reading_parts": [
+    [
+     "か",
+     true
+    ],
+    [
+     "える",
+     false
+    ]
    ]
   },
   {
@@ -512,6 +974,16 @@
    "meaning": "many, much",
    "kanji": [
     "多"
+   ],
+   "reading_parts": [
+    [
+     "おお",
+     true
+    ],
+    [
+     "く",
+     false
+    ]
    ]
   },
   {
@@ -520,6 +992,12 @@
    "meaning": "evening, night",
    "kanji": [
     "夜"
+   ],
+   "reading_parts": [
+    [
+     "よる",
+     true
+    ]
    ]
   },
   {
@@ -528,6 +1006,12 @@
    "meaning": "dream",
    "kanji": [
     "夢"
+   ],
+   "reading_parts": [
+    [
+     "ゆめ",
+     true
+    ]
    ]
   },
   {
@@ -536,6 +1020,16 @@
    "meaning": "big, large",
    "kanji": [
     "大"
+   ],
+   "reading_parts": [
+    [
+     "おお",
+     true
+    ],
+    [
+     "きい",
+     false
+    ]
    ]
   },
   {
@@ -544,6 +1038,16 @@
    "meaning": "big, large",
    "kanji": [
     "大"
+   ],
+   "reading_parts": [
+    [
+     "おお",
+     true
+    ],
+    [
+     "きな",
+     false
+    ]
    ]
   },
   {
@@ -554,6 +1058,12 @@
     "大",
     "丈",
     "夫"
+   ],
+   "reading_parts": [
+    [
+     "だいじょうぶ",
+     true
+    ]
    ]
   },
   {
@@ -563,6 +1073,16 @@
    "kanji": [
     "大",
     "好"
+   ],
+   "reading_parts": [
+    [
+     "だいす",
+     true
+    ],
+    [
+     "き",
+     false
+    ]
    ]
   },
   {
@@ -572,6 +1092,16 @@
    "kanji": [
     "失",
     "礼"
+   ],
+   "reading_parts": [
+    [
+     "しつれい",
+     true
+    ],
+    [
+     "します",
+     false
+    ]
    ]
   },
   {
@@ -581,6 +1111,20 @@
    "kanji": [
     "女",
     "子"
+   ],
+   "reading_parts": [
+    [
+     "おんな",
+     true
+    ],
+    [
+     "の",
+     false
+    ],
+    [
+     "こ",
+     true
+    ]
    ]
   },
   {
@@ -589,6 +1133,12 @@
    "meaning": "that guy, (s)he (usu. derogatory)",
    "kanji": [
     "奴"
+   ],
+   "reading_parts": [
+    [
+     "やつ",
+     true
+    ]
    ]
   },
   {
@@ -597,6 +1147,16 @@
    "meaning": "fond of, liked",
    "kanji": [
     "好"
+   ],
+   "reading_parts": [
+    [
+     "す",
+     true
+    ],
+    [
+     "き",
+     false
+    ]
    ]
   },
   {
@@ -605,6 +1165,12 @@
    "meaning": "younger sister",
    "kanji": [
     "妹"
+   ],
+   "reading_parts": [
+    [
+     "いもうと",
+     true
+    ]
    ]
   },
   {
@@ -613,6 +1179,12 @@
    "meaning": "older sister",
    "kanji": [
     "姉"
+   ],
+   "reading_parts": [
+    [
+     "あね",
+     true
+    ]
    ]
   },
   {
@@ -621,6 +1193,16 @@
    "meaning": "to start",
    "kanji": [
     "始"
+   ],
+   "reading_parts": [
+    [
+     "はじ",
+     true
+    ],
+    [
+     "める",
+     false
+    ]
    ]
   },
   {
@@ -629,6 +1211,12 @@
    "meaning": "figure, appearance",
    "kanji": [
     "姿"
+   ],
+   "reading_parts": [
+    [
+     "すがた",
+     true
+    ]
    ]
   },
   {
@@ -637,6 +1225,12 @@
    "meaning": "disliking, unwilling (to do)",
    "kanji": [
     "嫌"
+   ],
+   "reading_parts": [
+    [
+     "いや",
+     true
+    ]
    ]
   },
   {
@@ -645,6 +1239,16 @@
    "meaning": "dislike",
    "kanji": [
     "嫌"
+   ],
+   "reading_parts": [
+    [
+     "きら",
+     true
+    ],
+    [
+     "い",
+     false
+    ]
    ]
   },
   {
@@ -653,6 +1257,16 @@
    "meaning": "happy, glad",
    "kanji": [
     "嬉"
+   ],
+   "reading_parts": [
+    [
+     "うれ",
+     true
+    ],
+    [
+     "しい",
+     false
+    ]
    ]
   },
   {
@@ -661,6 +1275,12 @@
    "meaning": "child, kid",
    "kanji": [
     "子"
+   ],
+   "reading_parts": [
+    [
+     "こ",
+     true
+    ]
    ]
   },
   {
@@ -670,6 +1290,12 @@
    "kanji": [
     "学",
     "校"
+   ],
+   "reading_parts": [
+    [
+     "がっこう",
+     true
+    ]
    ]
   },
   {
@@ -678,6 +1304,16 @@
    "meaning": "to protect, to observe",
    "kanji": [
     "守"
+   ],
+   "reading_parts": [
+    [
+     "まも",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -686,6 +1322,12 @@
    "meaning": "house, home",
    "kanji": [
     "家"
+   ],
+   "reading_parts": [
+    [
+     "いえ",
+     true
+    ]
    ]
   },
   {
@@ -695,6 +1337,12 @@
    "kanji": [
     "家",
     "族"
+   ],
+   "reading_parts": [
+    [
+     "かぞく",
+     true
+    ]
    ]
   },
   {
@@ -703,6 +1351,16 @@
    "meaning": "to sleep",
    "kanji": [
     "寝"
+   ],
+   "reading_parts": [
+    [
+     "ね",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -711,6 +1369,16 @@
    "meaning": "small",
    "kanji": [
     "小"
+   ],
+   "reading_parts": [
+    [
+     "ちい",
+     true
+    ],
+    [
+     "さい",
+     false
+    ]
    ]
   },
   {
@@ -719,6 +1387,16 @@
    "meaning": "a bit, a little while",
    "kanji": [
     "少"
+   ],
+   "reading_parts": [
+    [
+     "すこ",
+     true
+    ],
+    [
+     "し",
+     false
+    ]
    ]
   },
   {
@@ -727,6 +1405,16 @@
    "meaning": "to return, to go back",
    "kanji": [
     "帰"
+   ],
+   "reading_parts": [
+    [
+     "かえ",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -735,6 +1423,16 @@
    "meaning": "to sit",
    "kanji": [
     "座"
+   ],
+   "reading_parts": [
+    [
+     "すわ",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -743,6 +1441,12 @@
    "meaning": "younger brother",
    "kanji": [
     "弟"
+   ],
+   "reading_parts": [
+    [
+     "おとうと",
+     true
+    ]
    ]
   },
   {
@@ -751,6 +1455,16 @@
    "meaning": "strong",
    "kanji": [
     "強"
+   ],
+   "reading_parts": [
+    [
+     "つよ",
+     true
+    ],
+    [
+     "い",
+     false
+    ]
    ]
   },
   {
@@ -759,6 +1473,12 @@
    "meaning": "he, him",
    "kanji": [
     "彼"
+   ],
+   "reading_parts": [
+    [
+     "かれ",
+     true
+    ]
    ]
   },
   {
@@ -768,6 +1488,12 @@
    "kanji": [
     "彼",
     "女"
+   ],
+   "reading_parts": [
+    [
+     "かのじょ",
+     true
+    ]
    ]
   },
   {
@@ -776,6 +1502,16 @@
    "meaning": "to wait",
    "kanji": [
     "待"
+   ],
+   "reading_parts": [
+    [
+     "ま",
+     true
+    ],
+    [
+     "つ",
+     false
+    ]
    ]
   },
   {
@@ -785,6 +1521,12 @@
    "kanji": [
     "心",
     "配"
+   ],
+   "reading_parts": [
+    [
+     "しんぱい",
+     true
+    ]
    ]
   },
   {
@@ -793,6 +1535,16 @@
    "meaning": "to forget",
    "kanji": [
     "忘"
+   ],
+   "reading_parts": [
+    [
+     "わす",
+     true
+    ],
+    [
+     "れる",
+     false
+    ]
    ]
   },
   {
@@ -801,6 +1553,16 @@
    "meaning": "busy, occupied",
    "kanji": [
     "忙"
+   ],
+   "reading_parts": [
+    [
+     "いそが",
+     true
+    ],
+    [
+     "しい",
+     false
+    ]
    ]
   },
   {
@@ -809,6 +1571,16 @@
    "meaning": "to think",
    "kanji": [
     "思"
+   ],
+   "reading_parts": [
+    [
+     "おも",
+     true
+    ],
+    [
+     "う",
+     false
+    ]
    ]
   },
   {
@@ -817,6 +1589,16 @@
    "meaning": "bad",
    "kanji": [
     "悪"
+   ],
+   "reading_parts": [
+    [
+     "わる",
+     true
+    ],
+    [
+     "い",
+     false
+    ]
    ]
   },
   {
@@ -826,6 +1608,12 @@
    "kanji": [
     "意",
     "味"
+   ],
+   "reading_parts": [
+    [
+     "いみ",
+     true
+    ]
    ]
   },
   {
@@ -834,6 +1622,16 @@
    "meaning": "to feel, to sense",
    "kanji": [
     "感"
+   ],
+   "reading_parts": [
+    [
+     "かん",
+     true
+    ],
+    [
+     "じる",
+     false
+    ]
    ]
   },
   {
@@ -842,6 +1640,16 @@
    "meaning": "to return, to go back",
    "kanji": [
     "戻"
+   ],
+   "reading_parts": [
+    [
+     "もど",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -850,6 +1658,12 @@
    "meaning": "hand",
    "kanji": [
     "手"
+   ],
+   "reading_parts": [
+    [
+     "て",
+     true
+    ]
    ]
   },
   {
@@ -859,6 +1673,16 @@
    "kanji": [
     "手",
     "伝"
+   ],
+   "reading_parts": [
+    [
+     "てつだ",
+     true
+    ],
+    [
+     "う",
+     false
+    ]
    ]
   },
   {
@@ -867,6 +1691,16 @@
    "meaning": "to have, to hold",
    "kanji": [
     "持"
+   ],
+   "reading_parts": [
+    [
+     "も",
+     true
+    ],
+    [
+     "つ",
+     false
+    ]
    ]
   },
   {
@@ -875,6 +1709,16 @@
    "meaning": "to teach, to tell",
    "kanji": [
     "教"
+   ],
+   "reading_parts": [
+    [
+     "おし",
+     true
+    ],
+    [
+     "える",
+     false
+    ]
    ]
   },
   {
@@ -883,6 +1727,12 @@
    "meaning": "direction, side",
    "kanji": [
     "方"
+   ],
+   "reading_parts": [
+    [
+     "ほう",
+     true
+    ]
    ]
   },
   {
@@ -892,6 +1742,12 @@
    "kanji": [
     "日",
     "本"
+   ],
+   "reading_parts": [
+    [
+     "にほん",
+     true
+    ]
    ]
   },
   {
@@ -902,6 +1758,12 @@
     "日",
     "本",
     "語"
+   ],
+   "reading_parts": [
+    [
+     "にほんご",
+     true
+    ]
    ]
   },
   {
@@ -910,6 +1772,16 @@
    "meaning": "early",
    "kanji": [
     "早"
+   ],
+   "reading_parts": [
+    [
+     "はや",
+     true
+    ],
+    [
+     "い",
+     false
+    ]
    ]
   },
   {
@@ -919,6 +1791,12 @@
    "kanji": [
     "明",
     "日"
+   ],
+   "reading_parts": [
+    [
+     "あした",
+     true
+    ]
    ]
   },
   {
@@ -928,6 +1806,12 @@
    "kanji": [
     "昨",
     "日"
+   ],
+   "reading_parts": [
+    [
+     "きのう",
+     true
+    ]
    ]
   },
   {
@@ -936,6 +1820,12 @@
    "meaning": "time, occasion",
    "kanji": [
     "時"
+   ],
+   "reading_parts": [
+    [
+     "とき",
+     true
+    ]
    ]
   },
   {
@@ -945,6 +1835,12 @@
    "kanji": [
     "時",
     "間"
+   ],
+   "reading_parts": [
+    [
+     "じかん",
+     true
+    ]
    ]
   },
   {
@@ -953,6 +1849,12 @@
    "meaning": "free, not busy",
    "kanji": [
     "暇"
+   ],
+   "reading_parts": [
+    [
+     "ひま",
+     true
+    ]
    ]
   },
   {
@@ -961,6 +1863,12 @@
    "meaning": "book",
    "kanji": [
     "本"
+   ],
+   "reading_parts": [
+    [
+     "ほん",
+     true
+    ]
    ]
   },
   {
@@ -970,6 +1878,12 @@
    "kanji": [
     "本",
     "当"
+   ],
+   "reading_parts": [
+    [
+     "ほんとう",
+     true
+    ]
    ]
   },
   {
@@ -978,6 +1892,16 @@
    "meaning": "to come",
    "kanji": [
     "来"
+   ],
+   "reading_parts": [
+    [
+     "く",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -986,6 +1910,16 @@
    "meaning": "fun, enjoyable",
    "kanji": [
     "楽"
+   ],
+   "reading_parts": [
+    [
+     "たの",
+     true
+    ],
+    [
+     "しい",
+     false
+    ]
    ]
   },
   {
@@ -995,6 +1929,12 @@
    "kanji": [
     "様",
     "子"
+   ],
+   "reading_parts": [
+    [
+     "ようす",
+     true
+    ]
    ]
   },
   {
@@ -1003,6 +1943,12 @@
    "meaning": "next, subsequent",
    "kanji": [
     "次"
+   ],
+   "reading_parts": [
+    [
+     "つぎ",
+     true
+    ]
    ]
   },
   {
@@ -1011,6 +1957,16 @@
    "meaning": "to stop (at some place)",
    "kanji": [
     "止"
+   ],
+   "reading_parts": [
+    [
+     "と",
+     true
+    ],
+    [
+     "める",
+     false
+    ]
    ]
   },
   {
@@ -1019,6 +1975,16 @@
    "meaning": "to die",
    "kanji": [
     "死"
+   ],
+   "reading_parts": [
+    [
+     "し",
+     true
+    ],
+    [
+     "ぬ",
+     false
+    ]
    ]
   },
   {
@@ -1027,6 +1993,12 @@
    "meaning": "(speaker's) mother",
    "kanji": [
     "母"
+   ],
+   "reading_parts": [
+    [
+     "はは",
+     true
+    ]
    ]
   },
   {
@@ -1036,6 +2008,12 @@
    "kanji": [
     "毎",
     "年"
+   ],
+   "reading_parts": [
+    [
+     "まいとし",
+     true
+    ]
    ]
   },
   {
@@ -1045,6 +2023,12 @@
    "kanji": [
     "毎",
     "日"
+   ],
+   "reading_parts": [
+    [
+     "まいにち",
+     true
+    ]
    ]
   },
   {
@@ -1054,6 +2038,12 @@
    "kanji": [
     "毎",
     "月"
+   ],
+   "reading_parts": [
+    [
+     "まいつき",
+     true
+    ]
    ]
   },
   {
@@ -1063,6 +2053,16 @@
    "kanji": [
     "気",
     "持"
+   ],
+   "reading_parts": [
+    [
+     "きも",
+     true
+    ],
+    [
+     "ち",
+     false
+    ]
    ]
   },
   {
@@ -1071,6 +2071,12 @@
    "meaning": "water",
    "kanji": [
     "水"
+   ],
+   "reading_parts": [
+    [
+     "みず",
+     true
+    ]
    ]
   },
   {
@@ -1080,6 +2086,12 @@
    "kanji": [
     "沢",
     "山"
+   ],
+   "reading_parts": [
+    [
+     "たくさん",
+     true
+    ]
    ]
   },
   {
@@ -1088,6 +2100,16 @@
    "meaning": "nonexistent, not being",
    "kanji": [
     "無"
+   ],
+   "reading_parts": [
+    [
+     "な",
+     true
+    ],
+    [
+     "い",
+     false
+    ]
    ]
   },
   {
@@ -1096,6 +2118,12 @@
    "meaning": "(speaker's) father",
    "kanji": [
     "父"
+   ],
+   "reading_parts": [
+    [
+     "ちち",
+     true
+    ]
    ]
   },
   {
@@ -1104,6 +2132,12 @@
    "meaning": "thing, object",
    "kanji": [
     "物"
+   ],
+   "reading_parts": [
+    [
+     "もの",
+     true
+    ]
    ]
   },
   {
@@ -1113,6 +2147,12 @@
    "kanji": [
     "理",
     "解"
+   ],
+   "reading_parts": [
+    [
+     "りかい",
+     true
+    ]
    ]
   },
   {
@@ -1122,6 +2162,24 @@
    "kanji": [
     "申",
     "訳"
+   ],
+   "reading_parts": [
+    [
+     "もう",
+     true
+    ],
+    [
+     "し",
+     false
+    ],
+    [
+     "わけ",
+     true
+    ],
+    [
+     "ない",
+     false
+    ]
    ]
   },
   {
@@ -1130,6 +2188,12 @@
    "meaning": "man, male",
    "kanji": [
     "男"
+   ],
+   "reading_parts": [
+    [
+     "おとこ",
+     true
+    ]
    ]
   },
   {
@@ -1139,6 +2203,20 @@
    "kanji": [
     "男",
     "子"
+   ],
+   "reading_parts": [
+    [
+     "おとこ",
+     true
+    ],
+    [
+     "の",
+     false
+    ],
+    [
+     "こ",
+     true
+    ]
    ]
   },
   {
@@ -1147,6 +2225,12 @@
    "meaning": "town, city",
    "kanji": [
     "町"
+   ],
+   "reading_parts": [
+    [
+     "まち",
+     true
+    ]
    ]
   },
   {
@@ -1155,6 +2239,12 @@
    "meaning": "eye",
    "kanji": [
     "目"
+   ],
+   "reading_parts": [
+    [
+     "め",
+     true
+    ]
    ]
   },
   {
@@ -1164,6 +2254,12 @@
    "kanji": [
     "相",
     "手"
+   ],
+   "reading_parts": [
+    [
+     "あいて",
+     true
+    ]
    ]
   },
   {
@@ -1172,6 +2268,16 @@
    "meaning": "to know",
    "kanji": [
     "知"
+   ],
+   "reading_parts": [
+    [
+     "し",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -1180,6 +2286,12 @@
    "meaning": "I (polite, general)",
    "kanji": [
     "私"
+   ],
+   "reading_parts": [
+    [
+     "わたし",
+     true
+    ]
    ]
   },
   {
@@ -1188,6 +2300,16 @@
    "meaning": "to stand, to rise",
    "kanji": [
     "立"
+   ],
+   "reading_parts": [
+    [
+     "た",
+     true
+    ],
+    [
+     "つ",
+     false
+    ]
    ]
   },
   {
@@ -1196,6 +2318,16 @@
    "meaning": "to laugh, to smile",
    "kanji": [
     "笑"
+   ],
+   "reading_parts": [
+    [
+     "わら",
+     true
+    ],
+    [
+     "う",
+     false
+    ]
    ]
   },
   {
@@ -1205,6 +2337,12 @@
    "kanji": [
     "簡",
     "単"
+   ],
+   "reading_parts": [
+    [
+     "かんたん",
+     true
+    ]
    ]
   },
   {
@@ -1214,6 +2352,12 @@
    "kanji": [
     "約",
     "束"
+   ],
+   "reading_parts": [
+    [
+     "やくそく",
+     true
+    ]
    ]
   },
   {
@@ -1222,6 +2366,16 @@
    "meaning": "to continue, to keep up",
    "kanji": [
     "続"
+   ],
+   "reading_parts": [
+    [
+     "つづ",
+     true
+    ],
+    [
+     "ける",
+     false
+    ]
    ]
   },
   {
@@ -1230,6 +2384,16 @@
    "meaning": "to put, to place",
    "kanji": [
     "置"
+   ],
+   "reading_parts": [
+    [
+     "お",
+     true
+    ],
+    [
+     "く",
+     false
+    ]
    ]
   },
   {
@@ -1238,6 +2402,16 @@
    "meaning": "to think, to consider",
    "kanji": [
     "考"
+   ],
+   "reading_parts": [
+    [
+     "かんが",
+     true
+    ],
+    [
+     "える",
+     false
+    ]
    ]
   },
   {
@@ -1246,6 +2420,16 @@
    "meaning": "to hear",
    "kanji": [
     "聞"
+   ],
+   "reading_parts": [
+    [
+     "き",
+     true
+    ],
+    [
+     "く",
+     false
+    ]
    ]
   },
   {
@@ -1255,6 +2439,12 @@
    "kanji": [
     "自",
     "分"
+   ],
+   "reading_parts": [
+    [
+     "じぶん",
+     true
+    ]
    ]
   },
   {
@@ -1263,6 +2453,16 @@
    "meaning": "to go",
    "kanji": [
     "行"
+   ],
+   "reading_parts": [
+    [
+     "い",
+     true
+    ],
+    [
+     "く",
+     false
+    ]
    ]
   },
   {
@@ -1271,6 +2471,16 @@
    "meaning": "be visible",
    "kanji": [
     "見"
+   ],
+   "reading_parts": [
+    [
+     "み",
+     true
+    ],
+    [
+     "える",
+     false
+    ]
    ]
   },
   {
@@ -1279,6 +2489,16 @@
    "meaning": "to show",
    "kanji": [
     "見"
+   ],
+   "reading_parts": [
+    [
+     "み",
+     true
+    ],
+    [
+     "せる",
+     false
+    ]
    ]
   },
   {
@@ -1287,6 +2507,16 @@
    "meaning": "to see, to look at",
    "kanji": [
     "見"
+   ],
+   "reading_parts": [
+    [
+     "み",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -1295,6 +2525,16 @@
    "meaning": "to say",
    "kanji": [
     "言"
+   ],
+   "reading_parts": [
+    [
+     "い",
+     true
+    ],
+    [
+     "う",
+     false
+    ]
    ]
   },
   {
@@ -1304,6 +2544,12 @@
    "kanji": [
     "言",
     "葉"
+   ],
+   "reading_parts": [
+    [
+     "ことば",
+     true
+    ]
    ]
   },
   {
@@ -1312,6 +2558,16 @@
    "meaning": "to forgive, to permit",
    "kanji": [
     "許"
+   ],
+   "reading_parts": [
+    [
+     "ゆる",
+     true
+    ],
+    [
+     "す",
+     false
+    ]
    ]
   },
   {
@@ -1320,6 +2576,12 @@
    "meaning": "talk, story",
    "kanji": [
     "話"
+   ],
+   "reading_parts": [
+    [
+     "はなし",
+     true
+    ]
    ]
   },
   {
@@ -1328,6 +2590,16 @@
    "meaning": "to talk, to speak",
    "kanji": [
     "話"
+   ],
+   "reading_parts": [
+    [
+     "はな",
+     true
+    ],
+    [
+     "す",
+     false
+    ]
    ]
   },
   {
@@ -1336,6 +2608,12 @@
    "meaning": "who",
    "kanji": [
     "誰"
+   ],
+   "reading_parts": [
+    [
+     "だれ",
+     true
+    ]
    ]
   },
   {
@@ -1344,6 +2622,16 @@
    "meaning": "to look up, to search",
    "kanji": [
     "調"
+   ],
+   "reading_parts": [
+    [
+     "しら",
+     true
+    ],
+    [
+     "べる",
+     false
+    ]
    ]
   },
   {
@@ -1352,6 +2640,16 @@
    "meaning": "to buy",
    "kanji": [
     "買"
+   ],
+   "reading_parts": [
+    [
+     "か",
+     true
+    ],
+    [
+     "う",
+     false
+    ]
    ]
   },
   {
@@ -1360,6 +2658,16 @@
    "meaning": "to move forward",
    "kanji": [
     "進"
+   ],
+   "reading_parts": [
+    [
+     "すす",
+     true
+    ],
+    [
+     "む",
+     false
+    ]
    ]
   },
   {
@@ -1368,6 +2676,16 @@
    "meaning": "to differ, to be wrong",
    "kanji": [
     "違"
+   ],
+   "reading_parts": [
+    [
+     "ちが",
+     true
+    ],
+    [
+     "う",
+     false
+    ]
    ]
   },
   {
@@ -1376,6 +2694,16 @@
    "meaning": "to choose, to elect",
    "kanji": [
     "選"
+   ],
+   "reading_parts": [
+    [
+     "えら",
+     true
+    ],
+    [
+     "ぶ",
+     false
+    ]
    ]
   },
   {
@@ -1385,6 +2713,12 @@
    "kanji": [
     "部",
     "屋"
+   ],
+   "reading_parts": [
+    [
+     "へや",
+     true
+    ]
    ]
   },
   {
@@ -1393,6 +2727,16 @@
    "meaning": "difficult",
    "kanji": [
     "難"
+   ],
+   "reading_parts": [
+    [
+     "むずか",
+     true
+    ],
+    [
+     "しい",
+     false
+    ]
    ]
   },
   {
@@ -1402,6 +2746,16 @@
    "kanji": [
     "面",
     "白"
+   ],
+   "reading_parts": [
+    [
+     "おもしろ",
+     true
+    ],
+    [
+     "い",
+     false
+    ]
    ]
   },
   {
@@ -1411,6 +2765,16 @@
    "kanji": [
     "頑",
     "張"
+   ],
+   "reading_parts": [
+    [
+     "がんば",
+     true
+    ],
+    [
+     "る",
+     false
+    ]
    ]
   },
   {
@@ -1419,6 +2783,12 @@
    "meaning": "head",
    "kanji": [
     "頭"
+   ],
+   "reading_parts": [
+    [
+     "あたま",
+     true
+    ]
    ]
   },
   {
@@ -1427,6 +2797,16 @@
    "meaning": "to ask, to request",
    "kanji": [
     "頼"
+   ],
+   "reading_parts": [
+    [
+     "たの",
+     true
+    ],
+    [
+     "む",
+     false
+    ]
    ]
   },
   {
@@ -1435,6 +2815,12 @@
    "meaning": "face",
    "kanji": [
     "顔"
+   ],
+   "reading_parts": [
+    [
+     "かお",
+     true
+    ]
    ]
   },
   {
@@ -1443,6 +2829,16 @@
    "meaning": "to eat",
    "kanji": [
     "食"
+   ],
+   "reading_parts": [
+    [
+     "た",
+     true
+    ],
+    [
+     "べる",
+     false
+    ]
    ]
   },
   {
@@ -1451,6 +2847,16 @@
    "meaning": "to drink",
    "kanji": [
     "飲"
+   ],
+   "reading_parts": [
+    [
+     "の",
+     true
+    ],
+    [
+     "む",
+     false
+    ]
    ]
   },
   {
@@ -1459,6 +2865,16 @@
    "meaning": "expensive",
    "kanji": [
     "高"
+   ],
+   "reading_parts": [
+    [
+     "たか",
+     true
+    ],
+    [
+     "い",
+     false
+    ]
    ]
   }
  ],

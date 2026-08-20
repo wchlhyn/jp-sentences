@@ -442,8 +442,18 @@ const Writing = {
 
   card(e) {
     let stage = 0;
+    // kanji-backed spans of the reading are marked so it's clear which kana
+    // the kanji replaces (お·ねが·いします → only ねが becomes 願)
+    const reading = el("span", { class: "wreading" });
+    if (e.reading_parts) {
+      for (const [text, isKanji] of e.reading_parts) {
+        reading.append(isKanji ? el("span", { class: "wkj" }, [text]) : text);
+      }
+    } else {
+      reading.append(e.reading);
+    }
     const prompt = el("div", { class: "wprompt" }, [
-      el("span", { class: "wreading" }, [e.reading]),
+      reading,
       el("span", { class: "wmeaning" }, [`  /  ${e.meaning}`]),
       ...(e._revisit ? [el("span", { class: "wrevisit" }, [" ↻"])] : []),
     ]);

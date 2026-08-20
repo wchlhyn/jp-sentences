@@ -223,3 +223,11 @@ ruby rt {
 .wstrokes { flex-wrap: wrap; }
 
 .wregen { display: flex; justify-content: center; gap: 0.6rem; margin-top: 0.4rem; }
+
+/* kanji-backed portion of a reading prompt */
+.wkj {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
