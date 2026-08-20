@@ -214,3 +214,10 @@ ruby rt {
 .wsvg .wink-static { stroke: var(--ink); }
 .wsvg .wnum { font-size: 9px; fill: var(--accent); }
 .wcontrols { justify-content: flex-end; }
+
+/* multi-kanji writing cards + the hidden-attribute fix (display rules on
+   .wstrokes etc. would otherwise override [hidden]) */
+[hidden] { display: none !important; }
+.wkblock { display: flex; align-items: center; gap: 1rem; margin-top: 0.5rem; }
+.wkinfo { min-width: 0; }
+.wstrokes { flex-wrap: wrap; }

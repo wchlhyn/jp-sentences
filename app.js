@@ -344,18 +344,19 @@ const Writing = {
     const flagRecs = (await tx(Progress.db, "writing", "readonly", s => s.getAll())) || [];
     this.flags = new Map(flagRecs.map(f => [f.kanji, f]));
 
-    // flagged kanji resurface locally after a cooldown, ahead of the sheet;
+    // flagged words resurface locally after a cooldown, ahead of the sheet;
     // the box never learns about the flag
-    const sheetKanji = new Set(this.data.sheet.map(e => e.kanji));
+    const sheetWords = new Set(this.data.sheet.map(e => e.word));
     const revisits = flagRecs
-      .filter(f => f.entry && !sheetKanji.has(f.kanji)
+      .filter(f => f.entry && !sheetWords.has(f.entry.word)
         && Date.now() - f.flaggedAt >= REVISIT_AFTER_MS)
       .map(f => ({ ...f.entry, _revisit: true }));
 
+    const nKanji = this.data.sheet.reduce((a, e) => a + e.kanji.length, 0);
     const list = el("div", { class: "wlist" });
     const gen = new Date(this.data.generated_at);
     const head = el("div", { class: "whead" },
-      [`sheet ${this.data.generated_at.slice(0, 10)} · ${this.data.sheet.length} kanji`
+      [`sheet ${this.data.generated_at.slice(0, 10)} · ${this.data.sheet.length} words · ${nKanji} kanji`
        + (revisits.length ? ` · ${revisits.length} revisit` : "")]);
     if ((Date.now() - gen.getTime()) / 86400000 > STALE_DAYS) {
       head.classList.add("stale");
@@ -380,20 +381,21 @@ const Writing = {
     reveal.hidden = strokes.hidden = true;
 
     const flagBtn = btn("", "couldn't recall", async () => {
-      if (this.flags.has(e.kanji)) {
-        await tx(Progress.db, "writing", "readwrite", s => s.delete(e.kanji));
-        this.flags.delete(e.kanji);
+      if (this.flags.has(e.word)) {
+        await tx(Progress.db, "writing", "readwrite", s => s.delete(e.word));
+        this.flags.delete(e.word);
         flagBtn.classList.remove("on");
       } else {
         const entry = { ...e };
         delete entry._revisit;
-        const rec = { kanji: e.kanji, flaggedAt: Date.now(), entry };
+        // store keyPath is "kanji" for historical reasons; the key is the word
+        const rec = { kanji: e.word, flaggedAt: Date.now(), entry };
         await tx(Progress.db, "writing", "readwrite", s => s.put(rec));
-        this.flags.set(e.kanji, rec);
+        this.flags.set(e.word, rec);
         flagBtn.classList.add("on");
       }
     });
-    if (this.flags.has(e.kanji)) flagBtn.classList.add("on");
+    if (this.flags.has(e.word)) flagBtn.classList.add("on");
 
     const card = el("div", { class: "card wcard" }, [
       prompt, reveal, strokes,
@@ -402,11 +404,16 @@ const Writing = {
     card.addEventListener("click", () => {
       stage = (stage + 1) % 3;
       if (stage === 1 && !reveal.childNodes.length) {
-        reveal.append(
-          el("div", { class: "wkanji" }, [e.kanji]),
-          el("div", { class: "wcomp" }, [e.components || "(no breakdown yet)"]),
-        );
-        if (e.note) reveal.append(el("div", { class: "wnote" }, [e.note]));
+        for (const kb of e.kanji) {
+          const block = el("div", { class: "wkblock" }, [
+            el("div", { class: "wkanji" }, [kb.kanji]),
+            el("div", { class: "wkinfo" }, [
+              el("div", { class: "wcomp" }, [kb.components || "(no breakdown yet)"]),
+              ...(kb.note ? [el("div", { class: "wnote" }, [kb.note])] : []),
+            ]),
+          ]);
+          reveal.append(block);
+        }
       }
       if (stage === 2 && !strokes.childNodes.length) this.buildStrokes(e, strokes);
       reveal.hidden = stage < 1;
@@ -417,55 +424,59 @@ const Writing = {
   },
 
   buildStrokes(e, host) {
-    if (!e.strokes || !e.strokes.length) {
-      host.append(el("div", { class: "wnote" }, ["no stroke data for this kanji"]));
-      return;
-    }
     const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const svg = document.createElementNS(SVG_NS, "svg");
-    svg.setAttribute("viewBox", "0 0 109 109");
-    svg.classList.add("wsvg");
-    for (const d of e.strokes) {
-      const p = document.createElementNS(SVG_NS, "path");
-      p.setAttribute("d", d);
-      p.classList.add(reduced ? "wink-static" : "wunder");
-      svg.append(p);
-    }
-    if (reduced) {
-      // static character with numbered stroke starts instead of animation
-      e.strokes.forEach((d, i) => {
-        const m = /M\s*([\d.]+)[,\s]+([\d.]+)/.exec(d);
-        if (!m) return;
-        const t = document.createElementNS(SVG_NS, "text");
-        t.setAttribute("x", m[1]);
-        t.setAttribute("y", m[2]);
-        t.classList.add("wnum");
-        t.textContent = String(i + 1);
-        svg.append(t);
-      });
-      host.append(svg);
-    } else {
-      for (const d of e.strokes) {
+    let any = false;
+    for (const kb of e.kanji) {
+      if (!kb.strokes || !kb.strokes.length) continue;
+      any = true;
+      const svg = document.createElementNS(SVG_NS, "svg");
+      svg.setAttribute("viewBox", "0 0 109 109");
+      svg.classList.add("wsvg");
+      for (const d of kb.strokes) {
         const p = document.createElementNS(SVG_NS, "path");
         p.setAttribute("d", d);
-        p.classList.add("wink");
+        p.classList.add(reduced ? "wink-static" : "wunder");
         svg.append(p);
       }
-      host.append(svg, btn("", "▶ replay", () => this.animate(host)));
+      if (reduced) {
+        kb.strokes.forEach((d, i) => {
+          const m = /M\s*([\d.]+)[,\s]+([\d.]+)/.exec(d);
+          if (!m) return;
+          const t = document.createElementNS(SVG_NS, "text");
+          t.setAttribute("x", m[1]);
+          t.setAttribute("y", m[2]);
+          t.classList.add("wnum");
+          t.textContent = String(i + 1);
+          svg.append(t);
+        });
+      } else {
+        for (const d of kb.strokes) {
+          const p = document.createElementNS(SVG_NS, "path");
+          p.setAttribute("d", d);
+          p.classList.add("wink");
+          svg.append(p);
+        }
+      }
+      host.append(svg);
+    }
+    if (!any) {
+      host.append(el("div", { class: "wnote" }, ["no stroke data for this word"]));
+    } else if (!reduced) {
+      host.append(btn("", "▶ replay", () => this.animate(host)));
     }
   },
 
   animate(host) {
-    const svg = host.querySelector("svg");
-    if (!svg) return;
-    const inks = [...svg.querySelectorAll(".wink")];
+    // strokes animate across all kanji of the word, left to right
+    const inks = [...host.querySelectorAll(".wink")];
+    if (!inks.length) return;
     for (const p of inks) {
       const len = p.getTotalLength();
       p.style.transition = "none";
       p.style.strokeDasharray = String(len);
       p.style.strokeDashoffset = String(len);
     }
-    svg.getBoundingClientRect(); // flush styles before animating
+    host.getBoundingClientRect(); // flush styles before animating
     inks.forEach((p, i) => {
       setTimeout(() => {
         p.style.transition = "stroke-dashoffset 250ms ease";
