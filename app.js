@@ -318,52 +318,82 @@ const App = {
 
 const SVG_NS = "http://www.w3.org/2000/svg";
 const REVISIT_AFTER_MS = 2 * 86400000;
+const WSHEET_SIZE = 9;
+const WSTALE_DAYS = 7; // the pool only changes when eligibility does
 
 const Writing = {
   data: null,
+  byWord: null,
   flags: new Map(),
 
-  async fetchSheet() {
+  async fetchPool() {
     if (this.data) return;
     try {
       const res = await fetch("./writing.json");
-      this.data = res.ok ? await res.json() : null;
+      const d = res.ok ? await res.json() : null;
+      this.data = d && d.version >= 3 ? d : null;
     } catch { this.data = null; }
+    if (this.data) this.byWord = new Map(this.data.words.map(e => [e.word, e]));
+  },
+
+  // the box publishes the whole eligible pool; the day's sheet is assembled
+  // here: flagged-due words first, then least-recently-written (random within
+  // ties). last_written lives in IndexedDB like all other progress state.
+  async buildDay() {
+    const today = todayKey();
+    const stored = await Progress.kvGet("wsheet");
+    if (stored && stored.date === today) {
+      const words = stored.words.filter(w => this.byWord.has(w));
+      if (words.length) return words;
+    }
+    const wstate = (await Progress.kvGet("wstate")) || {};
+    const flagged = [...this.flags.values()]
+      .filter(f => Date.now() - f.flaggedAt >= REVISIT_AFTER_MS && this.byWord.has(f.kanji))
+      .map(f => f.kanji);
+    const rest = this.data.words
+      .map(e => e.word)
+      .filter(w => !flagged.includes(w))
+      .map(w => [wstate[w] || "", Math.random(), w])
+      .sort((a, b) => (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : a[1] - b[1]))
+      .map(x => x[2]);
+    const day = [...new Set([...flagged, ...rest])].slice(0, WSHEET_SIZE);
+    for (const w of day) wstate[w] = today;
+    await Progress.kvPut("wstate", wstate);
+    await Progress.kvPut("wsheet", { date: today, words: day });
+    return day;
   },
 
   async show() {
     App.view = "writing";
     navBack.hidden = true;
     navCount.textContent = "";
-    await this.fetchSheet();
+    await this.fetchPool();
     if (!this.data) {
       screen.replaceChildren(el("div", { class: "center" },
-        [el("p", {}, ["No writing sheet published yet."])]));
+        [el("p", {}, ["No writing pool published yet."])]));
       return;
     }
     const flagRecs = (await tx(Progress.db, "writing", "readonly", s => s.getAll())) || [];
     this.flags = new Map(flagRecs.map(f => [f.kanji, f]));
 
-    // flagged words resurface locally after a cooldown, ahead of the sheet;
-    // the box never learns about the flag
-    const sheetWords = new Set(this.data.sheet.map(e => e.word));
-    const revisits = flagRecs
-      .filter(f => f.entry && !sheetWords.has(f.entry.word)
-        && Date.now() - f.flaggedAt >= REVISIT_AFTER_MS)
-      .map(f => ({ ...f.entry, _revisit: true }));
+    const day = await this.buildDay();
+    const entries = day.map(w => this.byWord.get(w));
+    const nKanji = entries.reduce((a, e) => a + e.kanji.length, 0);
+    const dueFlags = new Set(day.filter(w => this.flags.has(w)
+      && Date.now() - this.flags.get(w).flaggedAt >= REVISIT_AFTER_MS));
 
-    const nKanji = this.data.sheet.reduce((a, e) => a + e.kanji.length, 0);
     const list = el("div", { class: "wlist" });
     const gen = new Date(this.data.generated_at);
     const head = el("div", { class: "whead" },
-      [`sheet ${this.data.generated_at.slice(0, 10)} · ${this.data.sheet.length} words · ${nKanji} kanji`
-       + (revisits.length ? ` · ${revisits.length} revisit` : "")]);
-    if ((Date.now() - gen.getTime()) / 86400000 > STALE_DAYS) {
+      [`${todayKey()} · ${entries.length} words · ${nKanji} kanji · pool ${this.data.words.length}`]);
+    if ((Date.now() - gen.getTime()) / 86400000 > WSTALE_DAYS) {
       head.classList.add("stale");
-      head.textContent += " — stale!";
+      head.textContent += ` · pool from ${this.data.generated_at.slice(0, 10)} — is the pipeline running?`;
     }
     list.append(head);
-    for (const e of [...revisits, ...this.data.sheet]) list.append(this.card(e));
+    for (const e of entries) {
+      list.append(this.card(dueFlags.has(e.word) ? { ...e, _revisit: true } : e));
+    }
     list.append(el("div", { class: "hint" },
       ["tap a card: kanji + parts → stroke order → hide"]));
     screen.replaceChildren(list);
@@ -386,10 +416,8 @@ const Writing = {
         this.flags.delete(e.word);
         flagBtn.classList.remove("on");
       } else {
-        const entry = { ...e };
-        delete entry._revisit;
         // store keyPath is "kanji" for historical reasons; the key is the word
-        const rec = { kanji: e.word, flaggedAt: Date.now(), entry };
+        const rec = { kanji: e.word, flaggedAt: Date.now() };
         await tx(Progress.db, "writing", "readwrite", s => s.put(rec));
         this.flags.set(e.word, rec);
         flagBtn.classList.add("on");
@@ -404,9 +432,10 @@ const Writing = {
     card.addEventListener("click", () => {
       stage = (stage + 1) % 3;
       if (stage === 1 && !reveal.childNodes.length) {
-        for (const kb of e.kanji) {
+        for (const ch of e.kanji) {
+          const kb = this.data.kanji[ch] || {};
           const block = el("div", { class: "wkblock" }, [
-            el("div", { class: "wkanji" }, [kb.kanji]),
+            el("div", { class: "wkanji" }, [ch]),
             el("div", { class: "wkinfo" }, [
               el("div", { class: "wcomp" }, [kb.components || "(no breakdown yet)"]),
               ...(kb.note ? [el("div", { class: "wnote" }, [kb.note])] : []),
@@ -426,7 +455,8 @@ const Writing = {
   buildStrokes(e, host) {
     const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
     let any = false;
-    for (const kb of e.kanji) {
+    for (const ch of e.kanji) {
+      const kb = this.data.kanji[ch] || {};
       if (!kb.strokes || !kb.strokes.length) continue;
       any = true;
       const svg = document.createElementNS(SVG_NS, "svg");
