@@ -325,6 +325,7 @@ const SVG_NS = "http://www.w3.org/2000/svg";
 const REVISIT_AFTER_MS = 2 * 86400000;
 const WSHEET_SIZE = 10;
 const WSTALE_DAYS = 7; // the pool only changes when eligibility does
+const WSHEET_KEEP_DAYS = 3; // older sheets drop out of the browsable history
 
 const Writing = {
   data: null,
@@ -354,7 +355,12 @@ const Writing = {
         pos: 0,
       };
     }
-    h.pos = Math.min(h.pos, h.sheets.length - 1);
+    const cutoff = new Date(Date.now() - WSHEET_KEEP_DAYS * 86400000);
+    const cutoffKey = `${cutoff.getFullYear()}-${String(cutoff.getMonth() + 1).padStart(2, "0")}-${String(cutoff.getDate()).padStart(2, "0")}`;
+    const kept = h.sheets.filter(s => s.date >= cutoffKey);
+    h.pos -= h.sheets.length - kept.length; // dropped sheets are all older/leading
+    h.sheets = kept;
+    h.pos = Math.max(0, Math.min(h.pos, h.sheets.length - 1));
     return h;
   },
 
