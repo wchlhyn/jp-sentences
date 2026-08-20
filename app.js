@@ -97,6 +97,11 @@ function tierOf(s) {
   return TIERS.includes(s.tier) ? s.tier : "mid";
 }
 
+function todayKey() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 function todayStart() {
   const d = new Date();
   d.setHours(0, 0, 0, 0);
@@ -536,8 +541,13 @@ function switchTab(tab) {
   Progress.kvPut("tab", tab);
   tabSent.classList.toggle("active", tab !== "write");
   tabWrite.classList.toggle("active", tab === "write");
-  if (tab === "write") Writing.show();
-  else App.showStart();
+  const view = tab === "write" ? Writing.show() : App.showStart();
+  Promise.resolve(view).catch(err => {
+    screen.replaceChildren(el("div", { class: "center" }, [
+      el("h1", {}, ["Something broke"]),
+      el("p", {}, [String(err)]),
+    ]));
+  });
 }
 tabSent.addEventListener("click", () => switchTab("sent"));
 tabWrite.addEventListener("click", () => switchTab("write"));
