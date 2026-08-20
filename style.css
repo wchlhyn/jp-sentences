@@ -180,3 +180,37 @@ ruby rt {
   background: var(--card);
   color: var(--ink);
 }
+
+/* tabs */
+.tab {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 0.2rem 0.7rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.tab.active { color: var(--ink); background: var(--line); }
+
+/* writing drill */
+.wlist { display: flex; flex-direction: column; gap: 0.8rem; padding-bottom: 1rem; }
+.whead { color: var(--muted); font-size: 0.8rem; text-align: center; }
+.whead.stale { color: var(--amber); font-weight: 600; }
+.wcard { flex: none; cursor: pointer; }
+.wprompt { font-size: 1.3rem; }
+.wreading { font-weight: 600; }
+.wmeaning { color: var(--muted); font-size: 1rem; }
+.wrevisit { color: var(--amber); }
+.wkanji { font-size: 4.5rem; line-height: 1.2; }
+.wcomp { font-size: 1rem; margin-top: 0.2rem; }
+.wnote { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; }
+.wstrokes { margin-top: 0.6rem; display: flex; align-items: center; gap: 1rem; }
+.wsvg { width: 10rem; height: 10rem; }
+.wsvg path { fill: none; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+.wsvg .wunder { stroke: var(--line); }
+.wsvg .wink { stroke: var(--ink); }
+.wsvg .wink-static { stroke: var(--ink); }
+.wsvg .wnum { font-size: 9px; fill: var(--accent); }
+.wcontrols { justify-content: flex-end; }

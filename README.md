@@ -24,3 +24,13 @@ open the URL in Safari → Share → Add to Home Screen.
 ```sh
 python3 -m http.server 8080
 ```
+
+## Writing drill
+
+The 書 tab is a daily handwriting sheet (`writing.json`): recall prompts for
+kanji from mature Anki vocabulary, with component breakdowns and stroke-order
+animations. "Couldn't recall" flags stay in IndexedDB and resurface locally
+after two days — the box never sees them.
+
+Stroke data is from [KanjiVG](https://kanjivg.tagaini.net/) by Ulrich Apel,
+licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).

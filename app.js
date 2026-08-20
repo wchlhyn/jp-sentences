@@ -9,11 +9,14 @@ const HISTORY_MAX = 1500;
 
 function openDb() {
   return new Promise((resolve, reject) => {
-    const req = indexedDB.open("jp-practice", 1);
+    const req = indexedDB.open("jp-practice", 2);
     req.onupgradeneeded = () => {
       const db = req.result;
-      db.createObjectStore("progress", { keyPath: "id" });
-      db.createObjectStore("kv");
+      if (!db.objectStoreNames.contains("progress"))
+        db.createObjectStore("progress", { keyPath: "id" });
+      if (!db.objectStoreNames.contains("kv")) db.createObjectStore("kv");
+      if (!db.objectStoreNames.contains("writing"))
+        db.createObjectStore("writing", { keyPath: "kanji" });
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);
@@ -311,10 +314,185 @@ const App = {
   },
 };
 
+/* ---------- writing drill tab ---------- */
+
+const SVG_NS = "http://www.w3.org/2000/svg";
+const REVISIT_AFTER_MS = 2 * 86400000;
+
+const Writing = {
+  data: null,
+  flags: new Map(),
+
+  async fetchSheet() {
+    if (this.data) return;
+    try {
+      const res = await fetch("./writing.json");
+      this.data = res.ok ? await res.json() : null;
+    } catch { this.data = null; }
+  },
+
+  async show() {
+    App.view = "writing";
+    navBack.hidden = true;
+    navCount.textContent = "";
+    await this.fetchSheet();
+    if (!this.data) {
+      screen.replaceChildren(el("div", { class: "center" },
+        [el("p", {}, ["No writing sheet published yet."])]));
+      return;
+    }
+    const flagRecs = (await tx(Progress.db, "writing", "readonly", s => s.getAll())) || [];
+    this.flags = new Map(flagRecs.map(f => [f.kanji, f]));
+
+    // flagged kanji resurface locally after a cooldown, ahead of the sheet;
+    // the box never learns about the flag
+    const sheetKanji = new Set(this.data.sheet.map(e => e.kanji));
+    const revisits = flagRecs
+      .filter(f => f.entry && !sheetKanji.has(f.kanji)
+        && Date.now() - f.flaggedAt >= REVISIT_AFTER_MS)
+      .map(f => ({ ...f.entry, _revisit: true }));
+
+    const list = el("div", { class: "wlist" });
+    const gen = new Date(this.data.generated_at);
+    const head = el("div", { class: "whead" },
+      [`sheet ${this.data.generated_at.slice(0, 10)} · ${this.data.sheet.length} kanji`
+       + (revisits.length ? ` · ${revisits.length} revisit` : "")]);
+    if ((Date.now() - gen.getTime()) / 86400000 > STALE_DAYS) {
+      head.classList.add("stale");
+      head.textContent += " — stale!";
+    }
+    list.append(head);
+    for (const e of [...revisits, ...this.data.sheet]) list.append(this.card(e));
+    list.append(el("div", { class: "hint" },
+      ["tap a card: kanji + parts → stroke order → hide"]));
+    screen.replaceChildren(list);
+  },
+
+  card(e) {
+    let stage = 0;
+    const prompt = el("div", { class: "wprompt" }, [
+      el("span", { class: "wreading" }, [e.reading]),
+      el("span", { class: "wmeaning" }, [`  /  ${e.meaning}`]),
+      ...(e._revisit ? [el("span", { class: "wrevisit" }, [" ↻"])] : []),
+    ]);
+    const reveal = el("div", { class: "wreveal" });
+    const strokes = el("div", { class: "wstrokes" });
+    reveal.hidden = strokes.hidden = true;
+
+    const flagBtn = btn("", "couldn't recall", async () => {
+      if (this.flags.has(e.kanji)) {
+        await tx(Progress.db, "writing", "readwrite", s => s.delete(e.kanji));
+        this.flags.delete(e.kanji);
+        flagBtn.classList.remove("on");
+      } else {
+        const entry = { ...e };
+        delete entry._revisit;
+        const rec = { kanji: e.kanji, flaggedAt: Date.now(), entry };
+        await tx(Progress.db, "writing", "readwrite", s => s.put(rec));
+        this.flags.set(e.kanji, rec);
+        flagBtn.classList.add("on");
+      }
+    });
+    if (this.flags.has(e.kanji)) flagBtn.classList.add("on");
+
+    const card = el("div", { class: "card wcard" }, [
+      prompt, reveal, strokes,
+      el("div", { class: "controls wcontrols" }, [flagBtn]),
+    ]);
+    card.addEventListener("click", () => {
+      stage = (stage + 1) % 3;
+      if (stage === 1 && !reveal.childNodes.length) {
+        reveal.append(
+          el("div", { class: "wkanji" }, [e.kanji]),
+          el("div", { class: "wcomp" }, [e.components || "(no breakdown yet)"]),
+        );
+        if (e.note) reveal.append(el("div", { class: "wnote" }, [e.note]));
+      }
+      if (stage === 2 && !strokes.childNodes.length) this.buildStrokes(e, strokes);
+      reveal.hidden = stage < 1;
+      strokes.hidden = stage !== 2;
+      if (stage === 2) this.animate(strokes);
+    });
+    return card;
+  },
+
+  buildStrokes(e, host) {
+    if (!e.strokes || !e.strokes.length) {
+      host.append(el("div", { class: "wnote" }, ["no stroke data for this kanji"]));
+      return;
+    }
+    const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const svg = document.createElementNS(SVG_NS, "svg");
+    svg.setAttribute("viewBox", "0 0 109 109");
+    svg.classList.add("wsvg");
+    for (const d of e.strokes) {
+      const p = document.createElementNS(SVG_NS, "path");
+      p.setAttribute("d", d);
+      p.classList.add(reduced ? "wink-static" : "wunder");
+      svg.append(p);
+    }
+    if (reduced) {
+      // static character with numbered stroke starts instead of animation
+      e.strokes.forEach((d, i) => {
+        const m = /M\s*([\d.]+)[,\s]+([\d.]+)/.exec(d);
+        if (!m) return;
+        const t = document.createElementNS(SVG_NS, "text");
+        t.setAttribute("x", m[1]);
+        t.setAttribute("y", m[2]);
+        t.classList.add("wnum");
+        t.textContent = String(i + 1);
+        svg.append(t);
+      });
+      host.append(svg);
+    } else {
+      for (const d of e.strokes) {
+        const p = document.createElementNS(SVG_NS, "path");
+        p.setAttribute("d", d);
+        p.classList.add("wink");
+        svg.append(p);
+      }
+      host.append(svg, btn("", "▶ replay", () => this.animate(host)));
+    }
+  },
+
+  animate(host) {
+    const svg = host.querySelector("svg");
+    if (!svg) return;
+    const inks = [...svg.querySelectorAll(".wink")];
+    for (const p of inks) {
+      const len = p.getTotalLength();
+      p.style.transition = "none";
+      p.style.strokeDasharray = String(len);
+      p.style.strokeDashoffset = String(len);
+    }
+    svg.getBoundingClientRect(); // flush styles before animating
+    inks.forEach((p, i) => {
+      setTimeout(() => {
+        p.style.transition = "stroke-dashoffset 250ms ease";
+        p.style.strokeDashoffset = "0";
+      }, 80 + i * 400);
+    });
+  },
+};
+
+/* ---------- tabs ---------- */
+
 const screen = document.getElementById("screen");
 const navBack = document.getElementById("nav-back");
 const navCount = document.getElementById("nav-count");
+const tabSent = document.getElementById("tab-sent");
+const tabWrite = document.getElementById("tab-write");
 navBack.addEventListener("click", () => App.back());
+
+function switchTab(tab) {
+  Progress.kvPut("tab", tab);
+  tabSent.classList.toggle("active", tab !== "write");
+  tabWrite.classList.toggle("active", tab === "write");
+  if (tab === "write") Writing.show();
+  else App.showStart();
+}
+tabSent.addEventListener("click", () => switchTab("sent"));
+tabWrite.addEventListener("click", () => switchTab("write"));
 
 function el(tag, attrs = {}, children = []) {
   const node = document.createElement(tag);
@@ -355,7 +533,10 @@ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./sw.js");
 }
 
-App.load().then(() => App.showStart()).catch(err => {
+App.load().then(async () => {
+  const tab = await Progress.kvGet("tab");
+  switchTab(tab === "write" ? "write" : "sent");
+}).catch(err => {
   screen.replaceChildren(el("div", { class: "center" }, [
     el("h1", {}, ["Couldn't load"]),
     el("p", {}, [String(err)]),

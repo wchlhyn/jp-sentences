@@ -1,6 +1,6 @@
 "use strict";
 
-const SHELL_CACHE = "shell-v10";
+const SHELL_CACHE = "shell-v11";
 const PACK_CACHE = "pack-v1";
 const SHELL = [
   "./",
@@ -28,7 +28,7 @@ self.addEventListener("activate", e => {
 
 self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
-  if (url.pathname.endsWith("/pack.json")) {
+  if (url.pathname.endsWith("/pack.json") || url.pathname.endsWith("/writing.json")) {
     // network-first so a fresh pack lands as soon as we're online
     e.respondWith(
       fetch(e.request)
