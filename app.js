@@ -532,6 +532,8 @@ const Writing = {
     }
     if (!any) {
       host.append(el("div", { class: "wnote" }, ["no stroke data for this word"]));
+    } else if (!reduced) {
+      host.append(btn("", "⟲ restart", () => this.animate(host)));
     }
   },
 
