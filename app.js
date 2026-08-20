@@ -1,5 +1,7 @@
 "use strict";
 
+const APP_VERSION = "v21";
+
 const STALE_DAYS = 3;
 const TIERS = ["new", "struggle", "mid"];
 const DEFAULT_RATIO = { new: 30, struggle: 30, mid: 40 };
@@ -625,7 +627,7 @@ function renderFooter(pack) {
   const span = document.getElementById("pack-age");
   const generated = new Date(pack.generated_at);
   const ageDays = (Date.now() - generated.getTime()) / 86400000;
-  span.textContent = `pack: ${pack.sentences.length} sentences · ${generated.toISOString().slice(0, 10)}`
+  span.textContent = `${APP_VERSION} · pack: ${pack.sentences.length} sentences · ${generated.toISOString().slice(0, 10)}`
     + (pack.placeholder ? " · placeholder" : "");
   if (ageDays > STALE_DAYS && !pack.placeholder) {
     span.classList.add("stale");
