@@ -1,6 +1,6 @@
 "use strict";
 
-const APP_VERSION = "v21";
+const APP_VERSION = "v22";
 
 const STALE_DAYS = 3;
 const TIERS = ["new", "struggle", "mid"];
@@ -454,9 +454,15 @@ const Writing = {
     } else {
       reading.append(e.reading);
     }
+    // the meaning is its own tap target: recall from the reading alone,
+    // reveal English only when needed (homophone check)
+    const meaningBtn = btn("wmeaning-btn", "meaning …", () => {
+      const on = meaningBtn.classList.toggle("revealed");
+      meaningBtn.textContent = on ? e.meaning : "meaning …";
+    });
     const prompt = el("div", { class: "wprompt" }, [
       reading,
-      el("span", { class: "wmeaning" }, [`  /  ${e.meaning}`]),
+      meaningBtn,
       ...(e._revisit ? [el("span", { class: "wrevisit" }, [" ↻"])] : []),
     ]);
     const reveal = el("div", { class: "wreveal" });

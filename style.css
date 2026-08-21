@@ -231,3 +231,19 @@ ruby rt {
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
 }
+
+/* masked meaning reveal on writing prompts */
+.wmeaning-btn {
+  margin-left: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: none;
+  border: 1px dashed var(--line);
+  border-radius: 0.5rem;
+  padding: 0.15rem 0.6rem;
+  cursor: pointer;
+}
+.wmeaning-btn.revealed {
+  border-style: solid;
+  color: var(--ink);
+}
