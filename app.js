@@ -1,6 +1,6 @@
 "use strict";
 
-const APP_VERSION = "v23";
+const APP_VERSION = "v24";
 
 const STALE_DAYS = 3;
 const TIERS = ["new", "struggle", "mid"];
@@ -373,6 +373,34 @@ const Writing = {
       }
       await Progress.kvPut("wrecovered", true);
     }
+    // past days coalesce into one sheet per date, order randomized once at
+    // merge time; today's sheets stay individual for the regen workflow
+    const today = todayKey();
+    const todays = [];
+    const byDate = new Map();
+    for (const sh of h.sheets) {
+      if (sh.date >= today) { todays.push(sh); continue; }
+      let m = byDate.get(sh.date);
+      if (!m) {
+        m = { date: sh.date, words: [], merged: true };
+        if (sh.recovered) m.recovered = true;
+        byDate.set(sh.date, m);
+      }
+      for (const w of sh.words) if (!m.words.includes(w)) m.words.push(w);
+      if (!sh.merged) m.needShuffle = true;
+    }
+    const past = [...byDate.values()].sort((a, b) => (a.date < b.date ? -1 : 1));
+    for (const m of past) {
+      if (m.needShuffle) {
+        for (let i = m.words.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [m.words[i], m.words[j]] = [m.words[j], m.words[i]];
+        }
+      }
+      delete m.needShuffle;
+    }
+    h.sheets = [...past, ...todays];
+
     if (h.sheets.length > 1000) {
       const drop = h.sheets.length - 1000;
       h.sheets.splice(0, drop);

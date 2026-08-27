@@ -1,6 +1,6 @@
 "use strict";
 
-const SHELL_CACHE = "shell-v23";
+const SHELL_CACHE = "shell-v24";
 const PACK_CACHE = "pack-v1";
 const SHELL = [
   "./",
