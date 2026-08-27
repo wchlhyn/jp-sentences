@@ -1,6 +1,6 @@
 "use strict";
 
-const APP_VERSION = "v22";
+const APP_VERSION = "v23";
 
 const STALE_DAYS = 3;
 const TIERS = ["new", "struggle", "mid"];
@@ -327,7 +327,6 @@ const SVG_NS = "http://www.w3.org/2000/svg";
 const REVISIT_AFTER_MS = 2 * 86400000;
 const WSHEET_SIZE = 10;
 const WSTALE_DAYS = 7; // the pool only changes when eligibility does
-const WSHEET_KEEP_DAYS = 3; // older sheets drop out of the browsable history
 
 const Writing = {
   data: null,
@@ -357,11 +356,28 @@ const Writing = {
         pos: 0,
       };
     }
-    const cutoff = new Date(Date.now() - WSHEET_KEEP_DAYS * 86400000);
-    const cutoffKey = `${cutoff.getFullYear()}-${String(cutoff.getMonth() + 1).padStart(2, "0")}-${String(cutoff.getDate()).padStart(2, "0")}`;
-    const kept = h.sheets.filter(s => s.date >= cutoffKey);
-    h.pos -= h.sheets.length - kept.length; // dropped sheets are all older/leading
-    h.sheets = kept;
+    // history is permanent now; one-time recovery rebuilds sheets that the
+    // old 3-day expiry pruned, from wstate's per-word last-written dates
+    if (!(await Progress.kvGet("wrecovered"))) {
+      const wstate = (await Progress.kvGet("wstate")) || {};
+      const oldest = h.sheets.length ? h.sheets[0].date : "9999-99-99";
+      const byDate = {};
+      for (const [w, d] of Object.entries(wstate)) {
+        if (d < oldest) (byDate[d] = byDate[d] || []).push(w);
+      }
+      const rebuilt = Object.keys(byDate).sort()
+        .map(d => ({ date: d, words: byDate[d].sort(), recovered: true }));
+      if (rebuilt.length) {
+        h.sheets = [...rebuilt, ...h.sheets];
+        h.pos += rebuilt.length;
+      }
+      await Progress.kvPut("wrecovered", true);
+    }
+    if (h.sheets.length > 1000) {
+      const drop = h.sheets.length - 1000;
+      h.sheets.splice(0, drop);
+      h.pos -= drop;
+    }
     h.pos = Math.max(0, Math.min(h.pos, h.sheets.length - 1));
     return h;
   },
@@ -383,7 +399,7 @@ const Writing = {
     for (const w of day) wstate[w] = today;
     await Progress.kvPut("wstate", wstate);
     hist.sheets.push({ date: today, words: day });
-    if (hist.sheets.length > 30) hist.sheets.splice(0, hist.sheets.length - 30);
+    
     hist.pos = hist.sheets.length - 1;
   },
 
@@ -419,7 +435,8 @@ const Writing = {
     const list = el("div", { class: "wlist" });
     const gen = new Date(this.data.generated_at);
     const head = el("div", { class: "whead" },
-      [`${sheet.date} · sheet ${hist.pos + 1}/${hist.sheets.length}`
+      [`${sheet.date}${sheet.recovered ? " (recovered)" : ""}`
+       + ` · sheet ${hist.pos + 1}/${hist.sheets.length}`
        + ` · ${nKanji} kanji · pool ${this.data.words.length}`]);
     if ((Date.now() - gen.getTime()) / 86400000 > WSTALE_DAYS) {
       head.classList.add("stale");
