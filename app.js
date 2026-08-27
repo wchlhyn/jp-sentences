@@ -1,6 +1,6 @@
 "use strict";
 
-const APP_VERSION = "v24";
+const APP_VERSION = "v25";
 
 const STALE_DAYS = 3;
 const TIERS = ["new", "struggle", "mid"];
@@ -390,15 +390,7 @@ const Writing = {
       if (!sh.merged) m.needShuffle = true;
     }
     const past = [...byDate.values()].sort((a, b) => (a.date < b.date ? -1 : 1));
-    for (const m of past) {
-      if (m.needShuffle) {
-        for (let i = m.words.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [m.words[i], m.words[j]] = [m.words[j], m.words[i]];
-        }
-      }
-      delete m.needShuffle;
-    }
+    for (const m of past) delete m.needShuffle;
     h.sheets = [...past, ...todays];
 
     if (h.sheets.length > 1000) {
@@ -455,7 +447,16 @@ const Writing = {
     await Progress.kvPut("wsheethist", hist);
 
     const sheet = hist.sheets[hist.pos];
-    const entries = sheet.words.map(w => this.byWord.get(w)).filter(Boolean);
+    let dayWords = sheet.words;
+    if (sheet.date < todayKey()) {
+      // past-day sheets reshuffle on every visit
+      dayWords = [...sheet.words];
+      for (let i = dayWords.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [dayWords[i], dayWords[j]] = [dayWords[j], dayWords[i]];
+      }
+    }
+    const entries = dayWords.map(w => this.byWord.get(w)).filter(Boolean);
     const nKanji = entries.reduce((a, e) => a + e.kanji.length, 0);
     const dueFlags = new Set(sheet.words.filter(w => this.flags.has(w)
       && Date.now() - this.flags.get(w).flaggedAt >= REVISIT_AFTER_MS));
