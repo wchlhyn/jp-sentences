@@ -1,431 +1,7 @@
 {
  "version": 1,
- "generated_at": "2026-10-18T04:13:22Z",
+ "generated_at": "2026-10-19T04:09:06Z",
  "sentences": [
-  {
-   "id": "cf717f77217ff83d",
-   "jp": "[彼|かれ]は[母|はは]に[説明|せつめい]を[求|もと]めた。",
-   "en": "He asked his mother for an explanation.",
-   "target": "求める",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "2e0addac6c7b9bfb",
-   "jp": "[何|なん]とか[明日|あした]までに[準備|じゅんび]します。",
-   "en": "I'll get it ready by tomorrow somehow.",
-   "target": "何とか",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "c5629a1c49704eb4",
-   "jp": "[他|ほか]の[店|みせ]で[買|か]いましょう。",
-   "en": "Let's buy it at another store.",
-   "target": "他",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "958132132d36b9e1",
-   "jp": "[兄|あに]は[冗談|じょうだん]を[言|い]うのを[止|や]めなかった。",
-   "en": "My older brother wouldn't stop telling jokes.",
-   "target": "止める",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "027ceb9022f65693",
-   "jp": "[町|まち]の[者|もの]はみんな[彼|かれ]を[知|し]っている。",
-   "en": "Everyone in town knows him.",
-   "target": "者",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "b56b7463e5eeabbc",
-   "jp": "[私|わたし]の[横|よこ]に[座|すわ]ってください。",
-   "en": "Please sit beside me.",
-   "target": "横",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "82d2f93a197f50ba",
-   "jp": "[彼|かれ]の[反応|はんのう]はいつも[遅|おそ]い。",
-   "en": "His reactions are always slow.",
-   "target": "遅い",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "e819773685858245",
-   "jp": "[彼|かれ]の[話|はなし]はほとんど[嘘|うそ]だった。",
-   "en": "Almost everything he said was a lie.",
-   "target": "ほとんど",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "4638e644fe77aa4d",
-   "jp": "[最近|さいきん]、[友達|ともだち]に[会|あ]っていますか。",
-   "en": "Have you been seeing your friends lately?",
-   "target": "最近",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "8f51a017e6079ef9",
-   "jp": "[妹|いもうと]に[服|ふく]を[買|か]ってあげた。",
-   "en": "I bought my little sister some clothes.",
-   "target": "あげる",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "371e7dcb464a3123",
-   "jp": "[会|あ]う[場所|ばしょ]はもう[決|き]まりましたか。",
-   "en": "Have we decided where to meet yet?",
-   "target": "場所",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "edf02e29be62f0af",
-   "jp": "[正直|しょうじき]なのは[君|きみ]のいいところだ。",
-   "en": "Being honest is one of your good points.",
-   "target": "正直",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "c6534f0d22363cd1",
-   "jp": "[母|はは]の[言葉|ことば]を[今|いま]も[覚|おぼ]えている。",
-   "en": "I still remember my mother's words.",
-   "target": "言葉",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "6f055ea494f0e5c2",
-   "jp": "[特|とく]に[肉|にく]の[料理|りょうり]が[好|す]きです。",
-   "en": "I especially like meat dishes.",
-   "target": "特に",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "842f822332773606",
-   "jp": "[風|かぜ]の[勢|いきお]いが[強|つよ]くなった。",
-   "en": "The wind got stronger.",
-   "target": "勢い",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "01c8e29a04ccf103",
-   "jp": "[優|やさ]しい[人|ひと]になりたい。",
-   "en": "I want to become a kind person.",
-   "target": "優しい",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "d306a83a42c96a06",
-   "jp": "[彼女|かのじょ]は[走|はし]って[部屋|へや]に[入|はい]ってきた。",
-   "en": "She came running into the room.",
-   "target": "走る",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "cc54af42d00046cc",
-   "jp": "[彼|かれ]は[花|はな]を[地面|じめん]に[落|お]とした。",
-   "en": "He dropped the flowers on the ground.",
-   "target": "落とす",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "256b99aa2db17245",
-   "jp": "[子供|こども]を[守|まも]るには[力|ちから]が[要|い]る。",
-   "en": "You need strength to protect children.",
-   "target": "要る",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "eeecdbbcd2b92a2b",
-   "jp": "[部屋|へや]を[綺麗|きれい]にしましょう。",
-   "en": "Let's clean up the room.",
-   "target": "綺麗",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "ea00de42b355f056",
-   "jp": "[先生|せんせい]が[来|く]ると、みんなが[立|た]ち[上|あ]がった。",
-   "en": "When the teacher came in, everyone stood up.",
-   "target": "立ち上がる",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "5481c705a41bb01b",
-   "jp": "[妹|いもうと]と[同|おな]じ[服|ふく]を[買|か]った。",
-   "en": "I bought the same clothes as my little sister.",
-   "target": "同じ",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "8dd322183b0e2d5f",
-   "jp": "[冬|ふゆ]が[終|お]わると、[春|はる]が[来|く]る。",
-   "en": "When winter ends, spring comes.",
-   "target": "終わる",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "68c53ad01db3c208",
-   "jp": "[嫌|いや]な[顔|かお]をしないでください。",
-   "en": "Please don't make that unhappy face.",
-   "target": "嫌",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "2287076967c21e34",
-   "jp": "[下|した]の[部屋|へや]から[音|おと]が[聞|き]こえる。",
-   "en": "I can hear a sound from the room below.",
-   "target": "下",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "a6485c28094d1a8c",
-   "jp": "その[本|ほん]、まだ[持|も]っていますか。",
-   "en": "Do you still have that book?",
-   "target": "持つ",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "1b5d576021be811a",
-   "jp": "[我々|われわれ]は[新|あたら]しい[方法|ほうほう]を[探|さが]している。",
-   "en": "We are looking for a new method.",
-   "target": "我々",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "cd815a57447d2e6f",
-   "jp": "その[事|こと]は[誰|だれ]にも[言|い]わないで。",
-   "en": "Don't tell anyone about that.",
-   "target": "事",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "3e34004cee46c663",
-   "jp": "[彼女|かのじょ]は[納得|なっとく]した[顔|かお]で[頷|うなず]いた。",
-   "en": "She nodded with a convinced look.",
-   "target": "納得",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "9eac1d63b49e0a75",
-   "jp": "[昨日|きのう]、[店|みせ]に[変|へん]な[男|おとこ]が[現|あらわ]れた。",
-   "en": "Yesterday, a strange man showed up at the shop.",
-   "target": "現れる",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "a7946026db6dd6e9",
-   "jp": "[姉|あね]は[料理|りょうり]がとても[上手|うま]いです。",
-   "en": "My older sister is very good at cooking.",
-   "target": "上手い",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "9c851bca0649b077",
-   "jp": "[目|め]の[下|した]が[黒|くろ]いですね。",
-   "en": "You have dark circles under your eyes.",
-   "target": "下",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "bf18087bf0e72a6d",
-   "jp": "[様子|ようす]が[変|へん]だったら、すぐ[連絡|れんらく]してください。",
-   "en": "If anything seems off, please contact me right away.",
-   "target": "様子",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "12ebb534f4784a3b",
-   "jp": "[明日|あした]、[仲間|なかま]に[情報|じょうほう]を[送|おく]ります。",
-   "en": "Tomorrow I'll send the information to my teammates.",
-   "target": "送る",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "be89c80eb10c4351",
-   "jp": "この[部分|ぶぶん]だけ[少|すこ]し[変|か]えてください。",
-   "en": "Please change just this part a little.",
-   "target": "部分",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "6b0fa93bed6c0943",
-   "jp": "[友達|ともだち]と[楽|たの]しい[夜|よる]を[過|す]ごした。",
-   "en": "I spent a fun evening with my friends.",
-   "target": "過ごす",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "db81866bdd5e4a91",
-   "jp": "[忙|いそが]しい[父|ちち]は[私|わたし]に[構|かま]ってくれない。",
-   "en": "My busy father doesn't pay any attention to me.",
-   "target": "構う",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "6a2eaaeaf1ce2f5e",
-   "jp": "[疲|つか]れたら、[少|すこ]し[休|やす]みましょう。",
-   "en": "If you get tired, let's take a short rest.",
-   "target": "疲れる",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "63b045e65402797b",
-   "jp": "[床|ゆか]が[冷|つめ]たくて、[足|あし]が[痛|いた]い。",
-   "en": "The floor is so cold my feet hurt.",
-   "target": "冷たい",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "ce9e4946461748f5",
-   "jp": "[去年|きょねん]から[日本語|にほんご]を[勉強|べんきょう]しています。",
-   "en": "I've been studying Japanese since last year.",
-   "target": "去年",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "f368230022938726",
-   "jp": "[嬉|うれ]しくて[涙|なみだ]が[流|なが]れた。",
-   "en": "I was so happy that tears ran down my face.",
-   "target": "涙",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "342530cc8b6a60ed",
-   "jp": "[大切|たいせつ]な[本|ほん]が[無|な]くなった。",
-   "en": "My precious book has gone missing.",
-   "target": "大切",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "eda576b9c2690bad",
-   "jp": "[明日|あした]の[仕事|しごと]も[頑張|がんば]ってね。",
-   "en": "Do your best at work tomorrow too.",
-   "target": "頑張る",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "ff2a9eae84fe5499",
-   "jp": "[去年|きょねん]、[初|はじ]めて[日本|にほん]に[行|い]きました。",
-   "en": "Last year, I went to Japan for the first time.",
-   "target": "去年",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "24a28aace1c84430",
-   "jp": "[母|はは]の[料理|りょうり]が[一番|いちばん][好|す]きです。",
-   "en": "I like my mother's cooking the most.",
-   "target": "一番",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "0728ed468d0b40be",
-   "jp": "[言葉|ことば]より[行動|こうどう]で[見|み]せてください。",
-   "en": "Please show me with actions rather than words.",
-   "target": "行動",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "45749058de50ee7a",
-   "jp": "[秋|あき]になって、[山|やま]の[色|いろ]が[変|か]わった。",
-   "en": "Autumn came, and the color of the mountains changed.",
-   "target": "変わる",
-   "tier": "mid",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "bab615a83dfd5118",
-   "jp": "[名前|なまえ]を[呼|よ]ばれて、[後|うし]ろを[振|ふ]り[返|かえ]った。",
-   "en": "Someone called my name, and I turned around.",
-   "target": "振り返る",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "ce340c417acb7a7f",
-   "jp": "[窓|まど]を[開|あ]けて、[新|あたら]しい[空気|くうき]を[入|い]れよう。",
-   "en": "Let's open the window and let in some fresh air.",
-   "target": "空気",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "891e8a0da75cb703",
-   "jp": "[床|ゆか]に[本|ほん]を[置|お]かないでください。",
-   "en": "Please don't put books on the floor.",
-   "target": "床",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "6808120b6f6c567c",
-   "jp": "[母|はは]と[一緒|いっしょ]に[食事|しょくじ]の[準備|じゅんび]をしました。",
-   "en": "I got the meal ready together with my mother.",
-   "target": "準備",
-   "tier": "struggle",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "4b800c28095c0180",
-   "jp": "[壁|かべ]の[白|しろ]い[部分|ぶぶん]に[名前|なまえ]を[書|か]いてください。",
-   "en": "Please write your name on the white part of the wall.",
-   "target": "部分",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
-  {
-   "id": "45d3cbbc62a5fab6",
-   "jp": "[一応|いちおう]、[水|みず]も[持|も]って[行|い]こう。",
-   "en": "Let's bring some water too, just in case.",
-   "target": "一応",
-   "tier": "new",
-   "created_at": "2026-10-12T04:13:46Z"
-  },
   {
    "id": "fcf7f41fae7fa8cd",
    "jp": "[彼|かれ]との[会話|かいわ]がなかなか[続|つづ]かない。",
@@ -21441,6 +21017,2990 @@
    "target": "怒る",
    "tier": "struggle",
    "created_at": "2026-10-18T04:13:22Z"
+  },
+  {
+   "id": "1751ce48bb859d5b",
+   "jp": "[先生|せんせい]が[来|く]ると、みんな[静|しず]かになった。",
+   "en": "When the teacher came, everyone went quiet.",
+   "target": "静か",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5b22c31df9757342",
+   "jp": "あの[連中|れんちゅう]はいつも[店|みせ]の[前|まえ]に[座|すわ]っている。",
+   "en": "That bunch is always sitting in front of the shop.",
+   "target": "連中",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e2aa51e8f08c5a76",
+   "jp": "[食事|しょくじ]を[終|お]えて、[窓|まど]を[開|あ]けた。",
+   "en": "I finished my meal and opened the window.",
+   "target": "終える",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "cd98ca6f8c6220ec",
+   "jp": "[答|こた]えは[想像|そうぞう]より[簡単|かんたん]だった。",
+   "en": "The answer was simpler than I imagined.",
+   "target": "想像",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1a336716e6caa94a",
+   "jp": "[普段|ふだん]は[学校|がっこう]まで[歩|ある]いて[行|い]きます。",
+   "en": "I usually walk to school.",
+   "target": "普段",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "4508407630852c08",
+   "jp": "[相手|あいて]が[誰|だれ]でも、[絶対|ぜったい]に[負|ま]けない。",
+   "en": "No matter who my opponent is, I will never lose.",
+   "target": "相手",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "0780f9dbe7231c2d",
+   "jp": "[弟|おとうと]は[素直|すなお]に[先生|せんせい]の[話|はなし]を[聞|き]いた。",
+   "en": "My little brother obediently listened to the teacher.",
+   "target": "素直",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8354b331043f1b56",
+   "jp": "[夏|なつ]は[冷|つめ]たい[水|みず]が[一番|いちばん]だ。",
+   "en": "In summer, cold water is the best.",
+   "target": "夏",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "db9c89019c2fc7ad",
+   "jp": "[敵|てき]に[背中|せなか]を[見|み]せるな。",
+   "en": "Don't turn your back on the enemy.",
+   "target": "敵",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "fd639f0ad7e797d3",
+   "jp": "[彼|かれ]の[話|はなし]は[全|まった]く[面白|おもしろ]くない。",
+   "en": "His stories aren't interesting at all.",
+   "target": "全く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "15feb177e377dea9",
+   "jp": "[子供|こども]にも[理解|りかい]できる[言葉|ことば]で[話|はな]してください。",
+   "en": "Please speak in words even a child can understand.",
+   "target": "理解",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "0bdce152c04790e3",
+   "jp": "[部屋|へや]の[空気|くうき]が[急|きゅう]に[重|おも]くなった。",
+   "en": "The atmosphere in the room suddenly grew heavy.",
+   "target": "空気",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "57488050984b99ed",
+   "jp": "[白|しろ]い[服|ふく]を[扉|とびら]に[掛|か]けておいた。",
+   "en": "I hung the white clothes on the door.",
+   "target": "掛ける",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2628ac5c044209c0",
+   "jp": "[大丈夫|だいじょうぶ]、[何|なん]とかなるよ。",
+   "en": "Don't worry, it'll work out somehow.",
+   "target": "何とか",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "3d0ba7f7f7961494",
+   "jp": "[声|こえ]を[出|だ]して[読|よ]んでください。",
+   "en": "Please read it out loud.",
+   "target": "読む",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "71345ec388470b90",
+   "jp": "[無事|ぶじ]についたら、[連絡|れんらく]してね。",
+   "en": "Let me know once you've arrived safely.",
+   "target": "無事",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "0aa576cb6355088d",
+   "jp": "[激|はげ]しい[風|かぜ]で[窓|まど]が[開|あ]いた。",
+   "en": "The window flew open in the violent wind.",
+   "target": "激しい",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "55bc1c8730456b64",
+   "jp": "[王|おう]はすぐにここへいらっしゃいます。",
+   "en": "The king will be here shortly.",
+   "target": "いらっしゃる",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "7e35b33dc66b9ca3",
+   "jp": "[新|あたら]しい[先生|せんせい]の[下|もと]で[働|はたら]くことになった。",
+   "en": "I've ended up working under a new teacher.",
+   "target": "下",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "db4391bedbb8d48c",
+   "jp": "[子供|こども]の[時|とき]、この[山|やま]でよく[遊|あそ]んだ。",
+   "en": "When I was a child, I often played on this mountain.",
+   "target": "時",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "25a1fdda62511404",
+   "jp": "これは[私|わたし][自身|じしん]が[決|き]めたことです。",
+   "en": "This is something I decided myself.",
+   "target": "自身",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "113ca86189bb6522",
+   "jp": "[人生|じんせい]を[振|ふ]り[返|かえ]ると、[楽|たの]しいことが[多|おお]かった。",
+   "en": "Looking back on my life, there were many happy times.",
+   "target": "振り返る",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b5be48b96a7f5b7a",
+   "jp": "[床|ゆか]に[黒|くろ]い[物|もの]が[落|お]ちている。",
+   "en": "There's something black lying on the floor.",
+   "target": "黒い",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2a34ef71916f6696",
+   "jp": "[僕|ぼく]は[君|きみ]を[信|しん]じているよ。",
+   "en": "I believe in you.",
+   "target": "信じる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "dd55b18d10d553e1",
+   "jp": "この[森|もり]は[夜|よる]になると[危険|きけん]だ。",
+   "en": "This forest gets dangerous at night.",
+   "target": "危険",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b12c91deaa609f6e",
+   "jp": "[彼|かれ]は[静|しず]かな[生活|せいかつ]を[望|のぞ]んでいる。",
+   "en": "He wants a quiet life.",
+   "target": "生活",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1f165e858dd89604",
+   "jp": "[今|いま]の[仕事|しごと]に[何|なに]を[求|もと]めていますか。",
+   "en": "What are you looking for in your current job?",
+   "target": "求める",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b270e8485d9a159f",
+   "jp": "[過去|かこ]の[記憶|きおく]が[急|きゅう]に[戻|もど]ってきた。",
+   "en": "Memories of the past suddenly came back.",
+   "target": "過去",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f881e26717ff2910",
+   "jp": "[母|はは]の[料理|りょうり]は[相変|あいか]わらず[甘|あま]い。",
+   "en": "My mother's cooking is as sweet as ever.",
+   "target": "相変わらず",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "770fe26377611ead",
+   "jp": "[我々|われわれ]は[最後|さいご]まで[戦|たたか]う。",
+   "en": "We will fight to the end.",
+   "target": "我々",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b48a908a91c14b46",
+   "jp": "[三|さん]と[六|ろく]で[九|きゅう]になる。",
+   "en": "Three and six make nine.",
+   "target": "九",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b68a4a734d128e52",
+   "jp": "[服|ふく]の[色|いろ]を[彼女|かのじょ]に[合|あ]わせた。",
+   "en": "I matched the color of my clothes to hers.",
+   "target": "合わせる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "64fe6b39d403ed0f",
+   "jp": "[本|ほん]を[開|ひら]いて、[静|しず]かに[読|よ]んだ。",
+   "en": "I opened the book and read quietly.",
+   "target": "開く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e41e333c79371c28",
+   "jp": "[僕|ぼく]は[決|けっ]して[仲間|なかま]を[捨|す]てない。",
+   "en": "I will never abandon my friends.",
+   "target": "決して",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "be8e57998b72357c",
+   "jp": "[彼女|かのじょ]は[元|もと][先輩|せんぱい]の[店|みせ]で[働|はたら]いている。",
+   "en": "She works at her former senior's shop.",
+   "target": "元",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "6f2f261fbf14cd7c",
+   "jp": "[彼|かれ]は[髪|かみ]の[色|いろ]を[赤|あか]く[変|か]えた。",
+   "en": "He dyed his hair red.",
+   "target": "髪",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b2d0d90e004f2fa2",
+   "jp": "[静|しず]かな[部屋|へや]に[彼|かれ]の[声|こえ]が[響|ひび]いた。",
+   "en": "His voice echoed through the quiet room.",
+   "target": "響く",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5b871efed183150d",
+   "jp": "[僕|ぼく]の[部屋|へや]は[小|ちい]さいけど[静|しず]かです。",
+   "en": "My room is small, but it's quiet.",
+   "target": "部屋",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "7d4f96e22ee3844f",
+   "jp": "[最後|さいご]の[判断|はんだん]は[君|きみ]に[任|まか]せる。",
+   "en": "I'll leave the final decision to you.",
+   "target": "判断",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b13734b514ad7e52",
+   "jp": "[先生|せんせい]が[来|く]ると、みんな[急|きゅう]に[黙|だま]った。",
+   "en": "When the teacher came, everyone suddenly went quiet.",
+   "target": "黙る",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "13642b6fd6cdf492",
+   "jp": "[今日|きょう]は[軽|かる]い[食事|しょくじ]にしよう。",
+   "en": "Let's have a light meal today.",
+   "target": "軽い",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8b88ba001c67f7d6",
+   "jp": "[形|かたち]が[違|ちが]うから、[合|あ]わない。",
+   "en": "The shapes are different, so they don't fit.",
+   "target": "形",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "fd9eb4bfec8c635f",
+   "jp": "[一緒|いっしょ]にこの[問題|もんだい]を[考|かんが]えよう。",
+   "en": "Let's think about this problem together.",
+   "target": "問題",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "899b8e555941c3aa",
+   "jp": "[花|はな]を[窓|まど]の[横|よこ]に[置|お]いた。",
+   "en": "I put the flowers next to the window.",
+   "target": "花",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1c63b0becaa8da66",
+   "jp": "[彼|かれ]はどうせ[遅|おそ]いから、[先|さき]に[寝|ね]るね。",
+   "en": "He'll be late anyway, so I'm going to bed first.",
+   "target": "どうせ",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "88f6cd6359b91066",
+   "jp": "[彼|かれ]の[話|はなし]は[全|まった]く[面白|おもしろ]くなかった。",
+   "en": "His story wasn't interesting at all.",
+   "target": "全く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "3eecf171172bf36d",
+   "jp": "[彼|かれ]は[敵|てき]の[攻撃|こうげき]を[受|う]けて[倒|たお]れた。",
+   "en": "He took the enemy's attack and fell.",
+   "target": "受ける",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "59419471532c77a8",
+   "jp": "[理由|りゆう]が[分|わ]かれば、[弟|おとうと]も[納得|なっとく]するだろう。",
+   "en": "If he understands the reason, my little brother will accept it too.",
+   "target": "納得",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9b089e20769f1fa2",
+   "jp": "[確|たし]か、[先生|せんせい]の[家|いえ]は[学校|がっこう]の[隣|となり]だ。",
+   "en": "If I remember right, the teacher's house is next to the school.",
+   "target": "確か",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ac3ba5ef95b50383",
+   "jp": "[若|わか]い[男|おとこ]が[道|みち]で[叫|さけ]んでいた。",
+   "en": "A young man was shouting in the street.",
+   "target": "若い",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2ce2e1ddd0dc07bf",
+   "jp": "[彼|かれ]は[必死|ひっし]に[彼女|かのじょ]の[手|て]を[握|にぎ]った。",
+   "en": "He desperately gripped her hand.",
+   "target": "必死",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9071d0aa5b0081a0",
+   "jp": "[彼|かれ]の[素直|すなお]な[態度|たいど]が[嬉|うれ]しかった。",
+   "en": "I was happy about his honest attitude.",
+   "target": "態度",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5514648b05fc4800",
+   "jp": "[先生|せんせい]の[話|はなし]が[長|なが]く[続|つづ]いた。",
+   "en": "The teacher's talk went on for a long time.",
+   "target": "続く",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "62e5cbda4e28334c",
+   "jp": "そもそも[俺|おれ]は[肉|にく]が[好|す]きじゃない。",
+   "en": "I don't even like meat in the first place.",
+   "target": "そもそも",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e058b7119efe5ce1",
+   "jp": "わざわざ[名前|なまえ]を[覚|おぼ]えてくれたんですね。",
+   "en": "You went to the trouble of remembering my name, didn't you.",
+   "target": "わざわざ",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d533e245e982ca6e",
+   "jp": "[子供|こども]が[笑|わら]いながら[走|はし]って[逃|に]げた。",
+   "en": "The child ran away, laughing.",
+   "target": "逃げる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "54ea9270491d6ca0",
+   "jp": "[明日|あした]は[俺|おれ]がご[飯|はん]を[作|つく]るよ。",
+   "en": "I'll make dinner tomorrow.",
+   "target": "俺",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1a0191c53d36e902",
+   "jp": "[左|ひだり]の[手|て]で[書|か]くのは[難|むずか]しいです。",
+   "en": "Writing with my left hand is difficult.",
+   "target": "難しい",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "56151633b6b45b9b",
+   "jp": "やっと[海|うみ]が[見|み]えてきた。",
+   "en": "At last, the sea came into view.",
+   "target": "やっと",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "65bf9c416d7ca4f8",
+   "jp": "[妹|いもうと]は[泣|な]きながら[母|はは]を[追|お]った。",
+   "en": "My little sister chased after our mother, crying.",
+   "target": "追う",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "342f2b8aa63195cd",
+   "jp": "ちょっとこれを[持|も]っていてください。",
+   "en": "Please hold this for a moment.",
+   "target": "持つ",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "4e97773c6a413ed0",
+   "jp": "[明日|あした][会|あ]えないのは[残念|ざんねん]です。",
+   "en": "It's a shame we can't meet tomorrow.",
+   "target": "残念",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "6017d1b1bec58940",
+   "jp": "[先生|せんせい]の[本|ほん]を[学校|がっこう]まで[運|はこ]びました。",
+   "en": "I carried the teacher's books to the school.",
+   "target": "運ぶ",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c078f3aaeb9eb5b5",
+   "jp": "[頭|あたま]から[冷|つめ]たい[水|みず]を[掛|か]けられた。",
+   "en": "Someone poured cold water over my head.",
+   "target": "頭",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ae763f144a734fb7",
+   "jp": "[彼|かれ]に[嘘|うそ]をつかれるのは[嫌|いや]だ。",
+   "en": "I hate being lied to by him.",
+   "target": "嫌",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "29f11dbb362fefd9",
+   "jp": "[風|かぜ]で[窓|まど]が[震|ふる]えている。",
+   "en": "The window is shaking in the wind.",
+   "target": "震える",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "12b4de93301ad143",
+   "jp": "[明日|あした]、この[服|ふく]を[姉|あね]に[返|かえ]します。",
+   "en": "I'll give these clothes back to my older sister tomorrow.",
+   "target": "返す",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "20c489f63e58322b",
+   "jp": "[家|いえ]の[周|まわ]りを[一度|いちど][回|まわ]った。",
+   "en": "I walked once around the house.",
+   "target": "回る",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "97f87adc16f5fb28",
+   "jp": "[来年|らいねん]、[兄|あに]が[日本|にほん]に[帰|かえ]ってきます。",
+   "en": "Next year, my older brother is coming back to Japan.",
+   "target": "来年",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "638595ca224909fa",
+   "jp": "どんな[考|かんが]えでも、まず[話|はな]してください。",
+   "en": "Whatever your idea is, please tell me first.",
+   "target": "考え",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "3f2ff919b84605a4",
+   "jp": "[明日|あした]は[新|あたら]しい[服|ふく]を[着|き]て[学校|がっこう]へ[行|い]く。",
+   "en": "Tomorrow I'll wear new clothes to school.",
+   "target": "着る",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "50cc6dbd2ed529d9",
+   "jp": "[昨日|きのう]の[夜|よる]は[早|はや]く[寝|ね]ました。",
+   "en": "I went to bed early last night.",
+   "target": "昨日",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9a33f05d315e731c",
+   "jp": "[肩|かた]に[白|しろ]い[花|はな]が[落|お]ちてきた。",
+   "en": "A white flower fell onto my shoulder.",
+   "target": "肩",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c7d89b9bcf2bf7a4",
+   "jp": "[先生|せんせい]は[隣|となり]の[部屋|へや]にいらっしゃいます。",
+   "en": "The teacher is in the next room.",
+   "target": "いらっしゃる",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9ccec3645c8c5345",
+   "jp": "この[問題|もんだい]は[君|きみ]に[任|まか]せるよ。",
+   "en": "I'll leave this problem to you.",
+   "target": "問題",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "7ec32c604d62f554",
+   "jp": "さすが[彼女|かのじょ]だ、[最初|さいしょ]から[全部|ぜんぶ][分|わ]かっていた。",
+   "en": "That's her for you — she understood everything from the start.",
+   "target": "さすが",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "24a0cb42351c284c",
+   "jp": "[扉|とびら]の[向|む]こうから[誰|だれ]かが[答|こた]えた。",
+   "en": "Someone answered from the other side of the door.",
+   "target": "答える",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "3d1571338835547e",
+   "jp": "[人|ひと]を[愛|あい]する[気持|きも]ちを[忘|わす]れないで。",
+   "en": "Don't forget how it feels to love someone.",
+   "target": "愛する",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "931685129c1ae53b",
+   "jp": "[母|はは]を[納得|なっとく]させるのは[大変|たいへん]だ。",
+   "en": "It's hard to convince my mother.",
+   "target": "納得",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ebdba49467bfa28a",
+   "jp": "[友達|ともだち]に[変|へん]な[質問|しつもん]をされた。",
+   "en": "My friend asked me a strange question.",
+   "target": "質問",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "39c18e23504049bb",
+   "jp": "[町|まち]で[昔|むかし]の[友達|ともだち]に[出会|であ]った。",
+   "en": "I ran into an old friend in town.",
+   "target": "出会う",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "45be6cf81ab333db",
+   "jp": "[最近|さいきん]、[仕事|しごと]が[増|ふ]えて[忙|いそが]しい。",
+   "en": "Lately I've had more work and I'm busy.",
+   "target": "増える",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1f22a9d644f5539f",
+   "jp": "[肉|にく]を[小|ちい]さく[切|き]ってください。",
+   "en": "Please cut the meat into small pieces.",
+   "target": "肉",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "960a81c122dbb2d2",
+   "jp": "もう[我慢|がまん]できない、[家|いえ]に[帰|かえ]る。",
+   "en": "I can't stand it anymore. I'm going home.",
+   "target": "我慢",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c3322b4a2b5d8623",
+   "jp": "[事件|じけん]について[何|なに]か[知|し]っていますか。",
+   "en": "Do you know anything about the incident?",
+   "target": "事件",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "4e8140268292c37b",
+   "jp": "[先生|せんせい]に[失敗|しっぱい]を[報告|ほうこく]するのは[怖|こわ]い。",
+   "en": "I'm scared to report my mistake to the teacher.",
+   "target": "報告",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "6cc4b391f73d961a",
+   "jp": "[彼女|かのじょ]はいつも[周囲|しゅうい]に[優|やさ]しい。",
+   "en": "She is always kind to the people around her.",
+   "target": "周囲",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ad2b2dc68d2a341a",
+   "jp": "[山|やま]の[上|うえ]まで、[歩|ある]いて[三時間|さんじかん]かかった。",
+   "en": "It took three hours to walk to the top of the mountain.",
+   "target": "かかる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "bda051b2c3e2924c",
+   "jp": "[兄|あに]は[両手|りょうて]に[重|おも]い[物|もの]を[持|も]っていた。",
+   "en": "My older brother was holding something heavy in both hands.",
+   "target": "持つ",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c32978cb4bc05b0d",
+   "jp": "[熱|あつ]いご[飯|はん]を[急|いそ]いで[食|た]べて、[口|くち]が[痛|いた]い。",
+   "en": "I ate the hot rice too fast, and now my mouth hurts.",
+   "target": "熱い",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "92c0855f5a5296ff",
+   "jp": "[男|おとこ]の[子|こ]たちが[光|ひかり]を[追|お]って[走|はし]っている。",
+   "en": "The boys are running after the light.",
+   "target": "追う",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "db0e23efd9437048",
+   "jp": "[今夜|こんや]の[食事|しょくじ]は[私|わたし]が[作|つく]ります。",
+   "en": "I'll make tonight's meal.",
+   "target": "食事",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1bc3680d9747e8af",
+   "jp": "[明日|あした]は[早|はや]く[起|お]きないといけない。",
+   "en": "I have to get up early tomorrow.",
+   "target": "起きる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "58b2f0da45775e03",
+   "jp": "[私|わたし]たちは[同|おな]じ[目的|もくてき]で[集|あつ]まった。",
+   "en": "We came together for the same purpose.",
+   "target": "目的",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "246affd98708a7f8",
+   "jp": "[山|やま]から[冷|つめ]たい[水|みず]が[流|なが]れてくる。",
+   "en": "Cold water flows down from the mountain.",
+   "target": "流れる",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8c1301c84efe3af4",
+   "jp": "[普段|ふだん]はあまり[肉|にく]を[食|た]べない。",
+   "en": "I don't usually eat much meat.",
+   "target": "普段",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8a10259b278affbf",
+   "jp": "[背中|せなか]を[壁|かべ]に[付|つ]けて[立|た]ってください。",
+   "en": "Please stand with your back against the wall.",
+   "target": "背中",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "68feaa09e103472a",
+   "jp": "[君|きみ][自身|じしん]はどう[思|おも]いますか。",
+   "en": "What do you yourself think?",
+   "target": "自身",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "91705f28ed17d99a",
+   "jp": "[妹|いもうと]は[料理|りょうり]がとても[上手|うま]い。",
+   "en": "My younger sister is really good at cooking.",
+   "target": "妹",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "aac4ae05dff9d215",
+   "jp": "[毎日|まいにち]、[新|あたら]しい[言葉|ことば]を[覚|おぼ]えています。",
+   "en": "I learn new words every day.",
+   "target": "言葉",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "6f2ff164edca52dc",
+   "jp": "[振|ふ]り[返|かえ]らないで、[前|まえ]に[進|すす]もう。",
+   "en": "Let's move forward without looking back.",
+   "target": "振り返る",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2fd8fc940c4c5086",
+   "jp": "[王|おう]を[襲|おそ]ったのは[誰|だれ]ですか。",
+   "en": "Who attacked the king?",
+   "target": "襲う",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c587e7c42bb93d18",
+   "jp": "[何|なに]かいい[考|かんが]えはありませんか。",
+   "en": "Don't you have any good ideas?",
+   "target": "考え",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "7005219421de961d",
+   "jp": "[明日|あした]は[用|よう]がないから、[一緒|いっしょ]に[遊|あそ]ぼう。",
+   "en": "I have nothing to do tomorrow, so let's hang out.",
+   "target": "用",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8b6babc4f2d2f41b",
+   "jp": "この[部屋|へや]は[形|かたち]が[面白|おもしろ]いね。",
+   "en": "This room has an interesting shape, doesn't it?",
+   "target": "形",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2834230ce7d7ac45",
+   "jp": "[要|い]らない[服|ふく]を[全部|ぜんぶ][捨|す]てた。",
+   "en": "I threw away all the clothes I didn't need.",
+   "target": "捨てる",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ba94a6bec5f8d4f5",
+   "jp": "[彼|かれ]が[来|こ]ないのは[不思議|ふしぎ]だ。",
+   "en": "It's strange that he isn't coming.",
+   "target": "不思議",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1b5854d2fe4abfcc",
+   "jp": "[小|ちい]さい[頃|ころ]、この[町|まち]に[住|す]んでいた。",
+   "en": "When I was little, I lived in this town.",
+   "target": "小さい",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "36d60207fbf0e113",
+   "jp": "[後|うし]ろを[向|む]かないで、[前|まえ]に[進|すす]もう。",
+   "en": "Let's not look back; let's move forward.",
+   "target": "向く",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8670d933dd2a369e",
+   "jp": "[新|あたら]しい[方法|ほうほう]を[考|かんが]えましょう。",
+   "en": "Let's think of a new method.",
+   "target": "考える",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "97eacfe3f8695cf9",
+   "jp": "[彼女|かのじょ]は[静|しず]かな[生活|せいかつ]を[望|のぞ]んでいる。",
+   "en": "She hopes for a quiet life.",
+   "target": "望む",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "a7692fcb0c9094cc",
+   "jp": "[夏|なつ]は[海|うみ]に[来|く]る[人|ひと]が[増|ふ]える。",
+   "en": "In summer, more people come to the sea.",
+   "target": "増える",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d4b2ad5ac1f5ae24",
+   "jp": "この[山|やま]は[結構|けっこう][高|たか]いですね。",
+   "en": "This mountain is quite high, isn't it?",
+   "target": "結構",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8eb06f3c8af5c04c",
+   "jp": "[高|たか]い[服|ふく]は[買|か]えません。",
+   "en": "I can't buy expensive clothes.",
+   "target": "高い",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c99335980d82f0aa",
+   "jp": "[先生|せんせい]は[優|やさ]しい[雰囲気|ふんいき]の[人|ひと]です。",
+   "en": "The teacher is a person with a gentle air about them.",
+   "target": "雰囲気",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2c92c6e822a71c25",
+   "jp": "[学校|がっこう]まで[走|はし]って[行|い]きました。",
+   "en": "I ran all the way to school.",
+   "target": "走る",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "4dba26f90bf2d9f5",
+   "jp": "[嘘|うそ]をつく[人|ひと]は[嫌|きら]いです。",
+   "en": "I don't like people who lie.",
+   "target": "嘘",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "55fe77e0376682c7",
+   "jp": "[来月|らいげつ]から[新|あたら]しい[店|みせ]で[働|はたら]きます。",
+   "en": "Starting next month, I'll work at a new shop.",
+   "target": "働く",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "506826589152a85b",
+   "jp": "[疲|つか]れたから、[今日|きょう]はもう[止|や]めましょう。",
+   "en": "I'm tired, so let's stop for today.",
+   "target": "止める",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "627580086a4d543d",
+   "jp": "[弟|おとうと]は[兄|あに]の[背中|せなか]に[乗|の]って[遊|あそ]んだ。",
+   "en": "My little brother played riding on our older brother's back.",
+   "target": "乗る",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c3cd56d497e5dc84",
+   "jp": "[彼女|かのじょ]は[先生|せんせい]に[説明|せつめい]を[求|もと]めた。",
+   "en": "She asked the teacher for an explanation.",
+   "target": "求める",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9ffa4fad9493c431",
+   "jp": "[今夜|こんや]は[肉|にく]の[料理|りょうり]を[作|つく]ろう。",
+   "en": "Let's make a meat dish tonight.",
+   "target": "作る",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "fa7baaf0bf65ace8",
+   "jp": "[冬|ふゆ]の[朝|あさ]は[空気|くうき]が[冷|つめ]たく[感|かん]じる。",
+   "en": "On winter mornings, the air feels cold.",
+   "target": "感じる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b8d344b07161278d",
+   "jp": "どうせやるなら、[一番|いちばん]になりたい。",
+   "en": "If I'm going to do it anyway, I want to be the best.",
+   "target": "どうせ",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8a09096ac39a64c4",
+   "jp": "[弟|おとうと]は[悪|わる]い[結果|けっか]を[母|はは]に[隠|かく]した。",
+   "en": "My little brother hid his bad results from our mother.",
+   "target": "隠す",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ec49d8327a73e651",
+   "jp": "さすが[王|おう]だ、[誰|だれ]よりも[強|つよ]い。",
+   "en": "Just what you'd expect from the king — stronger than anyone.",
+   "target": "さすが",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "355fbb4abfd5cd6f",
+   "jp": "[床|ゆか]に[赤|あか]い[血|ち]が[付|つ]いている。",
+   "en": "There's red blood on the floor.",
+   "target": "床",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5ae433da3b756ac0",
+   "jp": "[彼|かれ]は[若|わか]いのに[仕事|しごと]が[上手|うま]い。",
+   "en": "He's young, but he's good at his job.",
+   "target": "若い",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "4ce2b5a77bfa51ca",
+   "jp": "[彼女|かのじょ]は[結婚|けっこん]してから[変|か]わった。",
+   "en": "She has changed since she got married.",
+   "target": "変わる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f6dc985918bc997f",
+   "jp": "[妹|いもうと]の[部屋|へや]はいつも[静|しず]かだ。",
+   "en": "My younger sister's room is always quiet.",
+   "target": "妹",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "daf1ec5f501f12f3",
+   "jp": "[答|こた]えは[九|きゅう]です。",
+   "en": "The answer is nine.",
+   "target": "九",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "61c131fb82c64e35",
+   "jp": "[今日|きょう]は[特別|とくべつ]な[料理|りょうり]を[作|つく]ります。",
+   "en": "Today I'm making a special dish.",
+   "target": "特別",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b47d33f98305e01c",
+   "jp": "[美|うつく]しい[空|そら]に[思|おも]わず[足|あし]が[止|と]まった。",
+   "en": "The beautiful sky made me stop in my tracks without thinking.",
+   "target": "思わず",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "0c6e91b7573d1490",
+   "jp": "[彼|かれ]はいつも[同|おな]じ[冗談|じょうだん]を[繰|く]り[返|かえ]す。",
+   "en": "He always repeats the same joke.",
+   "target": "繰り返す",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "cf68e23eaa18db8d",
+   "jp": "[夢|ゆめ]の[中|なか]に[母|はは]が[現|あらわ]れた。",
+   "en": "My mother appeared in my dream.",
+   "target": "現れる",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "269edc3f46b93fd5",
+   "jp": "[少年|しょうねん]は[山|やま]の[上|うえ]から[町|まち]を[眺|なが]めた。",
+   "en": "The boy gazed at the town from the top of the mountain.",
+   "target": "少年",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "bf1b4048a6ca163b",
+   "jp": "[正直|しょうじき]に[言|い]うと、[少|すこ]し[怖|こわ]かった。",
+   "en": "To be honest, I was a little scared.",
+   "target": "正直",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "a4a011934188b7f9",
+   "jp": "どうも[部屋|へや]の[空気|くうき]が[重|おも]い。",
+   "en": "Somehow the atmosphere in the room feels heavy.",
+   "target": "どうも",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "23e8e1d26cad2510",
+   "jp": "[後|うし]ろを[向|む]いてください。",
+   "en": "Please turn around.",
+   "target": "向く",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "74fb3661f44542d0",
+   "jp": "[彼|かれ]の[返事|へんじ]を[読|よ]んで[安心|あんしん]した。",
+   "en": "I was relieved after reading his reply.",
+   "target": "読む",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "19f128a927034633",
+   "jp": "[約束|やくそく]を[忘|わす]れないように[書|か]いておく。",
+   "en": "I'll write down the promise so I don't forget it.",
+   "target": "書く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2a8198c5888898fe",
+   "jp": "[彼|かれ]は[優|やさ]しすぎる。",
+   "en": "He's too kind.",
+   "target": "過ぎる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c3bf1477cf4f7f23",
+   "jp": "[少年|しょうねん]は[窓|まど]から[空|そら]を[眺|なが]めていた。",
+   "en": "The boy was gazing at the sky from the window.",
+   "target": "少年",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b82f9ebd702463e3",
+   "jp": "[彼|かれ]の[話|はなし]の[内容|ないよう]がよく[分|わ]からない。",
+   "en": "I don't really understand what he's talking about.",
+   "target": "内容",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "bcbb0a98170d9ba0",
+   "jp": "[来月|らいげつ]は[友達|ともだち]と[海|うみ]に[行|い]きます。",
+   "en": "Next month I'm going to the sea with my friends.",
+   "target": "来月",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5b97b262b917958f",
+   "jp": "[料理|りょうり]を[部屋|へや]に[運|はこ]んでください。",
+   "en": "Please carry the food to the room.",
+   "target": "運ぶ",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "46eb7ecf85a0a2cb",
+   "jp": "[静|しず]かな[声|こえ]で[話|はな]してください。",
+   "en": "Please speak in a quiet voice.",
+   "target": "静か",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "030f1147690d4cbd",
+   "jp": "[彼|かれ]は[負|ま]けたことをなかなか[認|みと]めない。",
+   "en": "He just won't admit that he lost.",
+   "target": "認める",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "3ca64754f74fc455",
+   "jp": "[今夜|こんや]は[特|とく]に[予定|よてい]がない。",
+   "en": "I don't have any particular plans tonight.",
+   "target": "予定",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c26ac9928b3835ea",
+   "jp": "[想像|そうぞう]より[山|やま]が[高|たか]かった。",
+   "en": "The mountain was higher than I had imagined.",
+   "target": "想像",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "536df4c4440afa72",
+   "jp": "[昨日|きのう]の[夜|よる]の[事|こと]は[何|なに]も[覚|おぼ]えていない。",
+   "en": "I don't remember anything about last night.",
+   "target": "覚える",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1f65019ac8991616",
+   "jp": "[父|ちち]の[下|もと]で[料理|りょうり]を[勉強|べんきょう]している。",
+   "en": "I'm learning to cook under my father.",
+   "target": "下",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "0f5d1ec6d453c5fe",
+   "jp": "[彼|かれ]はわざわざ[私|わたし]に[本|ほん]を[返|かえ]しに[来|き]た。",
+   "en": "He went out of his way to come return the book to me.",
+   "target": "わざわざ",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "681ef93b8ff5ba32",
+   "jp": "[今度|こんど]は[私|わたし]が[料理|りょうり]を[作|つく]るね。",
+   "en": "Next time I'll do the cooking.",
+   "target": "今度",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "06464f36305cb89f",
+   "jp": "[彼|かれ]は[変|へん]な[事|こと]ばかり[言|い]う。",
+   "en": "He says nothing but strange things.",
+   "target": "事",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "12fd14df534ab55b",
+   "jp": "[友達|ともだち]を[助|たす]けるのは[当|あ]たり[前|まえ]だ。",
+   "en": "Of course you help your friends.",
+   "target": "当たり前",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1a480e730419b084",
+   "jp": "[分|わ]からない[事|こと]は[先生|せんせい]に[聞|き]いてください。",
+   "en": "Please ask the teacher about anything you don't understand.",
+   "target": "聞く",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8bcbb32a66dc9f80",
+   "jp": "[彼|かれ]は[言葉|ことば]を[選|えら]んで[話|はな]した。",
+   "en": "He chose his words carefully as he spoke.",
+   "target": "言葉",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "14bf75cb009455e4",
+   "jp": "[少年|しょうねん]は[重|おも]い[本|ほん]を[両手|りょうて]で[持|も]っていた。",
+   "en": "The boy was holding a heavy book in both hands.",
+   "target": "少年",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "76229a5fe985cb44",
+   "jp": "[誰|だれ]にでも[過去|かこ]はあります。",
+   "en": "Everyone has a past.",
+   "target": "過去",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f09b36636e849653",
+   "jp": "[肉|にく]を[同|おな]じ[形|かたち]に[切|き]った。",
+   "en": "I cut the meat into the same shape.",
+   "target": "形",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "96cb9c3c66637173",
+   "jp": "[少年|しょうねん]は[戦|たたか]いの[中|なか]で[強|つよ]い[力|ちから]を[得|え]た。",
+   "en": "The boy gained great strength in the midst of battle.",
+   "target": "得る",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "df3673faa113716a",
+   "jp": "[彼|かれ]は[重|おも]い[物|もの]を[頭|あたま]の[上|うえ]まで[上|あ]げた。",
+   "en": "He lifted the heavy thing up over his head.",
+   "target": "上げる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1b45452a1b2e3486",
+   "jp": "[家族|かぞく]と[一緒|いっしょ]に[海|うみ]で[遊|あそ]んだ。",
+   "en": "I played at the beach with my family.",
+   "target": "一緒",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9241ba9982eb4dfb",
+   "jp": "[母|はは]は[若|わか]い[頃|ころ]に[兄|あに]を[生|う]んだ。",
+   "en": "My mother had my older brother when she was young.",
+   "target": "生む",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "30172133e3ddca02",
+   "jp": "[毎年|まいとし][夏|なつ]は[山|やま]で[自然|しぜん]を[楽|たの]しむ。",
+   "en": "Every summer I enjoy nature in the mountains.",
+   "target": "自然",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5ddb82ac984040d3",
+   "jp": "[仕事|しごと]が[無事|ぶじ]に[終|お]わった。",
+   "en": "The job finished without any trouble.",
+   "target": "無事",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ef6ea14bb6f3825c",
+   "jp": "[暇|ひま]な[時|とき]は[何|なに]をしていますか。",
+   "en": "What do you do in your free time?",
+   "target": "暇",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "6405c19dc5100db0",
+   "jp": "[胸|むね]に[手|て]を[置|お]いて[考|かんが]えた。",
+   "en": "I put my hand on my chest and thought it over.",
+   "target": "胸",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "874931053d9fef90",
+   "jp": "[白|しろ]い[服|ふく]に[血|ち]が[付|つ]いている。",
+   "en": "There's blood on the white clothes.",
+   "target": "服",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "09fd8f415110daee",
+   "jp": "[君|きみ]のことは[決|けっ]して[許|ゆる]さない。",
+   "en": "I will never forgive you.",
+   "target": "決して",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5817f1dc131a14d6",
+   "jp": "[以前|いぜん]、[彼女|かのじょ]に[会|あ]ったことがある。",
+   "en": "I've met her before.",
+   "target": "以前",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "57e62a39a8f3ca00",
+   "jp": "[余|あま]りの[肉|にく]で[料理|りょうり]を[作|つく]りました。",
+   "en": "I made a dish with the leftover meat.",
+   "target": "余り",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c98a302ad715792f",
+   "jp": "[弟|おとうと]の[足|あし]はまだ[床|ゆか]に[届|とど]かない。",
+   "en": "My little brother's feet still don't reach the floor.",
+   "target": "届く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b81b9589a5b5815c",
+   "jp": "[家|いえ]のことは[姉|あね]に[任|まか]せて、[仕事|しごと]に[行|い]った。",
+   "en": "I left the housework to my older sister and went to work.",
+   "target": "任せる",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b43d61bd2d90e25e",
+   "jp": "[周囲|しゅうい]の[音|おと]が[全然|ぜんぜん][聞|き]こえなかった。",
+   "en": "I couldn't hear the sounds around me at all.",
+   "target": "周囲",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "61e25d94fc59bf16",
+   "jp": "[誰|だれ]も[僕|ぼく]に[構|かま]ってくれない。",
+   "en": "Nobody pays any attention to me.",
+   "target": "構う",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1d47167b04b88648",
+   "jp": "まさか、それも[嘘|うそ]だったのか。",
+   "en": "Don't tell me that was a lie too.",
+   "target": "嘘",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "446f4c0213dcd211",
+   "jp": "この[店|みせ]には[特別|とくべつ]な[日|ひ]に[来|き]ます。",
+   "en": "I come to this shop on special days.",
+   "target": "特別",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f9631f660a7f5b99",
+   "jp": "この[本|ほん]は[誰|だれ]が[書|か]いたんですか。",
+   "en": "Who wrote this book?",
+   "target": "書く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2df270bb2a5745de",
+   "jp": "[彼|かれ]は[金|かね]を[返|かえ]してくれなかった。",
+   "en": "He didn't pay the money back.",
+   "target": "金",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d9146bb99f90a800",
+   "jp": "[先生|せんせい]の[言葉|ことば]が[今|いま]も[耳|みみ]に[響|ひび]いている。",
+   "en": "My teacher's words still ring in my ears.",
+   "target": "響く",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "540b94d1ecf7c0ed",
+   "jp": "[緊張|きんちょう]して、[声|こえ]が[震|ふる]えた。",
+   "en": "I was so nervous that my voice shook.",
+   "target": "声",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e7174fe5bd543f42",
+   "jp": "その[事件|じけん]のことは[誰|だれ]にも[話|はな]さないで。",
+   "en": "Don't tell anyone about that incident.",
+   "target": "事件",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "14c90b9f3f117017",
+   "jp": "[左|ひだり]の[道|みち]に[進|すす]んでください。",
+   "en": "Please go down the road on the left.",
+   "target": "進む",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "120913ad4a4f28a1",
+   "jp": "[彼|かれ]の[料理|りょうり]が[上手|うま]くて[驚|おどろ]いた。",
+   "en": "I was surprised at how good his cooking was.",
+   "target": "驚く",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "a66fed7c55734366",
+   "jp": "[色々|いろいろ]な[店|みせ]を[回|まわ]って、[新|あたら]しい[服|ふく]を[買|か]った。",
+   "en": "I went around to various shops and bought new clothes.",
+   "target": "回る",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d2e35d77d268c93f",
+   "jp": "[今|いま]の[生活|せいかつ]には[余裕|よゆう]がない。",
+   "en": "There's no breathing room in my life right now.",
+   "target": "生活",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9e0f5b50076f121a",
+   "jp": "[我々|われわれ]は[何|なに]をすればいいのか。",
+   "en": "What should we do?",
+   "target": "我々",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "55542481229b34e3",
+   "jp": "この[約束|やくそく]を[守|まも]るのは[決|けっ]して[簡単|かんたん]ではない。",
+   "en": "Keeping this promise is by no means easy.",
+   "target": "決して",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ae44d8f2ff05b98b",
+   "jp": "[今日|きょう]は[普段|ふだん]より[早|はや]く[起|お]きた。",
+   "en": "I got up earlier than usual today.",
+   "target": "普段",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "cadeb46ef599fed6",
+   "jp": "その[理由|りゆう]では[納得|なっとく]できません。",
+   "en": "I can't accept that reason.",
+   "target": "納得",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "63a51684079f6fc8",
+   "jp": "[我々|われわれ]の[未来|みらい]は[自分|じぶん]で[決|き]める。",
+   "en": "We will decide our own future.",
+   "target": "我々",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "eb0270c3d1c61cae",
+   "jp": "[風|かぜ]が[少|すこ]し[弱|よわ]くなった。",
+   "en": "The wind got a little weaker.",
+   "target": "弱い",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "4f4253c079733876",
+   "jp": "[森|もり]の[中|なか]で[道|みち]を[探|さが]した。",
+   "en": "I looked for the path in the forest.",
+   "target": "探す",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "23c46f97746aa8b7",
+   "jp": "[今日|きょう]は[友達|ともだち]と[店|みせ]を[回|まわ]った。",
+   "en": "Today I went around the shops with a friend.",
+   "target": "回る",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c4d68d37750e12c1",
+   "jp": "[森|もり]で[珍|めずら]しい[花|はな]を[見|み]つけました。",
+   "en": "I found a rare flower in the forest.",
+   "target": "珍しい",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "29f76574af9f5133",
+   "jp": "[彼|かれ]は[反応|はんのう]が[少|すこ]し[遅|おそ]い。",
+   "en": "His reactions are a little slow.",
+   "target": "反応",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "96d4dc3ea645c9c5",
+   "jp": "[母|はは]に[遅|おそ]くなると[伝|つた]えてください。",
+   "en": "Please tell Mom I'll be late.",
+   "target": "伝える",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "353d43fc02171bbb",
+   "jp": "[明日|あした]の[朝|あさ]まで[待|ま]ちましょう。",
+   "en": "Let's wait until tomorrow morning.",
+   "target": "待つ",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "3340a2223cbb9a3e",
+   "jp": "[来年|らいねん]、[父|ちち]と[山|やま]へ[行|い]きます。",
+   "en": "Next year I'm going to the mountains with my dad.",
+   "target": "山",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "bddee7f28542e639",
+   "jp": "[彼|かれ]はゆっくり[腰|こし]を[上|あ]げた。",
+   "en": "He slowly got to his feet.",
+   "target": "腰",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "67e764b0f4306f63",
+   "jp": "[全|すべ]ての[問題|もんだい]に[答|こた]えました。",
+   "en": "I answered all of the questions.",
+   "target": "全て",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "211dcc4b9fec82b6",
+   "jp": "[静|しず]かな[通|とお]りを[歩|ある]いて[帰|かえ]った。",
+   "en": "I walked home along a quiet street.",
+   "target": "通り",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "acb77881eb3fe559",
+   "jp": "[外|そと]にいて[両手|りょうて]が[冷|つめ]たくなった。",
+   "en": "Being outside, both my hands got cold.",
+   "target": "両手",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "15e9e0047897b37e",
+   "jp": "[怖|こわ]くて[逃|に]げたかった。",
+   "en": "I was scared and wanted to run away.",
+   "target": "逃げる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "7bc6095abfc786d9",
+   "jp": "[自然|しぜん]について[本|ほん]で[調|しら]べた。",
+   "en": "I looked up things about nature in a book.",
+   "target": "自然",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "29768f6d1c43721f",
+   "jp": "[準備|じゅんび]を[終|お]えて、[家|いえ]を[出|で]た。",
+   "en": "I finished getting ready and left the house.",
+   "target": "終える",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "81d92853216d4e48",
+   "jp": "[私|わたし]は[待|ま]つのが[嫌|きら]いです。",
+   "en": "I hate waiting.",
+   "target": "嫌い",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "11975f79c663f99e",
+   "jp": "[友達|ともだち]がうちに[集|あつ]まって[料理|りょうり]を[作|つく]った。",
+   "en": "My friends gathered at my place and we cooked.",
+   "target": "集まる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c16a84faaf1d1df5",
+   "jp": "まず[先生|せんせい]に[聞|き]いてみよう。",
+   "en": "Let's ask the teacher first.",
+   "target": "まず",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2fd6de976cd3ce8b",
+   "jp": "[失敗|しっぱい]が[続|つづ]いて、[元気|げんき]が[無|な]い。",
+   "en": "I've had one failure after another, so I'm feeling down.",
+   "target": "続く",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "4a280d7835645f50",
+   "jp": "[確認|かくにん]はもう[済|す]みましたか。",
+   "en": "Have you finished checking already?",
+   "target": "済む",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b0f9598eb0b6f33c",
+   "jp": "[今度|こんど]の[戦|たたか]いは[森|もり]で[行|おこな]われる。",
+   "en": "The next battle will be held in the forest.",
+   "target": "行う",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e17c6965785a35ee",
+   "jp": "[正直|しょうじき]に[嘘|うそ]を[認|みと]めてください。",
+   "en": "Please honestly admit your lie.",
+   "target": "認める",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b7c8305e314e9b33",
+   "jp": "[扉|とびら]の[下|した]から[光|ひかり]が[見|み]える。",
+   "en": "I can see light from under the door.",
+   "target": "下",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2d94845e40b57c31",
+   "jp": "[床|ゆか]から[変|へん]な[音|おと]が[聞|き]こえる。",
+   "en": "I hear a strange sound coming from the floor.",
+   "target": "床",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d689a8b432b03e2d",
+   "jp": "[今夜|こんや]は[家|いえ]で[静|しず]かに[過|す]ごしたい。",
+   "en": "Tonight I want to spend a quiet time at home.",
+   "target": "今夜",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "18218ab41306aeee",
+   "jp": "[日本語|にほんご]は[簡単|かんたん]な[会話|かいわ]ができる[程度|ていど]です。",
+   "en": "My Japanese is at the level where I can have simple conversations.",
+   "target": "程度",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "60445750244de543",
+   "jp": "[嫌|きら]いな[色|いろ]は[何|なん]ですか。",
+   "en": "What color do you dislike?",
+   "target": "嫌い",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "05cffe39450fc727",
+   "jp": "その[情報|じょうほう]を[誰|だれ]から[聞|き]いたの。",
+   "en": "Who did you hear that information from?",
+   "target": "情報",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "046ff41ca8cfcdae",
+   "jp": "[三|さん][時間|じかん][待|ま]って、やっと[彼|かれ]が[来|き]た。",
+   "en": "After waiting three hours, he finally came.",
+   "target": "やっと",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1d4ad525ee7fd380",
+   "jp": "[一度|いちど][決|き]めたことは[最後|さいご]までやる。",
+   "en": "Once I decide something, I see it through to the end.",
+   "target": "一度",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "4f7828e6b9989923",
+   "jp": "[彼|かれ]は[勢|いきお]いよく[立|た]ち[上|あ]がった。",
+   "en": "He stood up vigorously.",
+   "target": "勢い",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f8330af8eec8745b",
+   "jp": "わざわざ[料理|りょうり]を[作|つく]ってくれたの。",
+   "en": "You went to the trouble of cooking for me?",
+   "target": "わざわざ",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "0c28917309b4ae91",
+   "jp": "[新|あたら]しい[仲間|なかま]に[期待|きたい]している。",
+   "en": "I have high hopes for our new teammate.",
+   "target": "期待",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e1048f9cad84b223",
+   "jp": "この[店|みせ]の[肉|にく]は[本当|ほんとう]に[上手|うま]い。",
+   "en": "The meat at this shop is really delicious.",
+   "target": "肉",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c21b633679ab14ea",
+   "jp": "[本人|ほんにん]は[全然|ぜんぜん][気付|きづ]いていない。",
+   "en": "The person himself hasn't noticed at all.",
+   "target": "本人",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d664087d8556610e",
+   "jp": "[私|わたし]は[彼女|かのじょ]の[肩|かた]に[服|ふく]を[掛|か]けた。",
+   "en": "I put a piece of clothing over her shoulders.",
+   "target": "掛ける",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ba7cd3db444f89ee",
+   "jp": "[彼女|かのじょ]は[来月|らいげつ][子供|こども]を[生|う]みます。",
+   "en": "She will give birth to a child next month.",
+   "target": "生む",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "a3dbcca5ab29bfe8",
+   "jp": "[扉|とびら]を[開|あ]けると、[冷|つめ]たい[風|かぜ]が[入|はい]った。",
+   "en": "When I opened the door, a cold wind came in.",
+   "target": "開ける",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ac9e24f5741b71f6",
+   "jp": "[嘘|うそ]を[認|みと]めたら、[許|ゆる]してあげる。",
+   "en": "If you admit the lie, I'll forgive you.",
+   "target": "認める",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e12ed359cf69d4c4",
+   "jp": "[昨夜|ゆうべ]は[寝|ね]ないで[本|ほん]を[読|よ]んだ。",
+   "en": "Last night I stayed up reading a book.",
+   "target": "昨夜",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "404e6729e6ac3ed1",
+   "jp": "[現実|げんじつ]から[逃|に]げてはいけない。",
+   "en": "You must not run away from reality.",
+   "target": "現実",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2491980908f0f793",
+   "jp": "[以前|いぜん]は[肉|にく]が[嫌|きら]いでした。",
+   "en": "I used to dislike meat.",
+   "target": "以前",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f15db18d92be2696",
+   "jp": "[彼女|かのじょ]は[笑顔|えがお]で[質問|しつもん]に[答|こた]えた。",
+   "en": "She answered the question with a smile.",
+   "target": "質問",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1b8e95562ae2fd22",
+   "jp": "[誰|だれ]にこの[花|はな]を[渡|わた]すんですか。",
+   "en": "Who are you going to give these flowers to?",
+   "target": "渡す",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f76ee7866a4882a4",
+   "jp": "[素直|すなお]な[子供|こども]は[可愛|かわい]い。",
+   "en": "Honest, straightforward children are cute.",
+   "target": "素直",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "bce1f25cc3cb9fe1",
+   "jp": "[目|め]を[開|あ]けて、[私|わたし]を[見|み]て。",
+   "en": "Open your eyes and look at me.",
+   "target": "開ける",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "df98dcdf312ba955",
+   "jp": "[神|かみ]は[人間|にんげん]に[命|いのち]を[与|あた]えた。",
+   "en": "God gave life to human beings.",
+   "target": "与える",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "cdc9c02fa86bec5f",
+   "jp": "[彼|かれ]が[来|こ]なくて[残念|ざんねん]だった。",
+   "en": "It was a shame that he didn't come.",
+   "target": "残念",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ec39735509535bbb",
+   "jp": "[彼|かれ]は[私|わたし]の[話|はなし]に[全然|ぜんぜん][興味|きょうみ]がない。",
+   "en": "He has no interest at all in what I say.",
+   "target": "興味",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "cd53ac1202b634bd",
+   "jp": "[先輩|せんぱい]に[情報|じょうほう]を[教|おし]えてもらった。",
+   "en": "My senior shared the information with me.",
+   "target": "情報",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "935699abde53275f",
+   "jp": "[急|きゅう]に[名前|なまえ]を[呼|よ]ばれて、[驚|おどろ]いた。",
+   "en": "I was startled when my name was suddenly called.",
+   "target": "急",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "003e7d4cc2189563",
+   "jp": "[先生|せんせい]に[日本語|にほんご]を[教|おし]えてもらった。",
+   "en": "I had my teacher teach me Japanese.",
+   "target": "もらう",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b60ca6741133d9b5",
+   "jp": "[今夜|こんや]は[肉|にく]を[食|た]べに[行|い]こう。",
+   "en": "Let's go eat meat tonight.",
+   "target": "今夜",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8ed4e7ad0e98af77",
+   "jp": "[兄|あに]は[私|わたし]に[優|やさ]しくない。",
+   "en": "My older brother isn't nice to me.",
+   "target": "優しい",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "a9aba903dd0c565d",
+   "jp": "[忙|いそが]しいから、[今|いま]は[構|かま]ってあげられない。",
+   "en": "I'm busy, so I can't pay attention to you right now.",
+   "target": "構う",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "01f27e5c9fad047d",
+   "jp": "[奴|やつ]はもう[逃|に]げたぞ。",
+   "en": "That guy has already run off!",
+   "target": "奴",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "969cc1125694e1db",
+   "jp": "[君|きみ]の[好|す]きな[場所|ばしょ]はどこですか。",
+   "en": "Where is your favorite place?",
+   "target": "場所",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "a30f02f7fabfdd6e",
+   "jp": "[友達|ともだち]の[予定|よてい]に[合|あ]わせて[休|やす]みます。",
+   "en": "I'll take time off to fit my friend's schedule.",
+   "target": "合わせる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f57c9e95fd1ed11a",
+   "jp": "[店|みせ]で[高|たか]い[肉|にく]を[買|か]った。",
+   "en": "I bought expensive meat at the store.",
+   "target": "肉",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5689b8ab079b68aa",
+   "jp": "[彼女|かのじょ]に[花|はな]を[渡|わた]したい。",
+   "en": "I want to give her flowers.",
+   "target": "渡す",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "03a28a59395a679e",
+   "jp": "[私|わたし]たちは[山|やま]に[向|む]かって[歩|ある]いた。",
+   "en": "We walked toward the mountain.",
+   "target": "向かう",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f63034d7688d4972",
+   "jp": "[驚|おどろ]いて、[思|おも]わず[立|た]ち[上|あ]がった。",
+   "en": "I was so surprised that I stood up without thinking.",
+   "target": "驚く",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9561ccb2e9508eec",
+   "jp": "[彼|かれ]は[私|わたし]に[本当|ほんとう]の[姿|すがた]を[見|み]せた。",
+   "en": "He showed me his true form.",
+   "target": "姿",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e6f546c8ea0eb23b",
+   "jp": "[彼女|かのじょ]は[昔|むかし]と[雰囲気|ふんいき]が[違|ちが]う。",
+   "en": "She gives off a different vibe than she used to.",
+   "target": "雰囲気",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ad2d94eed1b1d68a",
+   "jp": "[父|ちち]は[料理|りょうり]に[全然|ぜんぜん][興味|きょうみ]がない。",
+   "en": "My dad has no interest in cooking at all.",
+   "target": "興味",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "744a91ffd07ed4e3",
+   "jp": "[扉|とびら]の[向|む]こうに[誰|だれ]かいる。",
+   "en": "Someone is on the other side of the door.",
+   "target": "扉",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d240ee3bc5503a61",
+   "jp": "[父|ちち]が[倒|たお]れたと[連絡|れんらく]があった。",
+   "en": "I got word that my father had collapsed.",
+   "target": "倒れる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d5cceb927ab81deb",
+   "jp": "[髪|かみ]が[長|なが]くなったね。",
+   "en": "Your hair has gotten long, huh.",
+   "target": "髪",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "70b8f1f3b0cd2b28",
+   "jp": "[母|はは]は[泣|な]きながら[震|ふる]えていた。",
+   "en": "My mother was trembling as she cried.",
+   "target": "震える",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5b76a613b13f02d2",
+   "jp": "[彼|かれ]はいつも[周|まわ]りを[笑顔|えがお]にする。",
+   "en": "He always makes the people around him smile.",
+   "target": "周り",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "3c4b7391a4503ae4",
+   "jp": "[仲間|なかま]が[集|あつ]まったら、[始|はじ]めましょう。",
+   "en": "Let's start once everyone has gathered.",
+   "target": "集まる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "fcc80d746cafd86c",
+   "jp": "この[問題|もんだい]はさすがに[難|むずか]しい。",
+   "en": "This problem really is too hard, as you'd expect.",
+   "target": "さすが",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "3ee68d9d00b4645d",
+   "jp": "[一体|いったい]いつ[帰|かえ]ってくるの。",
+   "en": "When on earth are you coming back?",
+   "target": "一体",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "cee98fa405f6913b",
+   "jp": "[赤|あか]い[扉|とびら]の[家|いえ]に[住|す]んでいます。",
+   "en": "I live in the house with the red door.",
+   "target": "扉",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f5108d9f326467ce",
+   "jp": "[彼女|かのじょ]と[初|はじ]めて[出会|であ]ったのは[去年|きょねん]の[夏|なつ]だ。",
+   "en": "I first met her last summer.",
+   "target": "出会う",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "078f21890e4e88a2",
+   "jp": "[先輩|せんぱい]の[前|まえ]だと、いつも[緊張|きんちょう]する。",
+   "en": "I always get nervous in front of my senpai.",
+   "target": "緊張",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "813b0dd3e056cb64",
+   "jp": "[仲間|なかま]と[一緒|いっしょ]に[戦|たたか]おう。",
+   "en": "Let's fight together with our friends.",
+   "target": "戦う",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9ff02dfabe4f9f03",
+   "jp": "[王|おう]の[前|まえ]でその[態度|たいど]は[危険|きけん]だ。",
+   "en": "That attitude is dangerous in front of the king.",
+   "target": "態度",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d57b0fb4a9350620",
+   "jp": "[壁|かべ]の[向|む]こうから[声|こえ]が[聞|き]こえる。",
+   "en": "I can hear a voice from the other side of the wall.",
+   "target": "壁",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "28634d32bcc4a74f",
+   "jp": "どうしても[約束|やくそく]を[守|まも]りたい。",
+   "en": "I really want to keep my promise, no matter what.",
+   "target": "どうしても",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "94b3510718073b74",
+   "jp": "[敵|てき]の[姿|すがた]がどこにも[見|み]えない。",
+   "en": "I can't see the enemy anywhere.",
+   "target": "敵",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "00895ea7efd3b550",
+   "jp": "どうも[雰囲気|ふんいき]がいつもと[違|ちが]う。",
+   "en": "Somehow the atmosphere feels different from usual.",
+   "target": "どうも",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "77a28c399868181c",
+   "jp": "[色|いろ]の[感覚|かんかく]が[彼女|かのじょ]と[合|あ]う。",
+   "en": "My sense of color matches hers.",
+   "target": "感覚",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "2c675dee0decd6d3",
+   "jp": "[夜|よる]になっても[兄|あに]が[帰|かえ]ってこない。",
+   "en": "Even after night fell, my older brother hasn't come home.",
+   "target": "夜",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "151c3571e9ffc3e5",
+   "jp": "[母|はは]は[毎月|まいつき][一度|いちど][仕事|しごと]を[休|やす]む。",
+   "en": "My mother takes a day off work once a month.",
+   "target": "休む",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "0ee584c1b4dae412",
+   "jp": "[自分|じぶん]を[変|か]えたいと[思|おも]った。",
+   "en": "I thought I wanted to change myself.",
+   "target": "変える",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f904afc6dbd1d7d9",
+   "jp": "あの[連中|れんちゅう]を[信|しん]じるな。",
+   "en": "Don't trust that bunch.",
+   "target": "連中",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "df51a5f47955b2f6",
+   "jp": "[自分|じぶん]に[負|ま]けないで[頑張|がんば]ろう。",
+   "en": "Let's do our best and not give in to ourselves.",
+   "target": "負ける",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "65c48b254249a9da",
+   "jp": "[正直|しょうじき]に[謝|あやま]ったら、[父|ちち]は[許|ゆる]してくれた。",
+   "en": "When I apologized honestly, my father forgave me.",
+   "target": "正直",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "03bec60db69be561",
+   "jp": "[彼|かれ]の[料理|りょうり]は[結構|けっこう][上手|うま]い。",
+   "en": "His cooking is quite good.",
+   "target": "結構",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "018e665fc1c0bcb2",
+   "jp": "どうせ[明日|あした]も[同|おな]じだよ。",
+   "en": "It'll be the same tomorrow anyway.",
+   "target": "どうせ",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8048f88eb0f5d36d",
+   "jp": "[移動|いどう]は[夜|よる]に[行|おこな]う。",
+   "en": "We'll do the moving at night.",
+   "target": "行う",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "97b4c53e7cb9b7a4",
+   "jp": "[彼女|かのじょ]は[若|わか]い[頃|ころ]に[魔法|まほう]の[能力|のうりょく]を[得|え]た。",
+   "en": "She gained magical abilities when she was young.",
+   "target": "得る",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c455377087faef91",
+   "jp": "[普通|ふつう]の[生活|せいかつ]が[一番|いちばん][幸|しあわ]せだ。",
+   "en": "An ordinary life is the happiest.",
+   "target": "普通",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "a2e90fbee324482f",
+   "jp": "[店|みせ]の[後|うし]ろで[待|ま]っています。",
+   "en": "I'm waiting behind the shop.",
+   "target": "後ろ",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "1865bb0fbd794f93",
+   "jp": "[先生|せんせい]に[返事|へんじ]を[書|か]きました。",
+   "en": "I wrote a reply to my teacher.",
+   "target": "返事",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f801cf3ee68d4a9e",
+   "jp": "[姉|あね]に[冷|つめ]たい[水|みず]を[運|はこ]んであげた。",
+   "en": "I brought my sister some cold water.",
+   "target": "運ぶ",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "acc5bd349f4736a3",
+   "jp": "[彼|かれ]は[私|わたし]の[目|め]を[見|み]て[頷|うなず]いた。",
+   "en": "He looked me in the eye and nodded.",
+   "target": "頷く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "11365606b8268075",
+   "jp": "[母|はは]は[忙|いそが]しくて、[全然|ぜんぜん][休|やす]まない。",
+   "en": "My mother is so busy that she never rests.",
+   "target": "休む",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ca3b2e90645f6a93",
+   "jp": "[一度|いちど]その[本|ほん]を[読|よ]んでみてください。",
+   "en": "Please try reading that book once.",
+   "target": "一度",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "758a1d760680bd43",
+   "jp": "[過去|かこ]より[未来|みらい]のほうが[大切|たいせつ]だ。",
+   "en": "The future matters more than the past.",
+   "target": "過去",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "7a44110dab5be2a4",
+   "jp": "[彼|かれ]は[他|ほか]の[誰|だれ]よりも[優|やさ]しい。",
+   "en": "He is kinder than anyone else.",
+   "target": "他",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "6c5117f2b955a896",
+   "jp": "[肩|かた]まで[髪|かみ]が[長|なが]くなった。",
+   "en": "My hair has grown down to my shoulders.",
+   "target": "肩",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "af811c3065b57314",
+   "jp": "[自分|じぶん]の[未来|みらい]について[考|かんが]えています。",
+   "en": "I'm thinking about my own future.",
+   "target": "考える",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5d5d10d11b9199f6",
+   "jp": "[来月|らいげつ][新|あたら]しい[服|ふく]が[届|とど]きます。",
+   "en": "My new clothes will arrive next month.",
+   "target": "届く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "856e886690de00c1",
+   "jp": "[彼女|かのじょ]は[本|ほん]を[読|よ]むのが[大好|だいす]きです。",
+   "en": "She loves reading books.",
+   "target": "読む",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9234ae085efdcab0",
+   "jp": "[彼|かれ]は[黙|だま]って[背中|せなか]を[向|む]けた。",
+   "en": "He silently turned his back.",
+   "target": "背中",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "75b165c201164d6f",
+   "jp": "[山|やま]の[水|みず]は[冷|つめ]たくて[甘|あま]い。",
+   "en": "Mountain water is cold and sweet.",
+   "target": "山",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e20a24be19af392f",
+   "jp": "[早|はや]く[逃|に]げて、ここは[危険|きけん]だ。",
+   "en": "Run away quickly, it's dangerous here.",
+   "target": "逃げる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9fbfb619029bf14a",
+   "jp": "[彼|かれ]は[私|わたし]の[命|いのち]を[救|すく]ってくれた。",
+   "en": "He saved my life.",
+   "target": "命",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f9a089b2ddbc4e46",
+   "jp": "この[感覚|かんかく]は[言葉|ことば]で[説明|せつめい]できない。",
+   "en": "I can't explain this feeling in words.",
+   "target": "感覚",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "29dae2ff0448c3e3",
+   "jp": "[友達|ともだち]と[海|うみ]で[遊|あそ]んだ。",
+   "en": "I played at the beach with my friends.",
+   "target": "友達",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "a3971cf0bc1be4a2",
+   "jp": "[姉|あね]が[新|あたら]しい[服|ふく]を[買|か]ってくれた。",
+   "en": "My older sister bought me new clothes.",
+   "target": "くれる",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "65800c5bad4cf4fa",
+   "jp": "[彼女|かのじょ]は[自分|じぶん]の[顔|かお]が[嫌|きら]いだ。",
+   "en": "She dislikes her own face.",
+   "target": "自分",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "cfcf3b7d61b1f59b",
+   "jp": "[危険|きけん]の[程度|ていど]を[確認|かくにん]してください。",
+   "en": "Please check how dangerous it is.",
+   "target": "程度",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "53fb4149580aa755",
+   "jp": "[父|ちち]は[毎日|まいにち][遅|おそ]く[起|お]きる。",
+   "en": "My father gets up late every day.",
+   "target": "遅い",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "85962e8a80400312",
+   "jp": "[彼|かれ]の[心|こころ]の[状態|じょうたい]が[心配|しんぱい]だ。",
+   "en": "I'm worried about his state of mind.",
+   "target": "状態",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "70a59cddbc7b3b28",
+   "jp": "[次|つぎ]に[行|い]く[場所|ばしょ]を[決|き]めた。",
+   "en": "We decided where to go next.",
+   "target": "決める",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f93dd914954cbabc",
+   "jp": "どうしても[昨日|きのう]の[夢|ゆめ]を[思|おも]い[出|だ]せない。",
+   "en": "No matter what I do, I can't remember last night's dream.",
+   "target": "どうしても",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "23396735ca54162e",
+   "jp": "[興味|きょうみ]があるなら、[一緒|いっしょ]に[行|い]こう。",
+   "en": "If you're interested, let's go together.",
+   "target": "興味",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "6e5b86fc6d0246d7",
+   "jp": "[昨日|きのう]の[態度|たいど]を[彼|かれ]に[謝|あやま]った。",
+   "en": "I apologized to him for how I acted yesterday.",
+   "target": "態度",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "28f5fb78bf070fff",
+   "jp": "[話|はなし]が[終|お]わるまで[待|ま]ってください。",
+   "en": "Please wait until I finish talking.",
+   "target": "終わる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ae4609e7dcb39625",
+   "jp": "[彼|かれ]の[姿|すがた]を[探|さが]したが、[見|み]つからなかった。",
+   "en": "I looked for him but couldn't find him.",
+   "target": "姿",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "690213ed6fba4ec6",
+   "jp": "お[金|かね]はいくら[要|い]りますか。",
+   "en": "How much money do you need?",
+   "target": "要る",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5bfca5fc4567f416",
+   "jp": "[痛|いた]いのを[我慢|がまん]して[歩|ある]いた。",
+   "en": "I put up with the pain and kept walking.",
+   "target": "我慢",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "ed62d4cd6c458490",
+   "jp": "[名前|なまえ]を[呼|よ]ばれて、[立|た]ち[上|あ]がった。",
+   "en": "When my name was called, I stood up.",
+   "target": "立ち上がる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "deca54be8c7052b0",
+   "jp": "[隣|となり]に[座|すわ]ってもいいですか。",
+   "en": "May I sit next to you?",
+   "target": "隣",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "4523036627325589",
+   "jp": "[彼|かれ]は[私|わたし]の[肩|かた]に[優|やさ]しく[触|ふ]れた。",
+   "en": "He gently touched my shoulder.",
+   "target": "触れる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "57d54879ae4eda67",
+   "jp": "[彼女|かのじょ]は[足|あし]を[止|と]めて[空|そら]を[眺|なが]めた。",
+   "en": "She stopped walking and gazed at the sky.",
+   "target": "止める",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5ca524aadc105cd0",
+   "jp": "[勝手|かって]な[行動|こうどう]は[危険|きけん]です。",
+   "en": "Acting on your own without asking is dangerous.",
+   "target": "勝手",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "5603f975113228cf",
+   "jp": "[空|そら]に[白|しろ]い[光|ひかり]が[上|あ]がった。",
+   "en": "A white light rose into the sky.",
+   "target": "上がる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "664bc1bdedc71772",
+   "jp": "[帰|かえ]るのが[遅|おそ]くて、[母|はは]に[怒|おこ]られた。",
+   "en": "I came home late and got scolded by my mom.",
+   "target": "怒る",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "328adafa0be91322",
+   "jp": "[子供|こども]は[甘|あま]い[物|もの]が[大好|だいす]きだ。",
+   "en": "Kids love sweet things.",
+   "target": "子供",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "05f2625962bac213",
+   "jp": "[今夜|こんや]は[忙|いそが]しいから、[無理|むり]です。",
+   "en": "I'm busy tonight, so I can't make it.",
+   "target": "無理",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "fc8ce04d21694f5e",
+   "jp": "[先生|せんせい]の[後|あと]に[繰|く]り[返|かえ]して[言|い]ってください。",
+   "en": "Please repeat after the teacher.",
+   "target": "繰り返す",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "0c4beee26ee9f04a",
+   "jp": "[今朝|けさ]、[肉|にく]を[沢山|たくさん][買|か]った。",
+   "en": "I bought a lot of meat this morning.",
+   "target": "沢山",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "4f2ec4819aaf64fc",
+   "jp": "[彼|かれ]は[私|わたし]の[事|こと]を[何|なに]も[知|し]らない。",
+   "en": "He doesn't know anything about me.",
+   "target": "事",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "9034bc308895db37",
+   "jp": "[冬|ふゆ]に[水|みず]が[冷|つめ]たいのは[当|あ]たり[前|まえ]だ。",
+   "en": "Of course the water is cold in winter.",
+   "target": "当たり前",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b5e9fd7d23d7ae95",
+   "jp": "[返事|へんじ]が[遅|おそ]くなって、すみません。",
+   "en": "Sorry for the late reply.",
+   "target": "返事",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e0760ceb2d51305e",
+   "jp": "[今|いま]のは[冗談|じょうだん]だよ、[心配|しんぱい]しないで。",
+   "en": "That was just a joke, don't worry.",
+   "target": "冗談",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "a8f0355fad5d30b5",
+   "jp": "[軽|かる]い[物|もの]は[私|わたし]が[運|はこ]びます。",
+   "en": "I'll carry the light things.",
+   "target": "軽い",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "81b83b13f7f95ae7",
+   "jp": "[昔|むかし]、この[森|もり]に[王|おう]が[住|す]んでいた。",
+   "en": "Long ago, a king lived in this forest.",
+   "target": "昔",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "dc344932279bd421",
+   "jp": "[君|きみ]に[話|はな]したい[事|こと]が[沢山|たくさん]ある。",
+   "en": "There are lots of things I want to tell you.",
+   "target": "沢山",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "537621f75518d480",
+   "jp": "[上|うえ]の[本|ほん]に[手|て]が[届|とど]かない。",
+   "en": "I can't reach the book up top.",
+   "target": "届く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "3debc5207123a047",
+   "jp": "[彼|かれ]に[謝|あやま]る[必要|ひつよう]はないよ。",
+   "en": "You don't need to apologize to him.",
+   "target": "必要",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b63b30b89fbe9889",
+   "jp": "[一体|いったい]この[音|おと]は[何|なん]だ。",
+   "en": "What on earth is this sound?",
+   "target": "一体",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "411a268dc8e9a578",
+   "jp": "[背中|せなか]に[花|はな]を[隠|かく]して[待|ま]った。",
+   "en": "I waited with the flowers hidden behind my back.",
+   "target": "隠す",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e0ccb3baad788cad",
+   "jp": "やっと[彼|かれ]の[意識|いしき]が[戻|もど]った。",
+   "en": "He finally regained consciousness.",
+   "target": "意識",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "bfbbe3162ee06b5a",
+   "jp": "[男|おとこ]の[子|こ]が[海|うみ]で[楽|たの]しそうに[遊|あそ]んでいる。",
+   "en": "A boy is happily playing in the sea.",
+   "target": "男の子",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "494c822ef560eaab",
+   "jp": "[彼女|かのじょ]の[笑|わら]う[顔|かお]が[大好|だいす]きです。",
+   "en": "I love her smiling face.",
+   "target": "笑う",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "b787ed6a6e307eec",
+   "jp": "[子供|こども]たちが[友達|ともだち]を[追|お]って[遊|あそ]んでいる。",
+   "en": "The children are playing, chasing their friends.",
+   "target": "追う",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "047e9277faf35d4a",
+   "jp": "ご[飯|はん]の[前|まえ]に、[少|すこ]し[走|はし]ってきます。",
+   "en": "I'm going to go for a short run before the meal.",
+   "target": "走る",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "eef4349bfa906109",
+   "jp": "あいつの[嘘|うそ]はもう[信|しん]じない。",
+   "en": "I won't believe that guy's lies anymore.",
+   "target": "信じる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "996d2461d60460a7",
+   "jp": "[隣|となり]の[部屋|へや]から[変|へん]な[音|おと]が[聞|き]こえる。",
+   "en": "I can hear a strange sound from the next room.",
+   "target": "隣",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "bc717d2cb900aa30",
+   "jp": "[仲間|なかま]の[命|いのち]は[絶対|ぜったい]に[守|まも]る。",
+   "en": "I will protect my friends' lives no matter what.",
+   "target": "命",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "0a653d8e69df44f3",
+   "jp": "[先生|せんせい]に[質問|しつもん]を[送|おく]りました。",
+   "en": "I sent a question to the teacher.",
+   "target": "送る",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "45ed1b45e8d5c076",
+   "jp": "どうしても[仕事|しごと]を[休|やす]めない。",
+   "en": "I just can't take time off work.",
+   "target": "どうしても",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e7d50f5d9596f959",
+   "jp": "[今夜|こんや]は[忙|いそが]しいから、[明日|あした][会|あ]おう。",
+   "en": "I'm busy tonight, so let's meet tomorrow.",
+   "target": "今夜",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "25ef77f70578d3e0",
+   "jp": "[通|とお]りで[昔|むかし]の[友達|ともだち]に[会|あ]った。",
+   "en": "I ran into an old friend on the street.",
+   "target": "通り",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "07c4174585fc8ba0",
+   "jp": "[変|へん]な[音|おと]がして、[思|おも]わず[振|ふ]り[返|かえ]った。",
+   "en": "I heard a strange sound and turned around without thinking.",
+   "target": "思わず",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c1681baed3cab3e1",
+   "jp": "[日本語|にほんご]を[話|はな]す[友達|ともだち]が[増|ふ]えた。",
+   "en": "I have more friends who speak Japanese now.",
+   "target": "増える",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d8e1fa2cdc9dea3d",
+   "jp": "[説明|せつめい]は[先生|せんせい]が[行|おこな]います。",
+   "en": "The teacher will give the explanation.",
+   "target": "行う",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d56c4503222e0cf0",
+   "jp": "この[情報|じょうほう]を[全員|ぜんいん]に[送|おく]ってください。",
+   "en": "Please send this information to everyone.",
+   "target": "送る",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e3707a22c78741b7",
+   "jp": "[子供|こども]の[頃|ころ]は[想像|そうぞう]するのが[大好|だいす]きだった。",
+   "en": "As a child, I loved using my imagination.",
+   "target": "想像",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "7cbec9b6954c0383",
+   "jp": "[体|からだ]が[軽|かる]くなった[気|き]がする。",
+   "en": "I feel like my body has gotten lighter.",
+   "target": "軽い",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "608d9d39992a4b30",
+   "jp": "[今度|こんど]の[仕事|しごと]はかなり[難|むずか]しい。",
+   "en": "The next job is pretty difficult.",
+   "target": "今度",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "aa0f7a5d8fd08a40",
+   "jp": "この[本|ほん]を[読|よ]むのに[一年|いちねん]かかった。",
+   "en": "It took me a year to read this book.",
+   "target": "かかる",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "e35fdaed2552cebd",
+   "jp": "おばあさんは[若|わか]い[時|とき]、とても[綺麗|きれい]だった。",
+   "en": "Grandma was very beautiful when she was young.",
+   "target": "若い",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "fb8a27871bb73026",
+   "jp": "[今夜|こんや]はもう[遅|おそ]いから、[寝|ね]よう。",
+   "en": "It's already late tonight, so let's go to bed.",
+   "target": "遅い",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "d0dabd442116c83c",
+   "jp": "[友達|ともだち]に[金|かね]を[渡|わた]した。",
+   "en": "I handed the money to my friend.",
+   "target": "金",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "eb20d1967b7d25b5",
+   "jp": "この[料理|りょうり]は[全|まった]く[甘|あま]くない。",
+   "en": "This dish isn't sweet at all.",
+   "target": "全く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "f1e5186f45dd02ef",
+   "jp": "[次|つぎ]の[質問|しつもん]をしてもいいですか。",
+   "en": "May I ask the next question?",
+   "target": "質問",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "8fb282c0237f95a4",
+   "jp": "[昨夜|ゆうべ]、[誰|だれ]かが[扉|とびら]を[開|あ]けた。",
+   "en": "Last night, someone opened the door.",
+   "target": "昨夜",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "355455eb001996ba",
+   "jp": "[森|もり]の[自然|しぜん]を[眺|なが]めるのが[好|す]きだ。",
+   "en": "I like gazing at the nature of the forest.",
+   "target": "自然",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "80a6a016af3104d7",
+   "jp": "[彼|かれ]は[突然|とつぜん][右|みぎ]を[向|む]いた。",
+   "en": "He suddenly turned to the right.",
+   "target": "向く",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "c924c4841f2e47ad",
+   "jp": "[昨夜|ゆうべ]は[何|なに]を[食|た]べましたか。",
+   "en": "What did you eat last night?",
+   "target": "昨夜",
+   "tier": "new",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "972ca644d8310a3b",
+   "jp": "[日本|にほん]での[生活|せいかつ]に[興味|きょうみ]があります。",
+   "en": "I'm interested in life in Japan.",
+   "target": "生活",
+   "tier": "mid",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "caff99c01aa466bd",
+   "jp": "[静|しず]かな[場所|ばしょ]を[求|もと]めて[山|やま]に[行|い]った。",
+   "en": "I went to the mountains looking for a quiet place.",
+   "target": "求める",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "cfd0864b4440792c",
+   "jp": "[母|はは]は[勝手|かって]に[私|わたし]の[本|ほん]を[捨|す]てた。",
+   "en": "My mom threw away my books without asking.",
+   "target": "勝手",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
+  },
+  {
+   "id": "726e1cd8383627c0",
+   "jp": "みんなが[頷|うなず]いたので、[予定|よてい]が[決|き]まった。",
+   "en": "Everyone nodded, so the plan was settled.",
+   "target": "頷く",
+   "tier": "struggle",
+   "created_at": "2026-10-19T04:09:06Z"
   }
  ]
 }
